@@ -2,4 +2,5 @@
     <bitmap id="LauncherIcon" filename="launcher_icon.png" />    
     <bitmap id="bluetooth_on_icon" filename="bluetooth_on.png" />
     <bitmap id="bluetooth_off_icon" filename="bluetooth_off.png" />
+    <bitmap id="alarm2_icon" filename="alarm2.png" />
 </drawables>

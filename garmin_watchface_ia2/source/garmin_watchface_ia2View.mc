@@ -9,6 +9,7 @@ class garmin_watchface_ia2View extends Ui.WatchFace {
 	var customFont = null;
 	var bluetooth_icon_on = null;
 	var bluetooth_icon_off = null;
+	var alarm2_icon = null;
 	
     function initialize() {
         WatchFace.initialize();
@@ -20,6 +21,7 @@ class garmin_watchface_ia2View extends Ui.WatchFace {
         customFont = Ui.loadResource(Rez.Fonts.bodoni_font);
         bluetooth_icon_on = Ui.loadResource(Rez.Drawables.bluetooth_on_icon);
         bluetooth_icon_off = Ui.loadResource(Rez.Drawables.bluetooth_off_icon);
+        alarm2_icon = Ui.loadResource(Rez.Drawables.alarm2_icon);
         setLayout(Rez.Layouts.WatchFace(dc));
     }
 
@@ -44,10 +46,10 @@ class garmin_watchface_ia2View extends Ui.WatchFace {
        	
        	/*hour and minutes*/
       dc.setColor(Gfx.COLOR_RED, Gfx.COLOR_TRANSPARENT);
-       dc.drawText(dc.getWidth()/2, 22, customFont,hour.format("%02d"), Gfx.TEXT_JUSTIFY_RIGHT);
+       dc.drawText(dc.getWidth()/2 - 5, 22, customFont,hour.format("%02d"), Gfx.TEXT_JUSTIFY_RIGHT);
        
        dc.setColor(Gfx.COLOR_GREEN, Gfx.COLOR_TRANSPARENT);
-       dc.drawText(dc.getWidth()/2, 22, customFont, minutes.format("%02d"), Gfx.TEXT_JUSTIFY_LEFT);
+       dc.drawText(dc.getWidth()/2 + 5, 22, customFont, minutes.format("%02d"), Gfx.TEXT_JUSTIFY_LEFT);
        
      
      	/*date on top*/
@@ -67,23 +69,34 @@ class garmin_watchface_ia2View extends Ui.WatchFace {
      	
      	dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
      	dc.drawText(dc.getWidth()/2 , 20, Gfx.FONT_MEDIUM, " " + info.year, Gfx.TEXT_JUSTIFY_LEFT);
-       
-       /*connection settings*/
+     	
+     	/*alarm status*/
+     	if(Sys.getDeviceSettings().alarmCount > 0){       		 
+       		 dc.drawBitmap(dc.getWidth()/2 - 50, dc.getHeight() - 42, alarm2_icon);
+       }             
+     	       
+       /*android device connection status*/
        dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_TRANSPARENT);
        
        if(Sys.getDeviceSettings().phoneConnected){
        		 //dc.drawText(dc.getWidth()/2, dc.getHeight() - 45, Gfx.FONT_MEDIUM, "true  ", Gfx.TEXT_JUSTIFY_RIGHT);
-       		 dc.drawBitmap(dc.getWidth()/2 - 25, dc.getHeight() - 38, bluetooth_icon_on);
+       		 dc.drawBitmap(dc.getWidth()/2 - 25, dc.getHeight() - 42, bluetooth_icon_on);
        }else{
-       		dc.drawBitmap(dc.getWidth()/2 - 25, dc.getHeight() - 38, bluetooth_icon_off);
+       		dc.drawBitmap(dc.getWidth()/2 - 25, dc.getHeight() - 42, bluetooth_icon_off);
        }
+            
        
        /*battery status*/
        var batteryStat = System.getSystemStats().battery;
        
        dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
-       dc.drawText(dc.getWidth()/2, dc.getHeight() - 45, Gfx.FONT_MEDIUM, "  " + batteryStat.format("%02d") + "%", Gfx.TEXT_JUSTIFY_LEFT);
+       dc.drawText(dc.getWidth()/2, dc.getHeight() - 43, Gfx.FONT_TINY, " " + batteryStat.format("%3d") + "%", Gfx.TEXT_JUSTIFY_LEFT);
 
+		/*no of messages*/
+		if(Sys.getDeviceSettings().notificationCount > 0){
+			dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
+       		dc.drawText(dc.getWidth()/2 , dc.getHeight() - 43, Gfx.FONT_TINY, "            #" + Sys.getDeviceSettings().notificationCount.format("%1d") , Gfx.TEXT_JUSTIFY_LEFT);
+		}
     }
 
     // Called when this View is removed from the screen. Save the
