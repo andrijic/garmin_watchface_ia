@@ -1,0 +1,5 @@
+<fonts>
+	<font id="niagara.font" filename="niagara_font.fnt" filter="0123456789"/>
+	<font id="bernard_font" filename="bernard_font.fnt" filter="0123456789"/>
+	<font id="bodoni_font" filename="bodoni_font.fnt" filter="0123456789"/>	
+</fonts>

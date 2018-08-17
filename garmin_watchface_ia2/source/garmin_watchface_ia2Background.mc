@@ -1,0 +1,27 @@
+using Toybox.WatchUi as Ui;
+using Toybox.Graphics as Gfx;
+using Toybox.System as Sys;
+using Toybox.Time.Gregorian;
+using Toybox.Time;
+
+class Background extends Ui.Drawable {
+
+    function initialize() {
+        var dictionary = {
+            :identifier => "Background"
+        };
+
+        Drawable.initialize(dictionary);
+    }
+
+    function draw(dc) {
+        // Set the background color then call to clear the screen
+        //dc.setColor(Graphics.COLOR_TRANSPARENT, Application.getApp().getProperty("BackgroundColor"));
+        dc.clear();
+        
+               
+       
+       	
+    }
+
+}

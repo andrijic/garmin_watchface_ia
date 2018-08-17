@@ -1,0 +1,39 @@
+using Toybox.WatchUi as Ui;
+using Toybox.Graphics as Gfx;
+
+class garmin_watchface_iaView extends Ui.View {
+
+	var customFont = null;
+
+    function initialize() {
+        View.initialize();
+    }
+
+    function onLayout(dc) {
+        Ui.loadResource(Rez.Fonts.bernard_font);
+    }
+
+    function onShow() {
+    }
+
+    function onUpdate(dc) {
+       dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_BLACK);
+       dc.clear();
+       var clockTime = Sys.getClockTime();
+       var hour = clockTime.hour;
+       var minutes = clockTime.min;
+       
+       dc.setColor(Gfx.COLOR_RED, Gfx.COLOR_BLACK);
+       dc.drawText(dc.getWidth()/2, 22, customFont, Lang.format("$1$", hour.format("%02d")), Gfx.TEXT_JUSTIFY_RIGHT);
+       
+       dc.setColor(Gfx.COLOR_GREEN, Gfx.COLOR_BLACK);
+       dc.drawText(dc.getWidth()/2, 22, customFont, Lang.format("$1$", min.format("%02d")), Gfx.TEXT_JUSTIFY_LEFT);
+    }
+
+    // Called when this View is removed from the screen. Save the
+    // state of this View here. This includes freeing resources from
+    // memory.
+    function onHide() {
+    }
+
+}

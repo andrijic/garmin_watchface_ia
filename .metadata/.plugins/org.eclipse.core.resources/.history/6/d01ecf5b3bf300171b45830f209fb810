@@ -1,0 +1,88 @@
+using Toybox.WatchUi as Ui;
+using Toybox.Graphics as Gfx;
+using Toybox.Time.Gregorian; 
+using Toybox.Application;
+using Toybox.Math;
+using Toybox.System;
+
+var timer1 = null;
+var stepsCount = 0;
+var accel = null;
+
+var last_x_direction = 0;
+var SENSITIVITY = 100;
+
+class EllipticalView extends Ui.View {
+
+    function initialize() {
+        View.initialize();
+    }
+    
+    function secondPassedEvent(){
+    	var info = Sensor.getInfo();
+    	
+    	accel = info.accel;
+    	
+    	if (info has :accel && info.accel != null) {
+	    	var x_accel = Math.floor(accel[0]/SENSITIVITY);
+	    	var y_accel = Math.floor(accel[1]/SENSITIVITY);
+	    	var z_accel = Math.floor(accel[2]/SENSITIVITY);
+	    	
+	    	System.out.println(x_accel);
+	    	
+	    	var x_direction = calcDirection(x_accel);
+	    	
+	    	if(x_direction != last_x_direction){
+	    		stepsCount++;
+	    		last_x_direction = x_direction;
+	    	}
+    	}
+		Ui.requestUpdate();
+	}
+	
+	function calcDirection(in_vector){
+		if(in_vector > 0){
+			return 1;
+		}else if(in_vector < 0 ){
+			return -1;
+		}else{
+			return 0;
+		}
+	}
+
+    // Load your resources here
+    function onLayout(dc) {
+        setLayout(Rez.Layouts.MainLayout(dc));
+        
+        if(timer1 == null){
+	    	System.println("start timer");
+	    	timer1 = new Timer.Timer();
+        	timer1.start(method(:secondPassedEvent), 100, true);
+        }
+    }
+
+    // Called when this View is brought to the foreground. Restore
+    // the state of this View and prepare it to be shown. This includes
+    // loading resources into memory.
+    function onShow() {
+    }
+
+    // Update the view
+    function onUpdate(dc) {
+        // Call the parent onUpdate function to redraw the layout
+        View.onUpdate(dc);
+        
+        dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_WHITE  );
+        dc.clear();
+        dc.setColor(Gfx.COLOR_DK_BLUE, Gfx.COLOR_TRANSPARENT);
+        
+        dc.drawText( dc.getWidth()/2, (dc.getHeight() / 2) - 20, Gfx.FONT_LARGE, stepsCount, Gfx.TEXT_JUSTIFY_CENTER );
+    }
+
+    // Called when this View is removed from the screen. Save the
+    // state of this View here. This includes freeing resources from
+    // memory.
+    function onHide() {
+    }
+
+}

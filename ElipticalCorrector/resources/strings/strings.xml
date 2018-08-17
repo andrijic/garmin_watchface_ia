@@ -1,0 +1,7 @@
+<strings>
+    <string id="AppName">ElipticalCorrector</string>
+<string id="testonja_label">TestonjaLabela</string>
+        <string id="testonja_graph_label">TestonjaGraphLabela</string>
+        <string id="testonja_units">km</string>
+    <string id="label">Steps</string>
+</strings>

@@ -1,0 +1,5 @@
+    <fitContributions>
+        <fitField id="0" displayInChart="true" sortOrder = "0" precision="2"
+        chartTitle="@Strings.testonja_graph_label" dataLabel="@Strings.testonja_label"
+        unitLabel="@Strings.testonja_units" fillColor="#FF0000" />
+    </fitContributions>

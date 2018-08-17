@@ -1,0 +1,99 @@
+using Toybox.WatchUi as Ui;
+using Toybox.Graphics as Gfx;
+using Toybox.Time.Gregorian; 
+using Toybox.Application;
+using Toybox.Math;
+using Toybox.System;
+
+var timer1 = null;
+var stepsCount = 0;
+var accel = null;
+var inited = false;
+var last_x = 0;
+var last_y = 0;
+var last_z = 0;
+var SENSITIVITY = 150;
+var FASTESTSTEPMILLIS = 250;
+var direction_changed_time = System.getTimer();
+
+class EllipticalView extends Ui.View {
+    
+    function secondPassedEvent(){
+    	var info = Sensor.getInfo();
+    	
+    	accel = info.accel;
+    	
+    	if(System.getTimer() - direction_changed_time >= FASTESTSTEPMILLIS){
+	    	if (info has :accel && info.accel != null) {
+		    	var x_accel = Math.floor(accel[0]/SENSITIVITY);
+		    	var y_accel = Math.floor(accel[1]/SENSITIVITY);
+		    	var z_accel = Math.floor(accel[2]/SENSITIVITY);
+		    	
+		    	if(inited == false){
+		    		last_x = x_accel;
+		    		last_y = y_accel;
+		    		last_z = z_accel;
+		    		inited = true;
+		    	}
+		    	
+		    	if(moved > 0){
+		    		stepsCount++;
+		    		last_x_direction = x_direction;
+		    		direction_changed_time = System.getTimer();
+		    	}
+	    	}
+	    }
+	    
+		Ui.requestUpdate();
+	}
+	
+	function initialize() {
+        View.initialize();
+    }
+    
+    function getDebugData(){
+    	if(accel != null){
+    		return "x: "+last_x_direction+", "+Math.floor(accel[0]/SENSITIVITY)+", "+accel[0];
+    	}else{
+    		return "x: "+last_x_direction;
+    	}
+    }
+	
+
+    // Load your resources here
+    function onLayout(dc) {
+        setLayout(Rez.Layouts.MainLayout(dc));
+        
+        if(timer1 == null){
+	    	System.println("start timer");
+	    	timer1 = new Timer.Timer();
+        	timer1.start(method(:secondPassedEvent), 50, true);
+        }
+    }
+
+    // Called when this View is brought to the foreground. Restore
+    // the state of this View and prepare it to be shown. This includes
+    // loading resources into memory.
+    function onShow() {
+    }
+
+    // Update the view
+    function onUpdate(dc) {
+        // Call the parent onUpdate function to redraw the layout
+        View.onUpdate(dc);
+        
+        dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_WHITE  );
+        dc.clear();
+        dc.setColor(Gfx.COLOR_DK_BLUE, Gfx.COLOR_TRANSPARENT);
+        
+        dc.drawText( dc.getWidth()/2, (dc.getHeight() / 2) - 20, Gfx.FONT_LARGE, stepsCount, Gfx.TEXT_JUSTIFY_CENTER );
+        dc.drawText( dc.getWidth()/2, (dc.getHeight() / 2)+10, Gfx.FONT_SMALL, getDebugData(), Gfx.TEXT_JUSTIFY_CENTER );
+    }
+
+    // Called when this View is removed from the screen. Save the
+    // state of this View here. This includes freeing resources from
+    // memory.
+    function onHide() {
+    }
+
+}
