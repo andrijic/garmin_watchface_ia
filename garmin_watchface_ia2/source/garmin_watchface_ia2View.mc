@@ -67,8 +67,9 @@ class garmin_watchface_ia2View extends Ui.WatchFace {
      	dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_TRANSPARENT);
      	dc.drawText(dc.getWidth()/2 - 1, 20, Gfx.FONT_MEDIUM, clockString1, Gfx.TEXT_JUSTIFY_RIGHT);
      	
+     	var info2 = Gregorian.info(date, Time.FORMAT_MEDIUM);
      	dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
-     	dc.drawText(dc.getWidth()/2 , 20, Gfx.FONT_MEDIUM, " " + info.year, Gfx.TEXT_JUSTIFY_LEFT);
+     	dc.drawText(dc.getWidth()/2 , 20, Gfx.FONT_MEDIUM, ", " + info2.day_of_week.substring(0,3), Gfx.TEXT_JUSTIFY_LEFT);
      	
      	/*alarm status*/
      	if(Sys.getDeviceSettings().alarmCount > 0){       		 
