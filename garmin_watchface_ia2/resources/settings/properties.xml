@@ -1,7 +1,9 @@
 <properties>
 
-    <property id="BackgroundColor" type="number">0x000000</property>
-    <property id="ForegroundColor" type="number">0xFF0000</property>
-    <property id="UseMilitaryFormat" type="boolean">false</property>
-
+    <property id="BackgroundLeftColor" type="number">0xFFFFFF</property>
+    <property id="BackgroundRightColor" type="number">0x000000</property>
+    <property id="FontLeftColor" type="number">0xFF0000</property>
+    <property id="FontRightColor" type="number">0x00FF00</property>
+    <property id="FontSmallLeftColor" type="number">0x000000</property>
+    <property id="FontSmallRightColor" type="number">0xFFFFFF</property>
 </properties>

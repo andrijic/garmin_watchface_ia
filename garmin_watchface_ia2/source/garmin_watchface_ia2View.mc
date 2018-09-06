@@ -11,8 +11,16 @@ class garmin_watchface_ia2View extends Ui.WatchFace {
 	var bluetooth_icon_off = null;
 	var alarm2_icon = null;
 	
+	var LEFT_BACK_COLOR = 0xFFFFFF;
+	var RIGHT_BACK_COLOR = 0x000000;
+	var LEFT_FONT_COLOR = 0xFF0000;
+	var RIGHT_FONT_COLOR = 0x00FF00;	
+	var LEFT_SMALLFONT_COLOR = 0x000000;
+	var RIGHT_SMALLFONT_COLOR = 0xFFFFFF;
+	
     function initialize() {
         WatchFace.initialize();
+        
     }
 
     // Load your resources here
@@ -23,32 +31,45 @@ class garmin_watchface_ia2View extends Ui.WatchFace {
         bluetooth_icon_off = Ui.loadResource(Rez.Drawables.bluetooth_off_icon);
         alarm2_icon = Ui.loadResource(Rez.Drawables.alarm2_icon);
         setLayout(Rez.Layouts.WatchFace(dc));
+        
     }
+    
+    
+    
+    function handleSettingsChanged(){
+		LEFT_BACK_COLOR = Application.getApp().getProperty("BackgroundLeftColor");
+		RIGHT_BACK_COLOR = Application.getApp().getProperty("BackgroundRightColor");
+		LEFT_FONT_COLOR = Application.getApp().getProperty("FontLeftColor");
+		RIGHT_FONT_COLOR = Application.getApp().getProperty("FontRightColor");
+		LEFT_SMALLFONT_COLOR = Application.getApp().getProperty("FontSmallLeftColor");
+		RIGHT_SMALLFONT_COLOR = Application.getApp().getProperty("FontSmallRightColor");
+	}
 
     // Called when this View is brought to the foreground. Restore
     // the state of this View and prepare it to be shown. This includes
     // loading resources into memory.
     function onShow() {
+    	
     }
 
     // Update the view
     function onUpdate(dc) {
         View.onUpdate(dc);
-       dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_BLACK);
+       dc.setColor(RIGHT_BACK_COLOR, RIGHT_BACK_COLOR);
        dc.clear();
        var clockTime = Sys.getClockTime();
        var hour = clockTime.hour;
        var minutes = clockTime.min;
 
 		/*background split screen*/
- 	   dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_WHITE);
+ 	   dc.setColor(LEFT_BACK_COLOR, LEFT_BACK_COLOR);
        dc.fillRectangle(0, 0, dc.getWidth()/2, dc.getHeight()*2);
        	
        	/*hour and minutes*/
-      dc.setColor(Gfx.COLOR_RED, Gfx.COLOR_TRANSPARENT);
+      dc.setColor(LEFT_FONT_COLOR, Gfx.COLOR_TRANSPARENT);
        dc.drawText(dc.getWidth()/2 - 5, 22, customFont,hour.format("%02d"), Gfx.TEXT_JUSTIFY_RIGHT);
        
-       dc.setColor(Gfx.COLOR_GREEN, Gfx.COLOR_TRANSPARENT);
+       dc.setColor(RIGHT_FONT_COLOR, Gfx.COLOR_TRANSPARENT);
        dc.drawText(dc.getWidth()/2 + 5, 22, customFont, minutes.format("%02d"), Gfx.TEXT_JUSTIFY_LEFT);
        
      
@@ -64,11 +85,11 @@ class garmin_watchface_ia2View extends Ui.WatchFace {
 		    ]
 		);
      	
-     	dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_TRANSPARENT);
+     	dc.setColor(LEFT_SMALLFONT_COLOR, Gfx.COLOR_TRANSPARENT);
      	dc.drawText(dc.getWidth()/2 - 1, 20, Gfx.FONT_MEDIUM, clockString1, Gfx.TEXT_JUSTIFY_RIGHT);
      	
      	var info2 = Gregorian.info(date, Time.FORMAT_MEDIUM);
-     	dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
+     	dc.setColor(RIGHT_SMALLFONT_COLOR, Gfx.COLOR_TRANSPARENT);
      	dc.drawText(dc.getWidth()/2 , 20, Gfx.FONT_MEDIUM, ", " + info2.day_of_week.substring(0,3), Gfx.TEXT_JUSTIFY_LEFT);
      	
      	/*alarm status*/
@@ -77,7 +98,7 @@ class garmin_watchface_ia2View extends Ui.WatchFace {
        }             
      	       
        /*android device connection status*/
-       dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_TRANSPARENT);
+       //dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_TRANSPARENT);
        
        if(Sys.getDeviceSettings().phoneConnected){
        		 //dc.drawText(dc.getWidth()/2, dc.getHeight() - 45, Gfx.FONT_MEDIUM, "true  ", Gfx.TEXT_JUSTIFY_RIGHT);
@@ -90,12 +111,12 @@ class garmin_watchface_ia2View extends Ui.WatchFace {
        /*battery status*/
        var batteryStat = System.getSystemStats().battery;
        
-       dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
+       dc.setColor(RIGHT_SMALLFONT_COLOR, Gfx.COLOR_TRANSPARENT);
        dc.drawText(dc.getWidth()/2, dc.getHeight() - 43, Gfx.FONT_TINY, " " + batteryStat.format("%3d") + "%", Gfx.TEXT_JUSTIFY_LEFT);
 
 		/*no of messages*/
 		if(Sys.getDeviceSettings().notificationCount > 0){
-			dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
+			dc.setColor(RIGHT_SMALLFONT_COLOR, Gfx.COLOR_TRANSPARENT);
        		dc.drawText(dc.getWidth()/2 , dc.getHeight() - 43, Gfx.FONT_TINY, "            #" + Sys.getDeviceSettings().notificationCount.format("%1d") , Gfx.TEXT_JUSTIFY_LEFT);
 		}
     }
