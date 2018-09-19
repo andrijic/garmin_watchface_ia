@@ -1,80 +1,102 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="3" lineNum="8" pc="268435456" symbol="initialize"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="3" lineNum="9" pc="268435460" symbol="initialize"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="4" lineNum="13" pc="268435479" symbol="onStart"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="5" lineNum="17" pc="268435484" symbol="onStop"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="6" lineNum="21" pc="268435489" symbol="getInitialView"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="6" lineNum="22" pc="268435493" symbol="getInitialView"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="6" lineNum="23" pc="268435523" symbol="getInitialView"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="7" lineNum="27" pc="268435547" symbol="onSettingsChanged"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="7" lineNum="28" pc="268435551" symbol="onSettingsChanged"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="7" lineNum="29" pc="268435567" symbol="onSettingsChanged"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="7" lineNum="30" pc="268435580" symbol="onSettingsChanged"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2Background.mc" id="9" lineNum="9" pc="268435602" symbol="initialize"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2Background.mc" id="9" lineNum="10" pc="268435606" symbol="initialize"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2Background.mc" id="9" lineNum="14" pc="268435627" symbol="initialize"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2Background.mc" id="10" lineNum="17" pc="268435648" symbol="draw"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2Background.mc" id="10" lineNum="20" pc="268435652" symbol="draw"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="12" lineNum="21" pc="268435665" symbol="initialize"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="12" lineNum="22" pc="268435669" symbol="initialize"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="13" lineNum="27" pc="268435688" symbol="onLayout"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="13" lineNum="29" pc="268435692" symbol="onLayout"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="13" lineNum="30" pc="268435735" symbol="onLayout"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="13" lineNum="31" pc="268435778" symbol="onLayout"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="13" lineNum="32" pc="268435821" symbol="onLayout"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="13" lineNum="33" pc="268435864" symbol="onLayout"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="14" lineNum="39" pc="268435902" symbol="handleSettingsChanged"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="14" lineNum="40" pc="268435906" symbol="handleSettingsChanged"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="14" lineNum="41" pc="268435945" symbol="handleSettingsChanged"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="14" lineNum="42" pc="268435984" symbol="handleSettingsChanged"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="14" lineNum="43" pc="268436023" symbol="handleSettingsChanged"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="14" lineNum="44" pc="268436062" symbol="handleSettingsChanged"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="14" lineNum="45" pc="268436101" symbol="handleSettingsChanged"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="15" lineNum="51" pc="268436141" symbol="onShow"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="16" lineNum="56" pc="268436146" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="16" lineNum="57" pc="268436150" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="16" lineNum="58" pc="268436170" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="16" lineNum="59" pc="268436198" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="16" lineNum="60" pc="268436210" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="16" lineNum="61" pc="268436227" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="16" lineNum="62" pc="268436237" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="16" lineNum="65" pc="268436247" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="16" lineNum="66" pc="268436275" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="16" lineNum="69" pc="268436331" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="16" lineNum="70" pc="268436363" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="16" lineNum="72" pc="268436439" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="16" lineNum="73" pc="268436471" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="16" lineNum="77" pc="268436547" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="16" lineNum="78" pc="268436564" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="16" lineNum="80" pc="268436595" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="16" lineNum="88" pc="268436657" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="16" lineNum="89" pc="268436689" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="16" lineNum="91" pc="268436755" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="16" lineNum="92" pc="268436786" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="16" lineNum="93" pc="268436818" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="16" lineNum="96" pc="268436909" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="16" lineNum="97" pc="268436939" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="16" lineNum="103" pc="268437002" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="16" lineNum="105" pc="268437026" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="16" lineNum="107" pc="268437089" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="16" lineNum="112" pc="268437149" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="16" lineNum="114" pc="268437174" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="16" lineNum="115" pc="268437206" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="16" lineNum="118" pc="268437304" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="16" lineNum="119" pc="268437334" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="16" lineNum="120" pc="268437366" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="17" lineNum="127" pc="268437481" symbol="onHide"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="18" lineNum="131" pc="268437486" symbol="onExitSleep"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="19" lineNum="135" pc="268437491" symbol="onEnterSleep"/>
-<entry filename="D:\\Development\\eclipse\\Rez" id="26" lineNum="44" pc="268437496" symbol="WatchFace"/>
-<entry filename="D:\\Development\\eclipse\\Rez" id="26" lineNum="48" pc="268437508" symbol="WatchFace"/>
-<entry filename="D:\\Development\\eclipse\\Rez" id="26" lineNum="49" pc="268437532" symbol="WatchFace"/>
-<entry filename="D:\\Development\\eclipse\\Rez" id="26" lineNum="50" pc="268437703" symbol="WatchFace"/>
-<entry filename="D:\\Development\\eclipse\\Rez" id="26" lineNum="51" pc="268437736" symbol="WatchFace"/>
-<entry filename="D:\\Development\\eclipse\\Rez" id="26" lineNum="52" pc="268437788" symbol="WatchFace"/>
-<entry filename="D:\\Development\\eclipse\\Rez" id="26" lineNum="55" pc="268437834" symbol="WatchFace"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="3" lineNum="8" pc="268435456" symbol="initialize"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="3" lineNum="9" pc="268435460" symbol="initialize"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="4" lineNum="13" pc="268435479" symbol="onStart"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="5" lineNum="17" pc="268435484" symbol="onStop"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="6" lineNum="21" pc="268435489" symbol="getInitialView"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="6" lineNum="22" pc="268435493" symbol="getInitialView"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="6" lineNum="23" pc="268435523" symbol="getInitialView"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="7" lineNum="27" pc="268435547" symbol="onSettingsChanged"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="7" lineNum="28" pc="268435551" symbol="onSettingsChanged"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="7" lineNum="29" pc="268435567" symbol="onSettingsChanged"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="7" lineNum="30" pc="268435580" symbol="onSettingsChanged"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="9" lineNum="21" pc="268435602" symbol="initialize"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="9" lineNum="22" pc="268435606" symbol="initialize"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="9" lineNum="23" pc="268435624" symbol="initialize"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="10" lineNum="27" pc="268435637" symbol="onLayout"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="10" lineNum="29" pc="268435641" symbol="onLayout"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="10" lineNum="30" pc="268435684" symbol="onLayout"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="10" lineNum="31" pc="268435727" symbol="onLayout"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="10" lineNum="32" pc="268435770" symbol="onLayout"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="10" lineNum="33" pc="268435813" symbol="onLayout"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="11" lineNum="37" pc="268435851" symbol="restorePersistedSettings"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="11" lineNum="39" pc="268435855" symbol="restorePersistedSettings"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="11" lineNum="41" pc="268435874" symbol="restorePersistedSettings"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="11" lineNum="42" pc="268435905" symbol="restorePersistedSettings"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="11" lineNum="43" pc="268435936" symbol="restorePersistedSettings"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="11" lineNum="44" pc="268435967" symbol="restorePersistedSettings"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="11" lineNum="45" pc="268435998" symbol="restorePersistedSettings"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="11" lineNum="46" pc="268436029" symbol="restorePersistedSettings"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="12" lineNum="49" pc="268436061" symbol="getValidProperty"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="12" lineNum="50" pc="268436065" symbol="getValidProperty"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="12" lineNum="52" pc="268436080" symbol="getValidProperty"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="12" lineNum="53" pc="268436087" symbol="getValidProperty"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="12" lineNum="55" pc="268436093" symbol="getValidProperty"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="13" lineNum="59" pc="268436097" symbol="handleSettingsChanged"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="13" lineNum="60" pc="268436101" symbol="handleSettingsChanged"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="13" lineNum="61" pc="268436140" symbol="handleSettingsChanged"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="13" lineNum="62" pc="268436179" symbol="handleSettingsChanged"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="13" lineNum="63" pc="268436218" symbol="handleSettingsChanged"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="13" lineNum="64" pc="268436257" symbol="handleSettingsChanged"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="13" lineNum="65" pc="268436296" symbol="handleSettingsChanged"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="13" lineNum="68" pc="268436335" symbol="handleSettingsChanged"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="13" lineNum="70" pc="268436354" symbol="handleSettingsChanged"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="13" lineNum="71" pc="268436379" symbol="handleSettingsChanged"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="13" lineNum="72" pc="268436404" symbol="handleSettingsChanged"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="13" lineNum="73" pc="268436429" symbol="handleSettingsChanged"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="13" lineNum="74" pc="268436454" symbol="handleSettingsChanged"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="13" lineNum="75" pc="268436479" symbol="handleSettingsChanged"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="13" lineNum="77" pc="268436504" symbol="handleSettingsChanged"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="14" lineNum="83" pc="268436517" symbol="onShow"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="15" lineNum="88" pc="268436522" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="15" lineNum="89" pc="268436526" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="15" lineNum="90" pc="268436546" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="15" lineNum="91" pc="268436574" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="15" lineNum="92" pc="268436586" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="15" lineNum="93" pc="268436603" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="15" lineNum="94" pc="268436613" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="15" lineNum="97" pc="268436623" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="15" lineNum="98" pc="268436651" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="15" lineNum="101" pc="268436707" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="15" lineNum="102" pc="268436739" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="15" lineNum="104" pc="268436815" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="15" lineNum="105" pc="268436847" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="15" lineNum="109" pc="268436923" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="15" lineNum="110" pc="268436940" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="15" lineNum="112" pc="268436971" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="15" lineNum="120" pc="268437033" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="15" lineNum="121" pc="268437065" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="15" lineNum="123" pc="268437131" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="15" lineNum="124" pc="268437162" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="15" lineNum="125" pc="268437194" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="15" lineNum="128" pc="268437285" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="15" lineNum="129" pc="268437315" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="15" lineNum="135" pc="268437378" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="15" lineNum="137" pc="268437402" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="15" lineNum="139" pc="268437465" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="15" lineNum="144" pc="268437525" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="15" lineNum="146" pc="268437550" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="15" lineNum="147" pc="268437582" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="15" lineNum="150" pc="268437680" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="15" lineNum="151" pc="268437710" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="15" lineNum="152" pc="268437742" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="16" lineNum="159" pc="268437857" symbol="onHide"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="17" lineNum="163" pc="268437862" symbol="onExitSleep"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="18" lineNum="167" pc="268437867" symbol="onEnterSleep"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2Background.mc" id="20" lineNum="9" pc="268437872" symbol="initialize"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2Background.mc" id="20" lineNum="10" pc="268437876" symbol="initialize"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2Background.mc" id="20" lineNum="14" pc="268437897" symbol="initialize"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2Background.mc" id="21" lineNum="17" pc="268437918" symbol="draw"/>
+<entry filename="D:\\AndroidWorkspace 2\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2Background.mc" id="21" lineNum="20" pc="268437922" symbol="draw"/>
+<entry filename="D:\\Development\\eclipse\\Rez" id="28" lineNum="44" pc="268437935" symbol="WatchFace"/>
+<entry filename="D:\\Development\\eclipse\\Rez" id="28" lineNum="48" pc="268437947" symbol="WatchFace"/>
+<entry filename="D:\\Development\\eclipse\\Rez" id="28" lineNum="49" pc="268437971" symbol="WatchFace"/>
+<entry filename="D:\\Development\\eclipse\\Rez" id="28" lineNum="50" pc="268438142" symbol="WatchFace"/>
+<entry filename="D:\\Development\\eclipse\\Rez" id="28" lineNum="51" pc="268438175" symbol="WatchFace"/>
+<entry filename="D:\\Development\\eclipse\\Rez" id="28" lineNum="52" pc="268438227" symbol="WatchFace"/>
+<entry filename="D:\\Development\\eclipse\\Rez" id="28" lineNum="55" pc="268438273" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
 <entry field="true" id="41" symbol="bluetooth_icon_on"/>
@@ -85,7 +107,7 @@
 <entry field="true" id="21" symbol="ColorBlue"/>
 <entry field="true" id="40" symbol="customFont"/>
 <entry field="true" id="38" symbol="FontSmallRightColorTitle"/>
-<entry id="49" method="true" symbol="handleSettingsChanged"/>
+<entry id="51" method="true" symbol="handleSettingsChanged"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
 <entry id="8388645" module="true" symbol="Time"/>
 <entry field="true" id="28" symbol="ColorOrange"/>
@@ -129,6 +151,7 @@
 <entry field="true" id="24" symbol="ColorDarkGray"/>
 <entry id="8389279" method="true" symbol="onStart"/>
 <entry id="8389376" method="true" symbol="onEnterSleep"/>
+<entry id="50" method="true" symbol="getValidProperty"/>
 <entry id="8389348" symbol="font"/>
 <entry field="true" id="20" symbol="ColorLightGray"/>
 <entry id="8389347" symbol="color"/>
@@ -137,6 +160,7 @@
 <entry field="true" id="48" symbol="RIGHT_SMALLFONT_COLOR"/>
 <entry field="true" id="13" symbol="bluetooth_on_icon"/>
 <entry id="12" module="true" symbol="Layouts"/>
+<entry id="49" method="true" symbol="restorePersistedSettings"/>
 <entry field="true" id="25" symbol="ColorDarkBlue"/>
 <entry id="8389125" method="true" symbol="onHide"/>
 <entry field="true" id="23" symbol="FontSmallLeftColorTitle"/>
@@ -153,22 +177,28 @@
 <localVars>
 <entry endPc="268435484" name="state" stackId="1" startPc="268435479"/>
 <entry endPc="268435489" name="state" stackId="1" startPc="268435484"/>
-<entry endPc="268435647" name="dictionary" stackId="1" startPc="268435606"/>
-<entry endPc="268435665" name="dc" stackId="1" startPc="268435648"/>
-<entry endPc="268435902" name="dc" stackId="1" startPc="268435688"/>
-<entry endPc="268437480" name="hour" stackId="3" startPc="268436150"/>
-<entry endPc="268437480" name="date" stackId="5" startPc="268436150"/>
-<entry endPc="268437480" name="minutes" stackId="4" startPc="268436150"/>
-<entry endPc="268437480" name="batteryStat" stackId="9" startPc="268436150"/>
-<entry endPc="268437480" name="clockTime" stackId="2" startPc="268436150"/>
-<entry endPc="268437480" name="info2" stackId="8" startPc="268436150"/>
-<entry endPc="268437480" name="info" stackId="6" startPc="268436150"/>
-<entry endPc="268437480" name="clockString1" stackId="7" startPc="268436150"/>
-<entry endPc="268437481" name="dc" stackId="1" startPc="268436146"/>
-<entry endPc="268437861" name="rez_cmp_local_bitmap_TimeLabel" stackId="3" startPc="268437508"/>
-<entry endPc="268437861" name="rez_cmp_local_bitmap_TimeLabel_fontHeight" stackId="4" startPc="268437508"/>
-<entry endPc="268437861" name="rez_cmp_local_custom_drawable_22075456714758169121" stackId="2" startPc="268437508"/>
-<entry endPc="268437862" name="dc" stackId="1" startPc="268437496"/>
+<entry endPc="268435851" name="dc" stackId="1" startPc="268435637"/>
+<entry endPc="268436060" name="app" stackId="1" startPc="268435855"/>
+<entry endPc="268436096" name="input_value" stackId="4" startPc="268436065"/>
+<entry endPc="268436097" name="default_value" stackId="3" startPc="268436061"/>
+<entry endPc="268436097" name="param_name" stackId="2" startPc="268436061"/>
+<entry endPc="268436097" name="app" stackId="1" startPc="268436061"/>
+<entry endPc="268436516" name="app" stackId="1" startPc="268436101"/>
+<entry endPc="268437856" name="hour" stackId="3" startPc="268436526"/>
+<entry endPc="268437856" name="date" stackId="5" startPc="268436526"/>
+<entry endPc="268437856" name="minutes" stackId="4" startPc="268436526"/>
+<entry endPc="268437856" name="batteryStat" stackId="9" startPc="268436526"/>
+<entry endPc="268437856" name="clockTime" stackId="2" startPc="268436526"/>
+<entry endPc="268437856" name="info2" stackId="8" startPc="268436526"/>
+<entry endPc="268437856" name="info" stackId="6" startPc="268436526"/>
+<entry endPc="268437856" name="clockString1" stackId="7" startPc="268436526"/>
+<entry endPc="268437857" name="dc" stackId="1" startPc="268436522"/>
+<entry endPc="268437917" name="dictionary" stackId="1" startPc="268437876"/>
+<entry endPc="268437935" name="dc" stackId="1" startPc="268437918"/>
+<entry endPc="268438300" name="rez_cmp_local_bitmap_TimeLabel" stackId="3" startPc="268437947"/>
+<entry endPc="268438300" name="rez_cmp_local_bitmap_TimeLabel_fontHeight" stackId="4" startPc="268437947"/>
+<entry endPc="268438300" name="rez_cmp_local_custom_drawable_20690808881172758353" stackId="2" startPc="268437947"/>
+<entry endPc="268438301" name="dc" stackId="1" startPc="268437935"/>
 </localVars>
 <annotations/>
 <functions>
@@ -189,18 +219,20 @@
 <functionEntry accessMode="public" name="onSettingsChanged" parent="garmin_watchface_ia2App">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="initialize" parent="Background">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="draw" parent="Background">
-<param id="dc"/>
-<documentation/>
-</functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="garmin_watchface_ia2View">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onLayout" parent="garmin_watchface_ia2View">
 <param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="restorePersistedSettings" parent="garmin_watchface_ia2View">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getValidProperty" parent="garmin_watchface_ia2View">
+<param id="app"/>
+<param id="param_name"/>
+<param id="default_value"/>
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="handleSettingsChanged" parent="garmin_watchface_ia2View">
@@ -220,6 +252,13 @@
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onEnterSleep" parent="garmin_watchface_ia2View">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="Background">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="draw" parent="Background">
+<param id="dc"/>
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="WatchFace" parent="Layouts">

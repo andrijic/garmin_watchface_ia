@@ -11,16 +11,16 @@ class garmin_watchface_ia2View extends Ui.WatchFace {
 	var bluetooth_icon_off = null;
 	var alarm2_icon = null;
 	
-	var LEFT_BACK_COLOR = 0xFFFFFF;
-	var RIGHT_BACK_COLOR = 0x000000;
-	var LEFT_FONT_COLOR = 0xFF0000;
-	var RIGHT_FONT_COLOR = 0x00FF00;	
-	var LEFT_SMALLFONT_COLOR = 0x000000;
-	var RIGHT_SMALLFONT_COLOR = 0xFFFFFF;
+	var LEFT_BACK_COLOR;
+	var RIGHT_BACK_COLOR;
+	var LEFT_FONT_COLOR;
+	var RIGHT_FONT_COLOR;	
+	var LEFT_SMALLFONT_COLOR;
+	var RIGHT_SMALLFONT_COLOR;
 	
     function initialize() {
         WatchFace.initialize();
-        
+        restorePersistedSettings();
     }
 
     // Load your resources here
@@ -34,7 +34,27 @@ class garmin_watchface_ia2View extends Ui.WatchFace {
         
     }
     
+    function restorePersistedSettings(){
+    	//persist change properties
+		var app = Application.getApp();
+		
+		LEFT_BACK_COLOR = getValidProperty(app, "BackgroundLeftColor", 0xFFFFFF);
+		RIGHT_BACK_COLOR = getValidProperty(app, "BackgroundRightColor", 0x000000);
+		LEFT_FONT_COLOR = getValidProperty(app, "FontLeftColor", 0xFF0000);
+		RIGHT_FONT_COLOR = getValidProperty(app, "FontRightColor", 0x00FF00);
+		LEFT_SMALLFONT_COLOR = getValidProperty(app, "FontSmallLeftColor", 0x000000);
+		RIGHT_SMALLFONT_COLOR = getValidProperty(app, "FontSmallRightColor", 0xFFFFFF);
+    }
     
+    function getValidProperty(app, param_name, default_value){
+    	var input_value = app.getProperty(param_name);
+    	
+    	if(input_value == null){
+    		return default_value;
+    	}else{
+    		return input_value;
+    	}
+    }
     
     function handleSettingsChanged(){
 		LEFT_BACK_COLOR = Application.getApp().getProperty("BackgroundLeftColor");
@@ -43,6 +63,18 @@ class garmin_watchface_ia2View extends Ui.WatchFace {
 		RIGHT_FONT_COLOR = Application.getApp().getProperty("FontRightColor");
 		LEFT_SMALLFONT_COLOR = Application.getApp().getProperty("FontSmallLeftColor");
 		RIGHT_SMALLFONT_COLOR = Application.getApp().getProperty("FontSmallRightColor");
+		
+		//persist change properties
+		var app = Application.getApp();
+    	
+    	app.setProperty("BackgroundLeftColor", LEFT_BACK_COLOR);    	
+    	app.setProperty("BackgroundRightColor", RIGHT_BACK_COLOR);
+    	app.setProperty("FontLeftColor", LEFT_FONT_COLOR);
+    	app.setProperty("FontRightColor", RIGHT_FONT_COLOR);
+    	app.setProperty("FontSmallLeftColor", LEFT_SMALLFONT_COLOR);
+    	app.setProperty("FontSmallRightColor", RIGHT_SMALLFONT_COLOR);
+    	    	
+    	app.saveProperties();
 	}
 
     // Called when this View is brought to the foreground. Restore
