@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="connectiq.launcher.AppLauncher">
-<stringAttribute key="connectiq.debugInfo" value="D:\Development\EclipseWorkspace\garmin_watchface_ia2\bin\garmin_watchface_ia2.prg.debug.xml"/>
-<stringAttribute key="connectiq.prg" value="D:\Development\EclipseWorkspace\garmin_watchface_ia2\bin\garmin_watchface_ia2.prg"/>
+<stringAttribute key="connectiq.debugInfo" value="D:\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\bin\garmin_watchface_ia2.prg.debug.xml"/>
+<stringAttribute key="connectiq.prg" value="D:\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\bin\garmin_watchface_ia2.prg"/>
 <stringAttribute key="connectiq.project" value="garmin_watchface_ia2"/>
 <stringAttribute key="connectiq.targetDevice" value="fenix3_hr"/>
 <stringAttribute key="connectiq.targetSdk" value="1.4.0"/>
-<stringAttribute key="connectiq.workingDir" value="D:\Development\EclipseWorkspace\garmin_watchface_ia2"/>
+<stringAttribute key="connectiq.workingDir" value="D:\GarminDev\garmin_watchface_ia\garmin_watchface_ia2"/>
 </launchConfiguration>

@@ -109,20 +109,33 @@ class garmin_watchface_ia2View extends Ui.WatchFace {
      	var date = Time.now();
      	var info = Gregorian.info(date, Time.FORMAT_LONG);
      	
-     	var clockString1 = Lang.format(
-		    "$1$ $2$",
+//     	var clockString1 = Lang.format(
+//		    "$1$ $2$",
+//		    [
+//		        info.day,
+//		       info.month
+//		    ]
+//		);
+
+		var info2 = Gregorian.info(date, Time.FORMAT_MEDIUM);
+		var dayOfWeekText = info2.day_of_week.substring(0,3);
+		var weekOfYear = getWeekOfYear();
+		
+
+		var clockString1 = Lang.format(
+		    "$1$ $2$ ",
 		    [
 		        info.day,
-		       info.month
+		        dayOfWeekText
 		    ]
 		);
      	
      	dc.setColor(LEFT_SMALLFONT_COLOR, Gfx.COLOR_TRANSPARENT);
      	dc.drawText(dc.getWidth()/2 - 1, 20, Gfx.FONT_MEDIUM, clockString1, Gfx.TEXT_JUSTIFY_RIGHT);
      	
-     	var info2 = Gregorian.info(date, Time.FORMAT_MEDIUM);
+     	
      	dc.setColor(RIGHT_SMALLFONT_COLOR, Gfx.COLOR_TRANSPARENT);
-     	dc.drawText(dc.getWidth()/2 , 20, Gfx.FONT_MEDIUM, ", " + info2.day_of_week.substring(0,3), Gfx.TEXT_JUSTIFY_LEFT);
+     	dc.drawText(dc.getWidth()/2 , 20, Gfx.FONT_MEDIUM, " W" + weekOfYear, Gfx.TEXT_JUSTIFY_LEFT);
      	
      	/*alarm status*/
      	if(Sys.getDeviceSettings().alarmCount > 0){       		 
@@ -136,7 +149,7 @@ class garmin_watchface_ia2View extends Ui.WatchFace {
        		 //dc.drawText(dc.getWidth()/2, dc.getHeight() - 45, Gfx.FONT_MEDIUM, "true  ", Gfx.TEXT_JUSTIFY_RIGHT);
        		 dc.drawBitmap(dc.getWidth()/2 - 25, dc.getHeight() - 42, bluetooth_icon_on);
        }else{
-       		dc.drawBitmap(dc.getWidth()/2 - 25, dc.getHeight() - 42, bluetooth_icon_off);
+       		//dc.drawBitmap(dc.getWidth()/2 - 25, dc.getHeight() - 42, bluetooth_icon_off);
        }
             
        
@@ -166,5 +179,7 @@ class garmin_watchface_ia2View extends Ui.WatchFace {
     // Terminate any active timers and prepare for slow updates.
     function onEnterSleep() {
     }
+    
+   
 
 }

@@ -1,82 +1,81 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" lineNum="11" pc="268435456" symbol="initialize"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" lineNum="12" pc="268435460" symbol="initialize"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" lineNum="13" pc="268435478" symbol="initialize"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" lineNum="15" pc="268435491" symbol="initialize"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" lineNum="18" pc="268435577" symbol="initialize"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" lineNum="24" pc="268435601" symbol="onLayout"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" lineNum="25" pc="268435605" symbol="onLayout"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" lineNum="28" pc="268435624" symbol="onLayout"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" lineNum="29" pc="268435647" symbol="onLayout"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" lineNum="33" pc="268435716" symbol="onLayout"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" lineNum="37" pc="268435785" symbol="onLayout"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" lineNum="41" pc="268435854" symbol="onLayout"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" lineNum="45" pc="268435900" symbol="onLayout"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" lineNum="46" pc="268435943" symbol="onLayout"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" lineNum="47" pc="268435967" symbol="onLayout"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" lineNum="48" pc="268435989" symbol="onLayout"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" lineNum="49" pc="268436013" symbol="onLayout"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" lineNum="52" pc="268436035" symbol="onLayout"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" lineNum="53" pc="268436087" symbol="onLayout"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" lineNum="60" pc="268436091" symbol="compute"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" lineNum="64" pc="268436095" symbol="compute"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" lineNum="65" pc="268436117" symbol="compute"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" lineNum="67" pc="268436143" symbol="compute"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" lineNum="72" pc="268436153" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" lineNum="74" pc="268436157" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" lineNum="77" pc="268436200" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" lineNum="78" pc="268436224" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" lineNum="79" pc="268436251" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" lineNum="81" pc="268436278" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" lineNum="83" pc="268436302" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" lineNum="86" pc="268436336" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorBackground.mc" lineNum="9" pc="268436357" symbol="initialize"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorBackground.mc" lineNum="10" pc="268436361" symbol="initialize"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorBackground.mc" lineNum="14" pc="268436382" symbol="initialize"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorBackground.mc" lineNum="17" pc="268436403" symbol="setColor"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorBackground.mc" lineNum="18" pc="268436407" symbol="setColor"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorBackground.mc" lineNum="21" pc="268436418" symbol="draw"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorBackground.mc" lineNum="22" pc="268436422" symbol="draw"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorBackground.mc" lineNum="23" pc="268436454" symbol="draw"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorApp.mc" lineNum="5" pc="268436467" symbol="initialize"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorApp.mc" lineNum="6" pc="268436471" symbol="initialize"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorApp.mc" lineNum="10" pc="268436490" symbol="onStart"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorApp.mc" lineNum="14" pc="268436495" symbol="onStop"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorApp.mc" lineNum="18" pc="268436500" symbol="getInitialView"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\ElipticalCorrector\\source\\ElipticalCorrectorApp.mc" lineNum="19" pc="268436504" symbol="getInitialView"/>
-<entry filename="Rez" lineNum="22" pc="268436542" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="26" pc="268436554" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="27" pc="268436578" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="28" pc="268436741" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="29" pc="268436766" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="30" pc="268436818" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="31" pc="268436864" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="32" pc="268437027" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="33" pc="268437052" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="34" pc="268437104" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="37" pc="268437150" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="46" pc="268437188" symbol="TopLeftLayout"/>
-<entry filename="Rez" lineNum="50" pc="268437200" symbol="TopLeftLayout"/>
-<entry filename="Rez" lineNum="51" pc="268437224" symbol="TopLeftLayout"/>
-<entry filename="Rez" lineNum="52" pc="268437357" symbol="TopLeftLayout"/>
-<entry filename="Rez" lineNum="55" pc="268437490" symbol="TopLeftLayout"/>
-<entry filename="Rez" lineNum="64" pc="268437528" symbol="TopRightLayout"/>
-<entry filename="Rez" lineNum="68" pc="268437540" symbol="TopRightLayout"/>
-<entry filename="Rez" lineNum="69" pc="268437564" symbol="TopRightLayout"/>
-<entry filename="Rez" lineNum="70" pc="268437697" symbol="TopRightLayout"/>
-<entry filename="Rez" lineNum="73" pc="268437830" symbol="TopRightLayout"/>
-<entry filename="Rez" lineNum="82" pc="268437868" symbol="BottomLeftLayout"/>
-<entry filename="Rez" lineNum="86" pc="268437880" symbol="BottomLeftLayout"/>
-<entry filename="Rez" lineNum="87" pc="268437904" symbol="BottomLeftLayout"/>
-<entry filename="Rez" lineNum="88" pc="268438037" symbol="BottomLeftLayout"/>
-<entry filename="Rez" lineNum="91" pc="268438170" symbol="BottomLeftLayout"/>
-<entry filename="Rez" lineNum="100" pc="268438208" symbol="BottomRightLayout"/>
-<entry filename="Rez" lineNum="104" pc="268438220" symbol="BottomRightLayout"/>
-<entry filename="Rez" lineNum="105" pc="268438244" symbol="BottomRightLayout"/>
-<entry filename="Rez" lineNum="106" pc="268438377" symbol="BottomRightLayout"/>
-<entry filename="Rez" lineNum="109" pc="268438510" symbol="BottomRightLayout"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" id="3" lineNum="11" pc="268435456" symbol="initialize"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" id="3" lineNum="12" pc="268435460" symbol="initialize"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" id="3" lineNum="13" pc="268435478" symbol="initialize"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" id="3" lineNum="15" pc="268435491" symbol="initialize"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" id="3" lineNum="18" pc="268435577" symbol="initialize"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" id="4" lineNum="24" pc="268435601" symbol="onLayout"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" id="4" lineNum="25" pc="268435605" symbol="onLayout"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" id="4" lineNum="28" pc="268435624" symbol="onLayout"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" id="4" lineNum="29" pc="268435647" symbol="onLayout"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" id="4" lineNum="32" pc="268435693" symbol="onLayout"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" id="4" lineNum="33" pc="268435716" symbol="onLayout"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" id="4" lineNum="36" pc="268435762" symbol="onLayout"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" id="4" lineNum="37" pc="268435785" symbol="onLayout"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" id="4" lineNum="40" pc="268435831" symbol="onLayout"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" id="4" lineNum="41" pc="268435854" symbol="onLayout"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" id="4" lineNum="45" pc="268435900" symbol="onLayout"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" id="4" lineNum="46" pc="268435943" symbol="onLayout"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" id="4" lineNum="47" pc="268435967" symbol="onLayout"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" id="4" lineNum="48" pc="268435989" symbol="onLayout"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" id="4" lineNum="49" pc="268436013" symbol="onLayout"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" id="4" lineNum="52" pc="268436035" symbol="onLayout"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" id="4" lineNum="53" pc="268436087" symbol="onLayout"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" id="5" lineNum="60" pc="268436091" symbol="compute"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" id="5" lineNum="64" pc="268436095" symbol="compute"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" id="5" lineNum="65" pc="268436117" symbol="compute"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" id="5" lineNum="67" pc="268436143" symbol="compute"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" id="6" lineNum="72" pc="268436153" symbol="onUpdate"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" id="6" lineNum="74" pc="268436157" symbol="onUpdate"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" id="6" lineNum="77" pc="268436200" symbol="onUpdate"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" id="6" lineNum="78" pc="268436224" symbol="onUpdate"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" id="6" lineNum="79" pc="268436251" symbol="onUpdate"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" id="6" lineNum="81" pc="268436278" symbol="onUpdate"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" id="6" lineNum="83" pc="268436302" symbol="onUpdate"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorView.mc" id="6" lineNum="86" pc="268436336" symbol="onUpdate"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorApp.mc" id="8" lineNum="5" pc="268436357" symbol="initialize"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorApp.mc" id="8" lineNum="6" pc="268436361" symbol="initialize"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorApp.mc" id="9" lineNum="10" pc="268436380" symbol="onStart"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorApp.mc" id="10" lineNum="14" pc="268436385" symbol="onStop"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorApp.mc" id="11" lineNum="18" pc="268436390" symbol="getInitialView"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorApp.mc" id="11" lineNum="19" pc="268436394" symbol="getInitialView"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorBackground.mc" id="13" lineNum="9" pc="268436432" symbol="initialize"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorBackground.mc" id="13" lineNum="10" pc="268436436" symbol="initialize"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorBackground.mc" id="13" lineNum="14" pc="268436457" symbol="initialize"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorBackground.mc" id="14" lineNum="17" pc="268436478" symbol="setColor"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorBackground.mc" id="14" lineNum="18" pc="268436482" symbol="setColor"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorBackground.mc" id="15" lineNum="21" pc="268436493" symbol="draw"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorBackground.mc" id="15" lineNum="22" pc="268436497" symbol="draw"/>
+<entry filename="D:\\GarminDev\\garmin_watchface_ia\\ElipticalCorrector\\source\\ElipticalCorrectorBackground.mc" id="15" lineNum="23" pc="268436529" symbol="draw"/>
+<entry filename="Rez" id="21" lineNum="15" pc="268436542" symbol="MainLayout"/>
+<entry filename="Rez" id="21" lineNum="17" pc="268436554" symbol="MainLayout"/>
+<entry filename="Rez" id="21" lineNum="18" pc="268436567" symbol="MainLayout"/>
+<entry filename="Rez" id="21" lineNum="20" pc="268436580" symbol="MainLayout"/>
+<entry filename="Rez" id="21" lineNum="21" pc="268436604" symbol="MainLayout"/>
+<entry filename="Rez" id="21" lineNum="22" pc="268436767" symbol="MainLayout"/>
+<entry filename="Rez" id="21" lineNum="24" pc="268436930" symbol="MainLayout"/>
+<entry filename="Rez" id="22" lineNum="33" pc="268436968" symbol="TopLeftLayout"/>
+<entry filename="Rez" id="22" lineNum="36" pc="268436980" symbol="TopLeftLayout"/>
+<entry filename="Rez" id="22" lineNum="37" pc="268437004" symbol="TopLeftLayout"/>
+<entry filename="Rez" id="22" lineNum="38" pc="268437137" symbol="TopLeftLayout"/>
+<entry filename="Rez" id="22" lineNum="40" pc="268437270" symbol="TopLeftLayout"/>
+<entry filename="Rez" id="23" lineNum="49" pc="268437308" symbol="TopRightLayout"/>
+<entry filename="Rez" id="23" lineNum="52" pc="268437320" symbol="TopRightLayout"/>
+<entry filename="Rez" id="23" lineNum="53" pc="268437344" symbol="TopRightLayout"/>
+<entry filename="Rez" id="23" lineNum="54" pc="268437477" symbol="TopRightLayout"/>
+<entry filename="Rez" id="23" lineNum="56" pc="268437610" symbol="TopRightLayout"/>
+<entry filename="Rez" id="24" lineNum="65" pc="268437648" symbol="BottomLeftLayout"/>
+<entry filename="Rez" id="24" lineNum="68" pc="268437660" symbol="BottomLeftLayout"/>
+<entry filename="Rez" id="24" lineNum="69" pc="268437684" symbol="BottomLeftLayout"/>
+<entry filename="Rez" id="24" lineNum="70" pc="268437817" symbol="BottomLeftLayout"/>
+<entry filename="Rez" id="24" lineNum="72" pc="268437950" symbol="BottomLeftLayout"/>
+<entry filename="Rez" id="25" lineNum="81" pc="268437988" symbol="BottomRightLayout"/>
+<entry filename="Rez" id="25" lineNum="84" pc="268438000" symbol="BottomRightLayout"/>
+<entry filename="Rez" id="25" lineNum="85" pc="268438024" symbol="BottomRightLayout"/>
+<entry filename="Rez" id="25" lineNum="86" pc="268438157" symbol="BottomRightLayout"/>
+<entry filename="Rez" id="25" lineNum="88" pc="268438290" symbol="BottomRightLayout"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8389124" method="true" symbol="onUpdate"/>
@@ -90,6 +89,7 @@
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry id="8389068" method="true" symbol="draw"/>
 <entry id="8389849" symbol="units"/>
+<entry id="8388639" module="true" symbol="Graphics"/>
 <entry id="14" method="true" symbol="MainLayout"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
 <entry field="true" id="8389130" symbol="mColor"/>
@@ -102,6 +102,7 @@
 <entry id="10" object="true" symbol="ElipticalCorrectorApp"/>
 <entry id="8390146" module="true" object="true" symbol="Background"/>
 <entry field="true" id="13" symbol="LauncherIcon"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
 <entry id="8389281" method="true" symbol="onStop"/>
 <entry field="true" id="8389065" symbol="locY"/>
 <entry field="true" id="8389064" symbol="locX"/>
@@ -112,13 +113,13 @@
 <entry id="16" method="true" symbol="TopRightLayout"/>
 <entry id="8389348" symbol="font"/>
 <entry id="8389347" symbol="color"/>
-<entry id="12" module="true" symbol="Layouts"/>
+<entry id="11" module="true" symbol="Layouts"/>
 <entry id="18" method="true" symbol="BottomRightLayout"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
 <entry id="8389780" module="true" symbol="FitContributor"/>
 <entry field="true" id="20" symbol="testonja_graph_label"/>
 <entry field="true" id="8389063" symbol="identifier"/>
-<entry id="11" module="true" symbol="Menus"/>
+<entry id="12" module="true" symbol="Menus"/>
 <entry id="8389847" symbol="mesgType"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
 <entry id="9" object="true" symbol="ElipticalCorrectorView"/>
@@ -131,35 +132,48 @@
 <entry endPc="268436153" name="info" stackId="1" startPc="268436091"/>
 <entry endPc="268436356" name="value" stackId="2" startPc="268436157"/>
 <entry endPc="268436357" name="dc" stackId="1" startPc="268436153"/>
-<entry endPc="268436402" name="dictionary" stackId="1" startPc="268436361"/>
-<entry endPc="268436418" name="color" stackId="1" startPc="268436403"/>
-<entry endPc="268436467" name="dc" stackId="1" startPc="268436418"/>
-<entry endPc="268436495" name="state" stackId="1" startPc="268436490"/>
-<entry endPc="268436500" name="state" stackId="1" startPc="268436495"/>
-<entry endPc="268437187" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268436554"/>
-<entry endPc="268437187" name="rez_cmp_local_bitmap_value_fontHeight" stackId="6" startPc="268436554"/>
-<entry endPc="268437187" name="rez_cmp_local_bitmap_value" stackId="5" startPc="268436554"/>
-<entry endPc="268437187" name="rez_cmp_local_custom_drawable_54K7HXWVL3EV9LMHW3LQ" stackId="2" startPc="268436554"/>
-<entry endPc="268437187" name="rez_cmp_local_bitmap_label_fontHeight" stackId="4" startPc="268436554"/>
-<entry endPc="268437188" name="dc" stackId="1" startPc="268436542"/>
-<entry endPc="268437527" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268437200"/>
-<entry endPc="268437527" name="rez_cmp_local_bitmap_value" stackId="4" startPc="268437200"/>
-<entry endPc="268437527" name="rez_cmp_local_custom_drawable_DVXD3M7QORSUVM7ZKDBU" stackId="2" startPc="268437200"/>
-<entry endPc="268437528" name="dc" stackId="1" startPc="268437188"/>
-<entry endPc="268437867" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268437540"/>
-<entry endPc="268437867" name="rez_cmp_local_bitmap_value" stackId="4" startPc="268437540"/>
-<entry endPc="268437867" name="rez_cmp_local_custom_drawable_HZBKWNQNNQC61OGQ3Z4P" stackId="2" startPc="268437540"/>
-<entry endPc="268437868" name="dc" stackId="1" startPc="268437528"/>
-<entry endPc="268438207" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268437880"/>
-<entry endPc="268438207" name="rez_cmp_local_bitmap_value" stackId="4" startPc="268437880"/>
-<entry endPc="268438207" name="rez_cmp_local_custom_drawable_NHDFSLSQ3AFU6PB0LTD4" stackId="2" startPc="268437880"/>
-<entry endPc="268438208" name="dc" stackId="1" startPc="268437868"/>
-<entry endPc="268438547" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268438220"/>
-<entry endPc="268438547" name="rez_cmp_local_bitmap_value" stackId="4" startPc="268438220"/>
-<entry endPc="268438547" name="rez_cmp_local_custom_drawable_9ZP04WPHUZR1WM1LWCL2" stackId="2" startPc="268438220"/>
-<entry endPc="268438548" name="dc" stackId="1" startPc="268438208"/>
+<entry endPc="268436385" name="state" stackId="1" startPc="268436380"/>
+<entry endPc="268436390" name="state" stackId="1" startPc="268436385"/>
+<entry endPc="268436477" name="dictionary" stackId="1" startPc="268436436"/>
+<entry endPc="268436493" name="color" stackId="1" startPc="268436478"/>
+<entry endPc="268436542" name="dc" stackId="1" startPc="268436493"/>
+<entry endPc="268436967" name="rez_cmp_local_text_value" stackId="6" startPc="268436554"/>
+<entry endPc="268436967" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268436554"/>
+<entry endPc="268436967" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268436554"/>
+<entry endPc="268436967" name="rez_cmp_local_custom_drawable_62112227684692856318" stackId="4" startPc="268436554"/>
+<entry endPc="268436967" name="rez_cmp_local_text_label" stackId="5" startPc="268436554"/>
+<entry endPc="268436968" name="dc" stackId="1" startPc="268436542"/>
+<entry endPc="268437307" name="rez_cmp_local_text_value" stackId="4" startPc="268436980"/>
+<entry endPc="268437307" name="rez_cmp_local_custom_drawable_18578492357707289511" stackId="2" startPc="268436980"/>
+<entry endPc="268437307" name="rez_cmp_local_text_label" stackId="3" startPc="268436980"/>
+<entry endPc="268437308" name="dc" stackId="1" startPc="268436968"/>
+<entry endPc="268437647" name="rez_cmp_local_custom_drawable_17225087411691916130" stackId="2" startPc="268437320"/>
+<entry endPc="268437647" name="rez_cmp_local_text_value" stackId="4" startPc="268437320"/>
+<entry endPc="268437647" name="rez_cmp_local_text_label" stackId="3" startPc="268437320"/>
+<entry endPc="268437648" name="dc" stackId="1" startPc="268437308"/>
+<entry endPc="268437987" name="rez_cmp_local_text_value" stackId="4" startPc="268437660"/>
+<entry endPc="268437987" name="rez_cmp_local_custom_drawable_94148045780498142551" stackId="2" startPc="268437660"/>
+<entry endPc="268437987" name="rez_cmp_local_text_label" stackId="3" startPc="268437660"/>
+<entry endPc="268437988" name="dc" stackId="1" startPc="268437648"/>
+<entry endPc="268438327" name="rez_cmp_local_text_value" stackId="4" startPc="268438000"/>
+<entry endPc="268438327" name="rez_cmp_local_custom_drawable_93877970117975234267" stackId="2" startPc="268438000"/>
+<entry endPc="268438327" name="rez_cmp_local_text_label" stackId="3" startPc="268438000"/>
+<entry endPc="268438328" name="dc" stackId="1" startPc="268437988"/>
 </localVars>
 <annotations/>
+<dataEntryOffsetMappings>
+<dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
+<dataEntry offset="182" parentId="globals" symbolId="Background" type="class"/>
+<dataEntry offset="253" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="332" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="371" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="402" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="433" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="504" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="535" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="606" parentId="globals" symbolId="ElipticalCorrectorView" type="class"/>
+<dataEntry offset="693" parentId="globals" symbolId="ElipticalCorrectorApp" type="class"/>
+</dataEntryOffsetMappings>
 <functions>
 <functionEntry accessMode="public" name="initialize" parent="ElipticalCorrectorView">
 <documentation/>
@@ -173,17 +187,6 @@
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onUpdate" parent="ElipticalCorrectorView">
-<param id="dc"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="initialize" parent="Background">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="setColor" parent="Background">
-<param id="color"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="draw" parent="Background">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
@@ -201,38 +204,36 @@
 <functionEntry accessMode="public" name="getInitialView" parent="ElipticalCorrectorApp">
 <documentation><![CDATA[<div class="description"> Return the initial view of your application here<br/></div>]]></documentation>
 </functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="Background">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="setColor" parent="Background">
+<param id="color"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="draw" parent="Background">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
 <functionEntry accessMode="public" name="MainLayout" parent="Layouts">
 <param id="dc"/>
-<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+<documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="TopLeftLayout" parent="Layouts">
 <param id="dc"/>
-<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+<documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="TopRightLayout" parent="Layouts">
 <param id="dc"/>
-<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+<documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="BottomLeftLayout" parent="Layouts">
 <param id="dc"/>
-<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+<documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="BottomRightLayout" parent="Layouts">
 <param id="dc"/>
-<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+<documentation/>
 </functionEntry>
 </functions>
-<dataEntryOffsetMappings>
-<dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
-<dataEntry offset="182" parentId="globals" symbolId="Background" type="class"/>
-<dataEntry offset="253" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry offset="332" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry offset="371" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry offset="402" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry offset="433" parentId="Rez" symbolId="JsonData" type="module"/>
-<dataEntry offset="464" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry offset="535" parentId="Rez" symbolId="Strings" type="module"/>
-<dataEntry offset="606" parentId="globals" symbolId="ElipticalCorrectorView" type="class"/>
-<dataEntry offset="693" parentId="globals" symbolId="ElipticalCorrectorApp" type="class"/>
-</dataEntryOffsetMappings>
 </debugInfo>
