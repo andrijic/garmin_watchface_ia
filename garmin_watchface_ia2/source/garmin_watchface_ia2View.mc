@@ -99,10 +99,10 @@ class garmin_watchface_ia2View extends Ui.WatchFace {
        	
        	/*hour and minutes*/
       dc.setColor(LEFT_FONT_COLOR, Gfx.COLOR_TRANSPARENT);
-       dc.drawText(dc.getWidth()/2 - 5, 22, customFont,hour.format("%02d"), Gfx.TEXT_JUSTIFY_RIGHT);
+       dc.drawText(dc.getWidth()/2 - 5, dc.getHeight() * 0.1, customFont,hour.format("%02d"), Gfx.TEXT_JUSTIFY_RIGHT);
        
        dc.setColor(RIGHT_FONT_COLOR, Gfx.COLOR_TRANSPARENT);
-       dc.drawText(dc.getWidth()/2 + 5, 22, customFont, minutes.format("%02d"), Gfx.TEXT_JUSTIFY_LEFT);
+       dc.drawText(dc.getWidth()/2 + 5, dc.getHeight() * 0.1, customFont, minutes.format("%02d"), Gfx.TEXT_JUSTIFY_LEFT);
        
      
      	/*date on top*/
@@ -131,15 +131,15 @@ class garmin_watchface_ia2View extends Ui.WatchFace {
 		);
      	
      	dc.setColor(LEFT_SMALLFONT_COLOR, Gfx.COLOR_TRANSPARENT);
-     	dc.drawText(dc.getWidth()/2 - 1, 20, Gfx.FONT_MEDIUM, clockString1, Gfx.TEXT_JUSTIFY_RIGHT);
+     	dc.drawText(dc.getWidth()/2 - 1, dc.getHeight() * 0.1, Gfx.FONT_MEDIUM, clockString1, Gfx.TEXT_JUSTIFY_RIGHT);
      	
      	
      	dc.setColor(RIGHT_SMALLFONT_COLOR, Gfx.COLOR_TRANSPARENT);
-     	dc.drawText(dc.getWidth()/2 , 20, Gfx.FONT_MEDIUM, " W" + weekOfYear, Gfx.TEXT_JUSTIFY_LEFT);
+     	dc.drawText(dc.getWidth()/2 , dc.getHeight() * 0.1, Gfx.FONT_MEDIUM, " W" + weekOfYear, Gfx.TEXT_JUSTIFY_LEFT);
      	
      	/*alarm status*/
      	if(Sys.getDeviceSettings().alarmCount > 0){       		 
-       		 dc.drawBitmap(dc.getWidth()/2 - 50, dc.getHeight() - 42, alarm2_icon);
+       		 dc.drawBitmap(dc.getWidth()/2 - 50, dc.getHeight() * 0.78, alarm2_icon);
        }             
      	       
        /*android device connection status*/
@@ -147,7 +147,7 @@ class garmin_watchface_ia2View extends Ui.WatchFace {
        
        if(Sys.getDeviceSettings().phoneConnected){
        		 //dc.drawText(dc.getWidth()/2, dc.getHeight() - 45, Gfx.FONT_MEDIUM, "true  ", Gfx.TEXT_JUSTIFY_RIGHT);
-       		 dc.drawBitmap(dc.getWidth()/2 - 25, dc.getHeight() - 42, bluetooth_icon_on);
+       		 dc.drawBitmap(dc.getWidth()/2 - 25, dc.getHeight() * 0.78, bluetooth_icon_on);
        }else{
        		//dc.drawBitmap(dc.getWidth()/2 - 25, dc.getHeight() - 42, bluetooth_icon_off);
        }
@@ -157,12 +157,12 @@ class garmin_watchface_ia2View extends Ui.WatchFace {
        var batteryStat = System.getSystemStats().battery;
        
        dc.setColor(RIGHT_SMALLFONT_COLOR, Gfx.COLOR_TRANSPARENT);
-       dc.drawText(dc.getWidth()/2, dc.getHeight() - 43, Gfx.FONT_TINY, " " + batteryStat.format("%3d") + "%", Gfx.TEXT_JUSTIFY_LEFT);
+       dc.drawText(dc.getWidth()/2, dc.getHeight() * 0.78, Gfx.FONT_TINY, " " + batteryStat.format("%3d") + "%", Gfx.TEXT_JUSTIFY_LEFT);
 
 		/*no of messages*/
 		if(Sys.getDeviceSettings().notificationCount > 0){
 			dc.setColor(RIGHT_SMALLFONT_COLOR, Gfx.COLOR_TRANSPARENT);
-       		dc.drawText(dc.getWidth()/2 , dc.getHeight() - 43, Gfx.FONT_TINY, "            #" + Sys.getDeviceSettings().notificationCount.format("%1d") , Gfx.TEXT_JUSTIFY_LEFT);
+       		dc.drawText(dc.getWidth()/2 , dc.getHeight() * 0.78, Gfx.FONT_TINY, "           #" + Sys.getDeviceSettings().notificationCount.format("%1d") , Gfx.TEXT_JUSTIFY_LEFT);
 		}
     }
 
