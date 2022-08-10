@@ -99,10 +99,10 @@ class garmin_watchface_ia2View extends Ui.WatchFace {
        	
        	/*hour and minutes*/
       dc.setColor(LEFT_FONT_COLOR, Gfx.COLOR_TRANSPARENT);
-       dc.drawText(dc.getWidth()/2 - 5, dc.getHeight() * 0.1, customFont,hour.format("%02d"), Gfx.TEXT_JUSTIFY_RIGHT);
+       dc.drawText(dc.getWidth()/2 - 5, dc.getHeight()/2 - 90, customFont,hour.format("%02d"), Gfx.TEXT_JUSTIFY_RIGHT);
        
        dc.setColor(RIGHT_FONT_COLOR, Gfx.COLOR_TRANSPARENT);
-       dc.drawText(dc.getWidth()/2 + 5, dc.getHeight() * 0.1, customFont, minutes.format("%02d"), Gfx.TEXT_JUSTIFY_LEFT);
+       dc.drawText(dc.getWidth()/2 + 5, dc.getHeight()/2 - 90, customFont, minutes.format("%02d"), Gfx.TEXT_JUSTIFY_LEFT);
        
      
      	/*date on top*/
@@ -131,11 +131,11 @@ class garmin_watchface_ia2View extends Ui.WatchFace {
 		);
      	
      	dc.setColor(LEFT_SMALLFONT_COLOR, Gfx.COLOR_TRANSPARENT);
-     	dc.drawText(dc.getWidth()/2 - 1, dc.getHeight() * 0.1, Gfx.FONT_MEDIUM, clockString1, Gfx.TEXT_JUSTIFY_RIGHT);
+     	dc.drawText(dc.getWidth()/2 - 1, dc.getHeight() * 0.12, Gfx.FONT_MEDIUM, clockString1, Gfx.TEXT_JUSTIFY_RIGHT);
      	
      	
      	dc.setColor(RIGHT_SMALLFONT_COLOR, Gfx.COLOR_TRANSPARENT);
-     	dc.drawText(dc.getWidth()/2 , dc.getHeight() * 0.1, Gfx.FONT_MEDIUM, " W" + weekOfYear, Gfx.TEXT_JUSTIFY_LEFT);
+     	dc.drawText(dc.getWidth()/2 , dc.getHeight() * 0.12, Gfx.FONT_MEDIUM, " W" + weekOfYear, Gfx.TEXT_JUSTIFY_LEFT);
      	
      	/*alarm status*/
      	if(Sys.getDeviceSettings().alarmCount > 0){       		 
