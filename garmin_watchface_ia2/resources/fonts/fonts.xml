@@ -1,4 +1,6 @@
 <fonts>
 	<font id="bodoni_font" filename="bodoni_font.fnt" filter="0123456789"/>
 	<font id="niagara_font" filename="niagara_font.fnt" filter="0123456789"/>	
+	<font id="bodoni_180" filename="bodoni 180.fnt" filter="0123456789"/>
+	<font id="gloucester" filename="gloucester.fnt" filter="0123456789"/>
 </fonts>

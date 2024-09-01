@@ -1,0 +1,73 @@
+[ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2TouchTest.mc"; @line = 1; ]
+using Toybox.Application;
+[ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2TouchTest.mc"; @line = 2; ]
+using Toybox.WatchUi;
+[ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2TouchTest.mc"; @line = 3; ]
+using Toybox.System;
+[ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2TouchTest.mc"; @line = 7; ]
+class MyInputDelegate extends WatchUi.InputDelegate{
+    [ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2TouchTest.mc"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2TouchTest.mc"; @line = 7; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2TouchTest.mc"; @line = 8; ]
+    function onKey(keyEvent) {
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2TouchTest_mc_8_29_11_4_start:
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2TouchTest.mc" 9 8 ]
+        %tmp.1 = getm $.Toybox.System;
+        %tmp.2 = getv function %tmp.1 :println;
+        %tmp.3 = lgetv %keyEvent;
+        %tmp.4 = getv function %tmp.3 :getKey;
+        %tmp.5 = invoke %tmp.3 %tmp.4();
+        invoke %tmp.1 %tmp.2(%tmp.5);
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2TouchTest.mc" 10 8 ]
+        %tmp.6 = true;
+        ret %tmp.6;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2TouchTest_mc_8_29_11_4_stop:
+    }
+    [ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2TouchTest.mc"; @line = 13; ]
+    function onTap(clickEvent) {
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2TouchTest_mc_13_31_16_4_start:
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2TouchTest.mc" 14 8 ]
+        %tmp.1 = getm $.Toybox.System;
+        %tmp.2 = getv function %tmp.1 :println;
+        %tmp.3 = lgetv %clickEvent;
+        %tmp.4 = getv function %tmp.3 :getType;
+        %tmp.5 = invoke %tmp.3 %tmp.4();
+        invoke %tmp.1 %tmp.2(%tmp.5);
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2TouchTest.mc" 15 8 ]
+        %tmp.6 = true;
+        ret %tmp.6;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2TouchTest_mc_13_31_16_4_stop:
+    }
+    [ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2TouchTest.mc"; @line = 18; ]
+    function onSwipe(swipeEvent) {
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2TouchTest_mc_18_33_21_4_start:
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2TouchTest.mc" 19 8 ]
+        %tmp.1 = getm $.Toybox.System;
+        %tmp.2 = getv function %tmp.1 :println;
+        %tmp.3 = lgetv %swipeEvent;
+        %tmp.4 = getv function %tmp.3 :getDirection;
+        %tmp.5 = invoke %tmp.3 %tmp.4();
+        invoke %tmp.1 %tmp.2(%tmp.5);
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2TouchTest.mc" 20 8 ]
+        %tmp.6 = true;
+        ret %tmp.6;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2TouchTest_mc_18_33_21_4_stop:
+    }
+    [ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2TouchTest.mc"; @line = 23; ]
+    function initialize() as Void {
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2TouchTest_mc_23_25_25_4_start:
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2TouchTest.mc" 24 8 ]
+        %tmp.2 = getv ? :InputDelegate;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2TouchTest_mc_23_25_25_4_stop:
+    }
+}
+[ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2TouchTest.mc"; @line = 1; ]
+<init> {
+}

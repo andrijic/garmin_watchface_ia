@@ -1,7 +1,7 @@
 <strings>
     <string id="AppName">garmin_watchface_ia2</string>
-    <string id="BackgroundLeftColorTitle">Background Color</string>
-    <string id="BackgroundRightColorTitle">Background Color</string>
+    <string id="BackgroundLeftColorTitle">Background Left Color</string>
+    <string id="BackgroundRightColorTitle">Background Right Color</string>
     <string id="FontLeftColorTitle">Hours Color</string>
     <string id="FontRightColorTitle">Minutes Color</string>
     <string id="FontSmallLeftColorTitle">Small left fonts</string>

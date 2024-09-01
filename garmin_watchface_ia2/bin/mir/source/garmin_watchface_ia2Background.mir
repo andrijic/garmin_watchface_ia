@@ -1,0 +1,51 @@
+[ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2Background.mc"; @line = 1; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2Background.mc"; @line = 2; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2Background.mc"; @line = 3; ]
+using Toybox.System as :Sys;
+[ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2Background.mc"; @line = 4; ]
+using Toybox.Time.Gregorian;
+[ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2Background.mc"; @line = 5; ]
+using Toybox.Time;
+[ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2Background.mc"; @line = 7; ]
+class Background extends Ui.Drawable{
+    [ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2Background.mc"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2Background.mc"; @line = 7; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2Background.mc"; @line = 9; ]
+    function initialize() as Void {
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2Background_mc_9_26_15_4_start:
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2Background.mc" 10 8 ]
+        [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2Background_mc_9_26_15_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2Background_mc_9_26_15_4_stop" ]
+        %dictionary.1 = local;
+        %tmp.1 = newd 1;
+        %tmp.3 = const :identifier;
+        %tmp.4 = "Background";
+        %tmp.5 = dup %tmp.1;
+        %tmp.6 = aputv %tmp.5 %tmp.3 %tmp.4;
+        lputv %dictionary.1 %tmp.6;
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2Background.mc" 14 8 ]
+        %tmp.8 = getv ? :Drawable;
+        %tmp.9 = getv function %tmp.8 :initialize;
+        %tmp.11 = lgetv %dictionary.1;
+        invoke %tmp.8 %tmp.9(%tmp.11);
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2Background_mc_9_26_15_4_stop:
+    }
+    [ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2Background.mc"; @line = 17; ]
+    function draw(dc) {
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2Background_mc_17_22_25_4_start:
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2Background.mc" 20 8 ]
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :clear;
+        invoke %tmp.1 %tmp.2();
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2Background_mc_17_22_25_4_stop:
+    }
+}
+[ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2Background.mc"; @line = 1; ]
+<init> {
+}

@@ -1,0 +1,73 @@
+[ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2ViewDelegate.mc"; @line = 1; ]
+import Toybox.Graphics;
+[ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2ViewDelegate.mc"; @line = 2; ]
+import Toybox.Lang;
+[ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2ViewDelegate.mc"; @line = 3; ]
+import Toybox.System;
+[ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2ViewDelegate.mc"; @line = 4; ]
+import Toybox.WatchUi;
+[ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2ViewDelegate.mc"; @line = 5; ]
+import Toybox.Complications;
+[ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2ViewDelegate.mc"; @line = 7; ]
+class garmin_watchface_ia2ViewDelegate extends WatchUi.WatchFaceDelegate{
+    [ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2ViewDelegate.mc"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2ViewDelegate.mc"; @line = 7; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2ViewDelegate.mc"; @line = 9; @position = 5; ]
+    var view;
+    [ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2ViewDelegate.mc"; @line = 11; ]
+    function initialize(v) as Void {
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2ViewDelegate_mc_11_24_14_1_start:
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2ViewDelegate.mc" 12 2 ]
+        %tmp.2 = getv ? :WatchFaceDelegate;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2ViewDelegate.mc" 13 2 ]
+        %tmp.5 = lgetv %v;
+        putv self :view %tmp.5;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2ViewDelegate_mc_11_24_14_1_stop:
+    }
+    [ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2ViewDelegate.mc"; @line = 16; ]
+    function onPress(evt) {
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2ViewDelegate_mc_16_26_23_4_start:
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2ViewDelegate.mc" 17 8 ]
+        %tmp.1 = getm $.Toybox.System;
+        %tmp.2 = getv function %tmp.1 :println;
+        %tmp.3 = "on press!!!";
+        invoke %tmp.1 %tmp.2(%tmp.3);
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2ViewDelegate.mc" 18 8 ]
+        [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2ViewDelegate_mc_16_26_23_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2ViewDelegate_mc_16_26_23_4_stop" ]
+        %c.1 = local;
+        %tmp.4 = lgetv %evt;
+        %tmp.5 = getv function %tmp.4 :getCoordinates;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        lputv %c.1 %tmp.6;
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2ViewDelegate.mc" 20 12 ]
+        %tmp.7 = getm $.Toybox.Complications;
+        %tmp.8 = getv function %tmp.7 :exitTo;
+        %tmp.10 = getv ? :view;
+        %tmp.11 = getv %tmp.10 :complic_heart_rate_id;
+        invoke %tmp.7 %tmp.8(%tmp.11);
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2ViewDelegate.mc" 22 8 ]
+        %tmp.12 = true;
+        ret %tmp.12;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2ViewDelegate_mc_16_26_23_4_stop:
+    }
+    [ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2ViewDelegate.mc"; @line = 25; ]
+    function onPowerBudgetExceeded(powerInfo as WatchUi.WatchFacePowerInfo) as Void {
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2ViewDelegate_mc_25_83_27_4_start:
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2ViewDelegate.mc" 26 8 ]
+        %tmp.1 = getm $.Toybox.System;
+        %tmp.2 = getv function %tmp.1 :println;
+        %tmp.3 = "onPowerBudgetExceeded !!!!";
+        invoke %tmp.1 %tmp.2(%tmp.3);
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2ViewDelegate_mc_25_83_27_4_stop:
+    }
+}
+[ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2ViewDelegate.mc"; @line = 1; ]
+<init> {
+}

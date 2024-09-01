@@ -1,0 +1,350 @@
+[ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc"; @line = 1; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc"; @line = 2; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc"; @line = 3; ]
+using Toybox.System as :Sys;
+[ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc"; @line = 4; ]
+using Toybox.Time.Gregorian;
+[ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc"; @line = 5; ]
+using Toybox.Time;
+[ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc"; @line = 6; ]
+using Toybox.Math;
+[ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc"; @line = 8; ]
+function getDayOfYear() {
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_8_25_26_4_start:
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc" 9 5 ]
+    [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_8_25_26_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_8_25_26_4_stop" ]
+    %date.1 = local;
+    %tmp.1 = getm $.Toybox.Time;
+    %tmp.2 = getv function %tmp.1 :now;
+    %tmp.3 = invoke %tmp.1 %tmp.2();
+    lputv %date.1 %tmp.3;
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc" 10 6 ]
+    [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_8_25_26_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_8_25_26_4_stop" ]
+    %info.2 = local;
+    %tmp.4 = getm $.Toybox.Time.Gregorian;
+    %tmp.5 = getv function %tmp.4 :info;
+    %tmp.7 = lgetv %date.1;
+    %tmp.8 = getm $.Toybox.Time;
+    %tmp.9 = getv %tmp.8 :FORMAT_LONG;
+    %tmp.10 = invoke %tmp.4 %tmp.5(%tmp.7, %tmp.9);
+    lputv %info.2 %tmp.10;
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc" 12 5 ]
+    [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_8_25_26_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_8_25_26_4_stop" ]
+    %options.3 = local;
+    %tmp.11 = newd 4;
+    %tmp.13 = const :year;
+    %tmp.14 = lgetv %info.2;
+    %tmp.15 = getv %tmp.14 :year;
+    %tmp.16 = dup %tmp.11;
+    %tmp.17 = aputv %tmp.16 %tmp.13 %tmp.15;
+    %tmp.19 = const :month;
+    %tmp.20 = 1;
+    %tmp.21 = dup %tmp.17;
+    %tmp.22 = aputv %tmp.21 %tmp.19 %tmp.20;
+    %tmp.24 = const :day;
+    %tmp.25 = 1;
+    %tmp.26 = dup %tmp.22;
+    %tmp.27 = aputv %tmp.26 %tmp.24 %tmp.25;
+    %tmp.29 = const :hour;
+    %tmp.30 = 0;
+    %tmp.31 = dup %tmp.27;
+    %tmp.32 = aputv %tmp.31 %tmp.29 %tmp.30;
+    lputv %options.3 %tmp.32;
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc" 19 2 ]
+    [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_8_25_26_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_8_25_26_4_stop" ]
+    %start_of_year.4 = local;
+    %tmp.33 = getm $.Toybox.Time.Gregorian;
+    %tmp.34 = getv function %tmp.33 :moment;
+    %tmp.36 = lgetv %options.3;
+    %tmp.37 = invoke %tmp.33 %tmp.34(%tmp.36);
+    lputv %start_of_year.4 %tmp.37;
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc" 21 2 ]
+    [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_8_25_26_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_8_25_26_4_stop" ]
+    %day_of_year.5 = local;
+    %tmp.38 = lgetv %date.1;
+    %tmp.39 = getv function %tmp.38 :subtract;
+    %tmp.41 = lgetv %start_of_year.4;
+    %tmp.42 = invoke %tmp.38 %tmp.39(%tmp.41);
+    lputv %day_of_year.5 %tmp.42;
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc" 23 2 ]
+    %tmp.43 = lgetv %day_of_year.5;
+    %tmp.44 = getv function %tmp.43 :value;
+    %tmp.45 = invoke %tmp.43 %tmp.44();
+    %tmp.46 = getm $.Toybox.Time.Gregorian;
+    %tmp.47 = getv %tmp.46 :SECONDS_PER_DAY;
+    %tmp.48 = div %tmp.45 %tmp.47;
+    %tmp.49 = 1;
+    %tmp.50 = add %tmp.48 %tmp.49;
+    lputv %day_of_year.5 %tmp.50;
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc" 25 2 ]
+    %tmp.52 = lgetv %day_of_year.5;
+    ret %tmp.52;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_8_25_26_4_stop:
+}
+[ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc"; @line = 28; ]
+function getDayOfWeekForFirstDayOfYear() {
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_28_46_49_4_start:
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc" 29 5 ]
+    [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_28_46_49_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_28_46_49_4_stop" ]
+    %date.1 = local;
+    %tmp.1 = getm $.Toybox.Time;
+    %tmp.2 = getv function %tmp.1 :now;
+    %tmp.3 = invoke %tmp.1 %tmp.2();
+    lputv %date.1 %tmp.3;
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc" 30 6 ]
+    [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_28_46_49_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_28_46_49_4_stop" ]
+    %info.2 = local;
+    %tmp.4 = getm $.Toybox.Time.Gregorian;
+    %tmp.5 = getv function %tmp.4 :info;
+    %tmp.7 = lgetv %date.1;
+    %tmp.8 = getm $.Toybox.Time;
+    %tmp.9 = getv %tmp.8 :FORMAT_LONG;
+    %tmp.10 = invoke %tmp.4 %tmp.5(%tmp.7, %tmp.9);
+    lputv %info.2 %tmp.10;
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc" 32 5 ]
+    [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_28_46_49_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_28_46_49_4_stop" ]
+    %options.3 = local;
+    %tmp.11 = newd 4;
+    %tmp.13 = const :year;
+    %tmp.14 = lgetv %info.2;
+    %tmp.15 = getv %tmp.14 :year;
+    %tmp.16 = dup %tmp.11;
+    %tmp.17 = aputv %tmp.16 %tmp.13 %tmp.15;
+    %tmp.19 = const :month;
+    %tmp.20 = 1;
+    %tmp.21 = dup %tmp.17;
+    %tmp.22 = aputv %tmp.21 %tmp.19 %tmp.20;
+    %tmp.24 = const :day;
+    %tmp.25 = 1;
+    %tmp.26 = dup %tmp.22;
+    %tmp.27 = aputv %tmp.26 %tmp.24 %tmp.25;
+    %tmp.29 = const :hour;
+    %tmp.30 = 0;
+    %tmp.31 = dup %tmp.27;
+    %tmp.32 = aputv %tmp.31 %tmp.29 %tmp.30;
+    lputv %options.3 %tmp.32;
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc" 39 2 ]
+    [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_28_46_49_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_28_46_49_4_stop" ]
+    %start_of_year.4 = local;
+    %tmp.33 = getm $.Toybox.Time.Gregorian;
+    %tmp.34 = getv function %tmp.33 :moment;
+    %tmp.36 = lgetv %options.3;
+    %tmp.37 = invoke %tmp.33 %tmp.34(%tmp.36);
+    lputv %start_of_year.4 %tmp.37;
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc" 40 2 ]
+    [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_28_46_49_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_28_46_49_4_stop" ]
+    %rez.5 = local;
+    %tmp.38 = getm $.Toybox.Time.Gregorian;
+    %tmp.39 = getv function %tmp.38 :info;
+    %tmp.41 = lgetv %start_of_year.4;
+    %tmp.42 = getm $.Toybox.Time;
+    %tmp.43 = getv %tmp.42 :FORMAT_SHORT;
+    %tmp.44 = invoke %tmp.38 %tmp.39(%tmp.41, %tmp.43);
+    lputv %rez.5 %tmp.44;
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc" 42 2 ]
+    [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_28_46_49_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_28_46_49_4_stop" ]
+    %new_rez.6 = local;
+    %tmp.45 = lgetv %rez.5;
+    %tmp.46 = getv %tmp.45 :day_of_week;
+    %tmp.47 = 1;
+    %tmp.48 = sub %tmp.46 %tmp.47;
+    lputv %new_rez.6 %tmp.48;
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc" 44 2 ]
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_44_2_46_2_if_stmt:
+    %tmp.50 = lgetv %new_rez.6;
+    %tmp.51 = 0;
+    %tmp.52 = eq %tmp.50 %tmp.51;
+    bf %tmp.52 @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_44_2_46_2_if_end;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_44_2_46_2_if_true:
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_44_18_46_2_start:
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc" 45 3 ]
+    %tmp.53 = 7;
+    lputv %new_rez.6 %tmp.53;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_44_18_46_2_stop:
+    goto @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_44_2_46_2_if_end;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_44_2_46_2_if_end:
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc" 48 2 ]
+    %tmp.55 = lgetv %new_rez.6;
+    ret %tmp.55;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_28_46_49_4_stop:
+}
+[ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc"; @line = 51; ]
+function getWeekOfYear() {
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_51_29_83_5_start:
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc" 52 6 ]
+    [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_51_29_83_5_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_51_29_83_5_stop" ]
+    %dy.1 = local;
+    %tmp.1 = self;
+    %tmp.2 = getv function %tmp.1 :getDayOfYear;
+    %tmp.3 = invoke %tmp.1 %tmp.2();
+    lputv %dy.1 %tmp.3;
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc" 53 6 ]
+    [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_51_29_83_5_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_51_29_83_5_stop" ]
+    %dw.2 = local;
+    %tmp.4 = self;
+    %tmp.5 = getv function %tmp.4 :getDayOfWeekForFirstDayOfYear;
+    %tmp.6 = invoke %tmp.4 %tmp.5();
+    lputv %dw.2 %tmp.6;
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc" 54 6 ]
+    [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_51_29_83_5_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_51_29_83_5_stop" ]
+    %rez.3 = local;
+    %tmp.7 = 0;
+    lputv %rez.3 %tmp.7;
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc" 56 6 ]
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_56_6_76_6_if_stmt:
+    %tmp.9 = lgetv %dw.2;
+    %tmp.10 = 4;
+    %tmp.11 = lte %tmp.9 %tmp.10;
+    bf %tmp.11 @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_56_6_76_6_if_false;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_56_6_76_6_if_true:
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_56_16_58_6_start:
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc" 57 7 ]
+    %tmp.12 = getm $.Toybox.Math;
+    %tmp.13 = getv function %tmp.12 :floor;
+    %tmp.15 = lgetv %dy.1;
+    %tmp.17 = lgetv %dw.2;
+    %tmp.18 = add %tmp.15 %tmp.17;
+    %tmp.19 = 2;
+    %tmp.20 = sub %tmp.18 %tmp.19;
+    %tmp.21 = 7;
+    %tmp.22 = div %tmp.20 %tmp.21;
+    %tmp.23 = invoke %tmp.12 %tmp.13(%tmp.22);
+    %tmp.24 = 1;
+    %tmp.25 = add %tmp.23 %tmp.24;
+    ret %tmp.25;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_56_16_58_6_stop:
+    goto @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_56_6_76_6_if_end;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_56_6_76_6_if_false:
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc" 58 12 ]
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_58_12_76_6_if_stmt:
+    %tmp.27 = lgetv %dw.2;
+    %tmp.28 = 5;
+    %tmp.29 = eq %tmp.27 %tmp.28;
+    bf %tmp.29 @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_58_12_76_6_if_false;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_58_12_76_6_if_true:
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_58_23_64_6_start:
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc" 59 7 ]
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_59_7_63_7_if_stmt:
+    %tmp.31 = lgetv %dy.1;
+    %tmp.32 = 3;
+    %tmp.33 = lte %tmp.31 %tmp.32;
+    bf %tmp.33 @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_59_7_63_7_if_false;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_59_7_63_7_if_true:
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_59_18_61_7_start:
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc" 60 8 ]
+    %tmp.34 = 53;
+    lputv %rez.3 %tmp.34;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_59_18_61_7_stop:
+    goto @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_59_7_63_7_if_end;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_59_7_63_7_if_false:
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_61_12_63_7_start:
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc" 62 8 ]
+    %tmp.35 = getm $.Toybox.Math;
+    %tmp.36 = getv function %tmp.35 :floor;
+    %tmp.38 = lgetv %dy.1;
+    %tmp.39 = 4;
+    %tmp.40 = sub %tmp.38 %tmp.39;
+    %tmp.41 = 7;
+    %tmp.42 = div %tmp.40 %tmp.41;
+    %tmp.43 = invoke %tmp.35 %tmp.36(%tmp.42);
+    %tmp.44 = 1;
+    %tmp.45 = add %tmp.43 %tmp.44;
+    lputv %rez.3 %tmp.45;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_61_12_63_7_stop:
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_59_7_63_7_if_end:
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_58_23_64_6_stop:
+    goto @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_58_12_76_6_if_end;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_58_12_76_6_if_false:
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc" 64 12 ]
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_64_12_76_6_if_stmt:
+    %tmp.47 = lgetv %dw.2;
+    %tmp.48 = 6;
+    %tmp.49 = eq %tmp.47 %tmp.48;
+    bf %tmp.49 @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_64_12_76_6_if_false;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_64_12_76_6_if_true:
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_64_23_70_6_start:
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc" 65 7 ]
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_65_7_69_7_if_stmt:
+    %tmp.51 = lgetv %dy.1;
+    %tmp.52 = 2;
+    %tmp.53 = lte %tmp.51 %tmp.52;
+    bf %tmp.53 @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_65_7_69_7_if_false;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_65_7_69_7_if_true:
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_65_18_67_7_start:
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc" 66 8 ]
+    %tmp.54 = 52;
+    lputv %rez.3 %tmp.54;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_65_18_67_7_stop:
+    goto @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_65_7_69_7_if_end;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_65_7_69_7_if_false:
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_67_12_69_7_start:
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc" 68 8 ]
+    %tmp.55 = getm $.Toybox.Math;
+    %tmp.56 = getv function %tmp.55 :floor;
+    %tmp.58 = lgetv %dy.1;
+    %tmp.59 = 3;
+    %tmp.60 = sub %tmp.58 %tmp.59;
+    %tmp.61 = 7;
+    %tmp.62 = div %tmp.60 %tmp.61;
+    %tmp.63 = invoke %tmp.55 %tmp.56(%tmp.62);
+    %tmp.64 = 1;
+    %tmp.65 = add %tmp.63 %tmp.64;
+    lputv %rez.3 %tmp.65;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_67_12_69_7_stop:
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_65_7_69_7_if_end:
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_64_23_70_6_stop:
+    goto @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_64_12_76_6_if_end;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_64_12_76_6_if_false:
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc" 70 12 ]
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_70_12_76_6_if_stmt:
+    %tmp.67 = lgetv %dw.2;
+    %tmp.68 = 7;
+    %tmp.69 = eq %tmp.67 %tmp.68;
+    bf %tmp.69 @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_70_12_76_6_if_end;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_70_12_76_6_if_true:
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_70_23_76_6_start:
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc" 71 7 ]
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_71_7_75_7_if_stmt:
+    %tmp.71 = lgetv %dy.1;
+    %tmp.72 = 1;
+    %tmp.73 = lte %tmp.71 %tmp.72;
+    bf %tmp.73 @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_71_7_75_7_if_false;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_71_7_75_7_if_true:
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_71_18_73_7_start:
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc" 72 8 ]
+    %tmp.74 = 52;
+    lputv %rez.3 %tmp.74;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_71_18_73_7_stop:
+    goto @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_71_7_75_7_if_end;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_71_7_75_7_if_false:
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_73_12_75_7_start:
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc" 74 8 ]
+    %tmp.75 = getm $.Toybox.Math;
+    %tmp.76 = getv function %tmp.75 :floor;
+    %tmp.78 = lgetv %dy.1;
+    %tmp.79 = 2;
+    %tmp.80 = sub %tmp.78 %tmp.79;
+    %tmp.81 = 7;
+    %tmp.82 = div %tmp.80 %tmp.81;
+    %tmp.83 = invoke %tmp.75 %tmp.76(%tmp.82);
+    %tmp.84 = 1;
+    %tmp.85 = add %tmp.83 %tmp.84;
+    lputv %rez.3 %tmp.85;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_73_12_75_7_stop:
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_71_7_75_7_if_end:
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_70_23_76_6_stop:
+    goto @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_70_12_76_6_if_end;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_70_12_76_6_if_end:
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_64_12_76_6_if_end:
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_58_12_76_6_if_end:
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_56_6_76_6_if_end:
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc" 82 6 ]
+    %tmp.87 = lgetv %rez.3;
+    ret %tmp.87;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_data_utils_mc_51_29_83_5_stop:
+}
+[ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\data_utils.mc"; @line = 1; ]
+<init> {
+}

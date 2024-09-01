@@ -1,0 +1,86 @@
+[ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2App.mc"; @line = 1; ]
+using Toybox.Application;
+[ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2App.mc"; @line = 2; ]
+using Toybox.WatchUi;
+[ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2App.mc"; @line = 3; ]
+using Toybox.System;
+[ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2App.mc"; @line = 5; ]
+class garmin_watchface_ia2App extends Application.AppBase{
+    [ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2App.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2App.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2App.mc"; @line = 7; @position = 5; ]
+    var myView;
+    [ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2App.mc"; @line = 8; @position = 8; ]
+    var myViewDelegate;
+    [ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2App.mc"; @line = 10; ]
+    function initialize() as Void {
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2App_mc_10_26_13_4_start:
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2App.mc" 11 8 ]
+        %tmp.2 = getv ? :AppBase;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2App_mc_10_26_13_4_stop:
+    }
+    [ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2App.mc"; @line = 16; ]
+    function onStart(state) {
+    }
+    [ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2App.mc"; @line = 20; ]
+    function onStop(state) {
+    }
+    [ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2App.mc"; @line = 24; ]
+    function getInitialView() {
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2App_mc_24_30_28_4_start:
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2App.mc" 25 5 ]
+        %tmp.4 = getv ? :garmin_watchface_ia2View;
+        %tmp.1 = newc %tmp.4 ();
+        putv self :myView %tmp.1;
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2App.mc" 26 8 ]
+        %tmp.8 = getv ? :garmin_watchface_ia2ViewDelegate;
+        %tmp.10 = getv ? :myView;
+        %tmp.5 = newc %tmp.8 (%tmp.10);
+        putv self :myViewDelegate %tmp.5;
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2App.mc" 27 8 ]
+        %tmp.11 = newa 2;
+        %tmp.13 = getv ? :myView;
+        %tmp.14 = dup %tmp.11;
+        %tmp.15 = aputv %tmp.14 0 %tmp.13;
+        %tmp.17 = getv ? :myViewDelegate;
+        %tmp.18 = dup %tmp.15;
+        %tmp.19 = aputv %tmp.18 1 %tmp.17;
+        ret %tmp.19;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2App_mc_24_30_28_4_stop:
+    }
+    [ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2App.mc"; @line = 31; ]
+    function onSettingsChanged() {
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2App_mc_31_33_36_4_start:
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2App.mc" 32 8 ]
+        %tmp.1 = getm $.Toybox.WatchUi;
+        %tmp.2 = getv function %tmp.1 :requestUpdate;
+        invoke %tmp.1 %tmp.2();
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2App.mc" 33 8 ]
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2App_mc_33_8_35_8_if_stmt:
+        %tmp.4 = getv ? :myView;
+        %tmp.5 = null;
+        %tmp.6 = ne %tmp.4 %tmp.5;
+        bf %tmp.6 @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2App_mc_33_8_35_8_if_end;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2App_mc_33_8_35_8_if_true:
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2App_mc_33_26_35_8_start:
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2App.mc" 34 9 ]
+        %tmp.8 = getv ? :myView;
+        %tmp.9 = as %tmp.8 { (!Null) };
+        %tmp.10 = getv function %tmp.9 :handleSettingsChanged;
+        invoke %tmp.9 %tmp.10();
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2App_mc_33_26_35_8_stop:
+        goto @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2App_mc_33_8_35_8_if_end;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2App_mc_33_8_35_8_if_end:
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2App_mc_31_33_36_4_stop:
+    }
+}
+[ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2App.mc"; @line = 1; ]
+<init> {
+}

@@ -1,9 +1,9 @@
 <properties>
 
-    <property id="BackgroundLeftColor" type="number">0xFFFFFF</property>
-    <property id="BackgroundRightColor" type="number">0x000000</property>
-    <property id="FontLeftColor" type="number">0xFF0000</property>
-    <property id="FontRightColor" type="number">0x00FF00</property>
-    <property id="FontSmallLeftColor" type="number">0x000000</property>
-    <property id="FontSmallRightColor" type="number">0xFFFFFF</property>
+    <property id="BackgroundLeftColor" type="string">0xFFFFFF</property>
+    <property id="BackgroundRightColor" type="string">0x000000</property>
+    <property id="FontLeftColor" type="string">0xFF0000</property>
+    <property id="FontRightColor" type="string">0x00FF00</property>
+    <property id="FontSmallLeftColor" type="string">0x000000</property>
+    <property id="FontSmallRightColor" type="string">0xFFFFFF</property>
 </properties>

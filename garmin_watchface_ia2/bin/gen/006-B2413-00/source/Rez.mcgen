@@ -1,0 +1,54 @@
+import Toybox.Lang;
+using Toybox.WatchUi;
+using Toybox.WatchUi as Ui;
+using Toybox.Graphics;
+using Toybox.Graphics as Gfx;
+
+module Rez {
+    module Drawables {
+        (:initialized) var bluetooth_on_icon as ResourceId;
+        (:initialized) var bluetooth_off_icon as ResourceId;
+        (:initialized) var alarm2_icon as ResourceId;
+        (:initialized) var LauncherIcon as ResourceId;
+    } // Drawables
+
+    module Fonts {
+        (:initialized) var bodoni_font as ResourceId;
+        (:initialized) var niagara_font as ResourceId;
+        (:initialized) var bodoni_180 as ResourceId;
+        (:initialized) var gloucester as ResourceId;
+    } // Fonts
+
+    module Layouts {
+        function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_custom_drawable_80950872139025963316 = new Background();
+
+            var rez_cmp_local_text_TimeLabel = new WatchUi.Text({:identifier=>"TimeLabel", :color=>Graphics.COLOR_BLUE, :locX=>(218 * 0.5), :locY=>((218 - dc.getFontHeight(Graphics.FONT_LARGE)) * 0.5), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_LARGE});
+
+            return [rez_cmp_local_custom_drawable_80950872139025963316, rez_cmp_local_text_TimeLabel] as Array<WatchUi.Drawable>;
+        }
+    } // Layouts
+
+    module Strings {
+        (:initialized) var FontRightColorTitle as ResourceId;
+        (:initialized) var ColorLightGray as ResourceId;
+        (:initialized) var ColorBlue as ResourceId;
+        (:initialized) var ColorDarkRed as ResourceId;
+        (:initialized) var FontSmallLeftColorTitle as ResourceId;
+        (:initialized) var ColorDarkGray as ResourceId;
+        (:initialized) var ColorDarkBlue as ResourceId;
+        (:initialized) var ColorBlack as ResourceId;
+        (:initialized) var FontLeftColorTitle as ResourceId;
+        (:initialized) var ColorOrange as ResourceId;
+        (:initialized) var ColorYellow as ResourceId;
+        (:initialized) var AppName as ResourceId;
+        (:initialized) var ColorDarkGreen as ResourceId;
+        (:initialized) var BackgroundRightColorTitle as ResourceId;
+        (:initialized) var ColorRed as ResourceId;
+        (:initialized) var BackgroundLeftColorTitle as ResourceId;
+        (:initialized) var ColorPink as ResourceId;
+        (:initialized) var ColorWhite as ResourceId;
+        (:initialized) var ColorGreen as ResourceId;
+        (:initialized) var FontSmallRightColorTitle as ResourceId;
+    } // Strings
+} // Rez
