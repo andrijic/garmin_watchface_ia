@@ -3,176 +3,182 @@
     <manifest filename="C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\manifest.xml"/>
     <pcToLineNum>
         <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="1" lineNum="28" parent="globals" pc="268435460" symbol="getDayOfWeekForFirstDayOfYear"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="1" lineNum="29" parent="globals" pc="268435471" symbol="getDayOfWeekForFirstDayOfYear"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="1" lineNum="30" parent="globals" pc="268435483" symbol="getDayOfWeekForFirstDayOfYear"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="1" lineNum="32" parent="globals" pc="268435501" symbol="getDayOfWeekForFirstDayOfYear"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="1" lineNum="39" parent="globals" pc="268435543" symbol="getDayOfWeekForFirstDayOfYear"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="1" lineNum="40" parent="globals" pc="268435559" symbol="getDayOfWeekForFirstDayOfYear"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="1" lineNum="42" parent="globals" pc="268435576" symbol="getDayOfWeekForFirstDayOfYear"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="1" lineNum="44" parent="globals" pc="268435587" symbol="getDayOfWeekForFirstDayOfYear"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="1" lineNum="45" parent="globals" pc="268435594" symbol="getDayOfWeekForFirstDayOfYear"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="1" lineNum="48" parent="globals" pc="268435601" symbol="getDayOfWeekForFirstDayOfYear"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2Background.mc" id="2" lineNum="7" parent="globals/Background" pc="268435604" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="3" lineNum="51" parent="globals" pc="268435616" symbol="getWeekOfYear"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="3" lineNum="52" parent="globals" pc="268435627" symbol="getWeekOfYear"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="3" lineNum="53" parent="globals" pc="268435635" symbol="getWeekOfYear"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="3" lineNum="54" parent="globals" pc="268435643" symbol="getWeekOfYear"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="3" lineNum="56" parent="globals" pc="268435646" symbol="getWeekOfYear"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="3" lineNum="57" parent="globals" pc="268435654" symbol="getWeekOfYear"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="3" lineNum="58" parent="globals" pc="268435684" symbol="getWeekOfYear"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="3" lineNum="59" parent="globals" pc="268435692" symbol="getWeekOfYear"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="3" lineNum="60" parent="globals" pc="268435700" symbol="getWeekOfYear"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="3" lineNum="62" parent="globals" pc="268435707" symbol="getWeekOfYear"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="3" lineNum="64" parent="globals" pc="268435735" symbol="getWeekOfYear"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="3" lineNum="65" parent="globals" pc="268435743" symbol="getWeekOfYear"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="3" lineNum="66" parent="globals" pc="268435751" symbol="getWeekOfYear"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="3" lineNum="68" parent="globals" pc="268435758" symbol="getWeekOfYear"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="3" lineNum="70" parent="globals" pc="268435786" symbol="getWeekOfYear"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="3" lineNum="71" parent="globals" pc="268435794" symbol="getWeekOfYear"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="3" lineNum="72" parent="globals" pc="268435802" symbol="getWeekOfYear"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="3" lineNum="74" parent="globals" pc="268435809" symbol="getWeekOfYear"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="3" lineNum="82" parent="globals" pc="268435837" symbol="getWeekOfYear"/>
-        <entry filename="c:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\bin\\gen\\006-B4375-00\\source\\Rez.mcgen" id="4" lineNum="7" parent="globals/Rez" pc="268435840" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2ViewDelegate.mc" id="5" lineNum="7" parent="globals/garmin_watchface_ia2ViewDelegate" pc="268435860" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="6" lineNum="8" parent="globals" pc="268435872" symbol="getDayOfYear"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="6" lineNum="9" parent="globals" pc="268435883" symbol="getDayOfYear"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="6" lineNum="10" parent="globals" pc="268435895" symbol="getDayOfYear"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="6" lineNum="12" parent="globals" pc="268435913" symbol="getDayOfYear"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="6" lineNum="19" parent="globals" pc="268435955" symbol="getDayOfYear"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="6" lineNum="21" parent="globals" pc="268435971" symbol="getDayOfYear"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="6" lineNum="23" parent="globals" pc="268435984" symbol="getDayOfYear"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="6" lineNum="25" parent="globals" pc="268436001" symbol="getDayOfYear"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="7" lineNum="8" parent="globals/garmin_watchface_ia2View" pc="268436004" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="8" lineNum="5" parent="globals/garmin_watchface_ia2App" pc="268436016" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2Background.mc" id="9" lineNum="9" parent="globals/Background" pc="268436028" symbol="initialize"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2Background.mc" id="9" lineNum="10" parent="globals/Background" pc="268436031" symbol="initialize"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2Background.mc" id="9" lineNum="14" parent="globals/Background" pc="268436049" symbol="initialize"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2Background.mc" id="10" lineNum="17" parent="globals/Background" pc="268436066" symbol="draw"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2Background.mc" id="10" lineNum="20" parent="globals/Background" pc="268436068" symbol="draw"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2ViewDelegate.mc" id="11" lineNum="16" parent="globals/garmin_watchface_ia2ViewDelegate" pc="268436077" symbol="onPress"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2ViewDelegate.mc" id="11" lineNum="17" parent="globals/garmin_watchface_ia2ViewDelegate" pc="268436080" symbol="onPress"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2ViewDelegate.mc" id="11" lineNum="18" parent="globals/garmin_watchface_ia2ViewDelegate" pc="268436098" symbol="onPress"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2ViewDelegate.mc" id="11" lineNum="20" parent="globals/garmin_watchface_ia2ViewDelegate" pc="268436107" symbol="onPress"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2ViewDelegate.mc" id="11" lineNum="22" parent="globals/garmin_watchface_ia2ViewDelegate" pc="268436130" symbol="onPress"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2ViewDelegate.mc" id="12" lineNum="11" parent="globals/garmin_watchface_ia2ViewDelegate" pc="268436132" symbol="initialize"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2ViewDelegate.mc" id="12" lineNum="12" parent="globals/garmin_watchface_ia2ViewDelegate" pc="268436134" symbol="initialize"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2ViewDelegate.mc" id="12" lineNum="13" parent="globals/garmin_watchface_ia2ViewDelegate" pc="268436146" symbol="initialize"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2ViewDelegate.mc" id="13" lineNum="25" parent="globals/garmin_watchface_ia2ViewDelegate" pc="268436156" symbol="onPowerBudgetExceeded"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2ViewDelegate.mc" id="13" lineNum="26" parent="globals/garmin_watchface_ia2ViewDelegate" pc="268436158" symbol="onPowerBudgetExceeded"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="17" lineNum="55" parent="globals/garmin_watchface_ia2View" pc="268436177" symbol="onLayout"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="17" lineNum="57" parent="globals/garmin_watchface_ia2View" pc="268436179" symbol="onLayout"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="17" lineNum="58" parent="globals/garmin_watchface_ia2View" pc="268436217" symbol="onLayout"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="17" lineNum="59" parent="globals/garmin_watchface_ia2View" pc="268436255" symbol="onLayout"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="17" lineNum="60" parent="globals/garmin_watchface_ia2View" pc="268436293" symbol="onLayout"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="17" lineNum="61" parent="globals/garmin_watchface_ia2View" pc="268436331" symbol="onLayout"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="18" lineNum="77" parent="globals/garmin_watchface_ia2View" pc="268436365" symbol="getValidProperty"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="18" lineNum="78" parent="globals/garmin_watchface_ia2View" pc="268436368" symbol="getValidProperty"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="18" lineNum="80" parent="globals/garmin_watchface_ia2View" pc="268436381" symbol="getValidProperty"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="18" lineNum="81" parent="globals/garmin_watchface_ia2View" pc="268436387" symbol="getValidProperty"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="18" lineNum="83" parent="globals/garmin_watchface_ia2View" pc="268436393" symbol="getValidProperty"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="19" lineNum="33" parent="globals/garmin_watchface_ia2View" pc="268436397" symbol="loadComplications"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="19" lineNum="34" parent="globals/garmin_watchface_ia2View" pc="268436400" symbol="loadComplications"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="19" lineNum="36" parent="globals/garmin_watchface_ia2View" pc="268436419" symbol="loadComplications"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="19" lineNum="37" parent="globals/garmin_watchface_ia2View" pc="268436427" symbol="loadComplications"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="19" lineNum="39" parent="globals/garmin_watchface_ia2View" pc="268436458" symbol="loadComplications"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="19" lineNum="40" parent="globals/garmin_watchface_ia2View" pc="268436467" symbol="loadComplications"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="19" lineNum="41" parent="globals/garmin_watchface_ia2View" pc="268436486" symbol="loadComplications"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="19" lineNum="42" parent="globals/garmin_watchface_ia2View" pc="268436512" symbol="loadComplications"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="20" lineNum="252" parent="globals/garmin_watchface_ia2View" pc="268436537" symbol="onPartialUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="20" lineNum="253" parent="globals/garmin_watchface_ia2View" pc="268436539" symbol="onPartialUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="22" lineNum="47" parent="globals/garmin_watchface_ia2View" pc="268436559" symbol="onComplicationChanged"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="22" lineNum="48" parent="globals/garmin_watchface_ia2View" pc="268436561" symbol="onComplicationChanged"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="22" lineNum="49" parent="globals/garmin_watchface_ia2View" pc="268436578" symbol="onComplicationChanged"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="23" lineNum="87" parent="globals/garmin_watchface_ia2View" pc="268436608" symbol="handleSettingsChanged"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="23" lineNum="88" parent="globals/garmin_watchface_ia2View" pc="268436611" symbol="handleSettingsChanged"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="23" lineNum="89" parent="globals/garmin_watchface_ia2View" pc="268436652" symbol="handleSettingsChanged"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="23" lineNum="90" parent="globals/garmin_watchface_ia2View" pc="268436693" symbol="handleSettingsChanged"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="23" lineNum="91" parent="globals/garmin_watchface_ia2View" pc="268436734" symbol="handleSettingsChanged"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="23" lineNum="92" parent="globals/garmin_watchface_ia2View" pc="268436775" symbol="handleSettingsChanged"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="23" lineNum="93" parent="globals/garmin_watchface_ia2View" pc="268436816" symbol="handleSettingsChanged"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="23" lineNum="96" parent="globals/garmin_watchface_ia2View" pc="268436857" symbol="handleSettingsChanged"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="23" lineNum="98" parent="globals/garmin_watchface_ia2View" pc="268436870" symbol="handleSettingsChanged"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="23" lineNum="99" parent="globals/garmin_watchface_ia2View" pc="268436903" symbol="handleSettingsChanged"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="23" lineNum="100" parent="globals/garmin_watchface_ia2View" pc="268436936" symbol="handleSettingsChanged"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="23" lineNum="101" parent="globals/garmin_watchface_ia2View" pc="268436969" symbol="handleSettingsChanged"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="23" lineNum="102" parent="globals/garmin_watchface_ia2View" pc="268437002" symbol="handleSettingsChanged"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="23" lineNum="103" parent="globals/garmin_watchface_ia2View" pc="268437035" symbol="handleSettingsChanged"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="23" lineNum="105" parent="globals/garmin_watchface_ia2View" pc="268437068" symbol="handleSettingsChanged"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="24" lineNum="27" parent="globals/garmin_watchface_ia2View" pc="268437077" symbol="initialize"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="24" lineNum="28" parent="globals/garmin_watchface_ia2View" pc="268437079" symbol="initialize"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="24" lineNum="29" parent="globals/garmin_watchface_ia2View" pc="268437091" symbol="initialize"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="24" lineNum="30" parent="globals/garmin_watchface_ia2View" pc="268437098" symbol="initialize"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="25" lineNum="65" parent="globals/garmin_watchface_ia2View" pc="268437106" symbol="restorePersistedSettings"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="25" lineNum="67" parent="globals/garmin_watchface_ia2View" pc="268437109" symbol="restorePersistedSettings"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="25" lineNum="69" parent="globals/garmin_watchface_ia2View" pc="268437122" symbol="restorePersistedSettings"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="25" lineNum="70" parent="globals/garmin_watchface_ia2View" pc="268437159" symbol="restorePersistedSettings"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="25" lineNum="71" parent="globals/garmin_watchface_ia2View" pc="268437196" symbol="restorePersistedSettings"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="25" lineNum="72" parent="globals/garmin_watchface_ia2View" pc="268437233" symbol="restorePersistedSettings"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="25" lineNum="73" parent="globals/garmin_watchface_ia2View" pc="268437270" symbol="restorePersistedSettings"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="25" lineNum="74" parent="globals/garmin_watchface_ia2View" pc="268437307" symbol="restorePersistedSettings"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="116" parent="globals/garmin_watchface_ia2View" pc="268437345" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="117" parent="globals/garmin_watchface_ia2View" pc="268437348" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="118" parent="globals/garmin_watchface_ia2View" pc="268437364" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="119" parent="globals/garmin_watchface_ia2View" pc="268437384" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="120" parent="globals/garmin_watchface_ia2View" pc="268437392" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="121" parent="globals/garmin_watchface_ia2View" pc="268437404" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="122" parent="globals/garmin_watchface_ia2View" pc="268437412" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="133" parent="globals/garmin_watchface_ia2View" pc="268437420" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="134" parent="globals/garmin_watchface_ia2View" pc="268437438" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="136" parent="globals/garmin_watchface_ia2View" pc="268437445" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="137" parent="globals/garmin_watchface_ia2View" pc="268437463" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="141" parent="globals/garmin_watchface_ia2View" pc="268437470" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="142" parent="globals/garmin_watchface_ia2View" pc="268437490" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="147" parent="globals/garmin_watchface_ia2View" pc="268437522" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="148" parent="globals/garmin_watchface_ia2View" pc="268437539" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="149" parent="globals/garmin_watchface_ia2View" pc="268437555" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="151" parent="globals/garmin_watchface_ia2View" pc="268437599" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="152" parent="globals/garmin_watchface_ia2View" pc="268437616" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="153" parent="globals/garmin_watchface_ia2View" pc="268437632" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="155" parent="globals/garmin_watchface_ia2View" pc="268437677" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="156" parent="globals/garmin_watchface_ia2View" pc="268437695" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="157" parent="globals/garmin_watchface_ia2View" pc="268437701" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="161" parent="globals/garmin_watchface_ia2View" pc="268437708" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="162" parent="globals/garmin_watchface_ia2View" pc="268437720" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="172" parent="globals/garmin_watchface_ia2View" pc="268437738" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="173" parent="globals/garmin_watchface_ia2View" pc="268437756" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="174" parent="globals/garmin_watchface_ia2View" pc="268437775" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="177" parent="globals/garmin_watchface_ia2View" pc="268437783" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="185" parent="globals/garmin_watchface_ia2View" pc="268437821" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="186" parent="globals/garmin_watchface_ia2View" pc="268437838" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="189" parent="globals/garmin_watchface_ia2View" pc="268437882" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="190" parent="globals/garmin_watchface_ia2View" pc="268437899" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="193" parent="globals/garmin_watchface_ia2View" pc="268437947" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="194" parent="globals/garmin_watchface_ia2View" pc="268437967" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="203" parent="globals/garmin_watchface_ia2View" pc="268438063" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="204" parent="globals/garmin_watchface_ia2View" pc="268438081" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="209" parent="globals/garmin_watchface_ia2View" pc="268438174" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="217" parent="globals/garmin_watchface_ia2View" pc="268438264" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="219" parent="globals/garmin_watchface_ia2View" pc="268438282" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="220" parent="globals/garmin_watchface_ia2View" pc="268438299" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="223" parent="globals/garmin_watchface_ia2View" pc="268438365" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="224" parent="globals/garmin_watchface_ia2View" pc="268438385" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="225" parent="globals/garmin_watchface_ia2View" pc="268438402" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="229" parent="globals/garmin_watchface_ia2View" pc="268438479" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="231" parent="globals/garmin_watchface_ia2View" pc="268438522" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="232" parent="globals/garmin_watchface_ia2View" pc="268438535" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="233" parent="globals/garmin_watchface_ia2View" pc="268438552" symbol="onUpdate"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="27" lineNum="16" parent="globals/garmin_watchface_ia2App" pc="268438620" symbol="onStart"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="28" lineNum="31" parent="globals/garmin_watchface_ia2App" pc="268438623" symbol="onSettingsChanged"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="28" lineNum="32" parent="globals/garmin_watchface_ia2App" pc="268438625" symbol="onSettingsChanged"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="28" lineNum="33" parent="globals/garmin_watchface_ia2App" pc="268438636" symbol="onSettingsChanged"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="28" lineNum="34" parent="globals/garmin_watchface_ia2App" pc="268438645" symbol="onSettingsChanged"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="29" lineNum="24" parent="globals/garmin_watchface_ia2App" pc="268438661" symbol="getInitialView"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="29" lineNum="25" parent="globals/garmin_watchface_ia2App" pc="268438663" symbol="getInitialView"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="29" lineNum="26" parent="globals/garmin_watchface_ia2App" pc="268438692" symbol="getInitialView"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="29" lineNum="27" parent="globals/garmin_watchface_ia2App" pc="268438726" symbol="getInitialView"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="30" lineNum="10" parent="globals/garmin_watchface_ia2App" pc="268438747" symbol="initialize"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="30" lineNum="11" parent="globals/garmin_watchface_ia2App" pc="268438749" symbol="initialize"/>
-        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="31" lineNum="20" parent="globals/garmin_watchface_ia2App" pc="268438762" symbol="onStop"/>
-        <entry filename="c:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\bin\\gen\\006-B4375-00\\source\\Rez.mcgen" id="32" lineNum="23" parent="globals/Rez/Layouts" pc="268438765" symbol="WatchFace"/>
-        <entry filename="c:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\bin\\gen\\006-B4375-00\\source\\Rez.mcgen" id="32" lineNum="24" parent="globals/Rez/Layouts" pc="268438776" symbol="WatchFace"/>
-        <entry filename="c:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\bin\\gen\\006-B4375-00\\source\\Rez.mcgen" id="32" lineNum="26" parent="globals/Rez/Layouts" pc="268438800" symbol="WatchFace"/>
-        <entry filename="c:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\bin\\gen\\006-B4375-00\\source\\Rez.mcgen" id="32" lineNum="28" parent="globals/Rez/Layouts" pc="268438904" symbol="WatchFace"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="1" lineNum="29" parent="globals" pc="268435472" symbol="getDayOfWeekForFirstDayOfYear"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="1" lineNum="30" parent="globals" pc="268435489" symbol="getDayOfWeekForFirstDayOfYear"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="1" lineNum="32" parent="globals" pc="268435513" symbol="getDayOfWeekForFirstDayOfYear"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="1" lineNum="39" parent="globals" pc="268435576" symbol="getDayOfWeekForFirstDayOfYear"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="1" lineNum="40" parent="globals" pc="268435595" symbol="getDayOfWeekForFirstDayOfYear"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="1" lineNum="42" parent="globals" pc="268435619" symbol="getDayOfWeekForFirstDayOfYear"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="1" lineNum="44" parent="globals" pc="268435635" symbol="getDayOfWeekForFirstDayOfYear"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="1" lineNum="45" parent="globals" pc="268435646" symbol="getDayOfWeekForFirstDayOfYear"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="1" lineNum="48" parent="globals" pc="268435656" symbol="getDayOfWeekForFirstDayOfYear"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2Background.mc" id="2" lineNum="7" parent="globals/Background" pc="268435659" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="3" lineNum="51" parent="globals" pc="268435678" symbol="getWeekOfYear"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="3" lineNum="52" parent="globals" pc="268435690" symbol="getWeekOfYear"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="3" lineNum="53" parent="globals" pc="268435703" symbol="getWeekOfYear"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="3" lineNum="54" parent="globals" pc="268435716" symbol="getWeekOfYear"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="3" lineNum="56" parent="globals" pc="268435723" symbol="getWeekOfYear"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="3" lineNum="57" parent="globals" pc="268435734" symbol="getWeekOfYear"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="3" lineNum="58" parent="globals" pc="268435776" symbol="getWeekOfYear"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="3" lineNum="59" parent="globals" pc="268435787" symbol="getWeekOfYear"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="3" lineNum="60" parent="globals" pc="268435798" symbol="getWeekOfYear"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="3" lineNum="62" parent="globals" pc="268435808" symbol="getWeekOfYear"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="3" lineNum="64" parent="globals" pc="268435848" symbol="getWeekOfYear"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="3" lineNum="65" parent="globals" pc="268435859" symbol="getWeekOfYear"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="3" lineNum="66" parent="globals" pc="268435870" symbol="getWeekOfYear"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="3" lineNum="68" parent="globals" pc="268435880" symbol="getWeekOfYear"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="3" lineNum="70" parent="globals" pc="268435920" symbol="getWeekOfYear"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="3" lineNum="71" parent="globals" pc="268435931" symbol="getWeekOfYear"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="3" lineNum="72" parent="globals" pc="268435942" symbol="getWeekOfYear"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="3" lineNum="74" parent="globals" pc="268435952" symbol="getWeekOfYear"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="3" lineNum="82" parent="globals" pc="268435992" symbol="getWeekOfYear"/>
+        <entry filename="c:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\bin\\gen\\006-B2900-00\\source\\Rez.mcgen" id="4" lineNum="7" parent="globals/Rez" pc="268435995" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2ViewDelegate.mc" id="5" lineNum="7" parent="globals/garmin_watchface_ia2ViewDelegate" pc="268436019" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="6" lineNum="8" parent="globals" pc="268436038" symbol="getDayOfYear"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="6" lineNum="9" parent="globals" pc="268436050" symbol="getDayOfYear"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="6" lineNum="10" parent="globals" pc="268436067" symbol="getDayOfYear"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="6" lineNum="12" parent="globals" pc="268436091" symbol="getDayOfYear"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="6" lineNum="19" parent="globals" pc="268436154" symbol="getDayOfYear"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="6" lineNum="21" parent="globals" pc="268436173" symbol="getDayOfYear"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="6" lineNum="23" parent="globals" pc="268436188" symbol="getDayOfYear"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\data_utils.mc" id="6" lineNum="25" parent="globals" pc="268436213" symbol="getDayOfYear"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="7" lineNum="8" parent="globals/garmin_watchface_ia2View" pc="268436216" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="8" lineNum="5" parent="globals/garmin_watchface_ia2App" pc="268436235" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2Background.mc" id="9" lineNum="9" parent="globals/Background" pc="268436254" symbol="initialize"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2Background.mc" id="9" lineNum="10" parent="globals/Background" pc="268436258" symbol="initialize"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2Background.mc" id="9" lineNum="14" parent="globals/Background" pc="268436279" symbol="initialize"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2Background.mc" id="10" lineNum="17" parent="globals/Background" pc="268436300" symbol="draw"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2Background.mc" id="10" lineNum="20" parent="globals/Background" pc="268436302" symbol="draw"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2ViewDelegate.mc" id="11" lineNum="16" parent="globals/garmin_watchface_ia2ViewDelegate" pc="268436315" symbol="onPress"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2ViewDelegate.mc" id="11" lineNum="17" parent="globals/garmin_watchface_ia2ViewDelegate" pc="268436319" symbol="onPress"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2ViewDelegate.mc" id="11" lineNum="18" parent="globals/garmin_watchface_ia2ViewDelegate" pc="268436340" symbol="onPress"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2ViewDelegate.mc" id="11" lineNum="20" parent="globals/garmin_watchface_ia2ViewDelegate" pc="268436353" symbol="onPress"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2ViewDelegate.mc" id="11" lineNum="22" parent="globals/garmin_watchface_ia2ViewDelegate" pc="268436383" symbol="onPress"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2ViewDelegate.mc" id="12" lineNum="11" parent="globals/garmin_watchface_ia2ViewDelegate" pc="268436386" symbol="initialize"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2ViewDelegate.mc" id="12" lineNum="12" parent="globals/garmin_watchface_ia2ViewDelegate" pc="268436388" symbol="initialize"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2ViewDelegate.mc" id="12" lineNum="13" parent="globals/garmin_watchface_ia2ViewDelegate" pc="268436406" symbol="initialize"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2ViewDelegate.mc" id="13" lineNum="25" parent="globals/garmin_watchface_ia2ViewDelegate" pc="268436417" symbol="onPowerBudgetExceeded"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2ViewDelegate.mc" id="13" lineNum="26" parent="globals/garmin_watchface_ia2ViewDelegate" pc="268436419" symbol="onPowerBudgetExceeded"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="17" lineNum="55" parent="globals/garmin_watchface_ia2View" pc="268436441" symbol="onLayout"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="17" lineNum="57" parent="globals/garmin_watchface_ia2View" pc="268436443" symbol="onLayout"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="17" lineNum="58" parent="globals/garmin_watchface_ia2View" pc="268436490" symbol="onLayout"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="17" lineNum="59" parent="globals/garmin_watchface_ia2View" pc="268436537" symbol="onLayout"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="17" lineNum="60" parent="globals/garmin_watchface_ia2View" pc="268436584" symbol="onLayout"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="17" lineNum="61" parent="globals/garmin_watchface_ia2View" pc="268436631" symbol="onLayout"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="18" lineNum="77" parent="globals/garmin_watchface_ia2View" pc="268436673" symbol="getValidProperty"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="18" lineNum="78" parent="globals/garmin_watchface_ia2View" pc="268436677" symbol="getValidProperty"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="18" lineNum="80" parent="globals/garmin_watchface_ia2View" pc="268436692" symbol="getValidProperty"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="18" lineNum="81" parent="globals/garmin_watchface_ia2View" pc="268436698" symbol="getValidProperty"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="18" lineNum="83" parent="globals/garmin_watchface_ia2View" pc="268436704" symbol="getValidProperty"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="19" lineNum="33" parent="globals/garmin_watchface_ia2View" pc="268436708" symbol="loadComplications"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="19" lineNum="34" parent="globals/garmin_watchface_ia2View" pc="268436712" symbol="loadComplications"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="19" lineNum="36" parent="globals/garmin_watchface_ia2View" pc="268436722" symbol="loadComplications"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="19" lineNum="37" parent="globals/garmin_watchface_ia2View" pc="268436733" symbol="loadComplications"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="19" lineNum="39" parent="globals/garmin_watchface_ia2View" pc="268436772" symbol="loadComplications"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="19" lineNum="40" parent="globals/garmin_watchface_ia2View" pc="268436785" symbol="loadComplications"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="19" lineNum="41" parent="globals/garmin_watchface_ia2View" pc="268436810" symbol="loadComplications"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="19" lineNum="42" parent="globals/garmin_watchface_ia2View" pc="268436842" symbol="loadComplications"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="20" lineNum="272" parent="globals/garmin_watchface_ia2View" pc="268436873" symbol="onPartialUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="20" lineNum="273" parent="globals/garmin_watchface_ia2View" pc="268436875" symbol="onPartialUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="22" lineNum="47" parent="globals/garmin_watchface_ia2View" pc="268436899" symbol="onComplicationChanged"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="22" lineNum="48" parent="globals/garmin_watchface_ia2View" pc="268436901" symbol="onComplicationChanged"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="22" lineNum="49" parent="globals/garmin_watchface_ia2View" pc="268436923" symbol="onComplicationChanged"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="23" lineNum="87" parent="globals/garmin_watchface_ia2View" pc="268436958" symbol="handleSettingsChanged"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="23" lineNum="88" parent="globals/garmin_watchface_ia2View" pc="268436962" symbol="handleSettingsChanged"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="23" lineNum="89" parent="globals/garmin_watchface_ia2View" pc="268437015" symbol="handleSettingsChanged"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="23" lineNum="90" parent="globals/garmin_watchface_ia2View" pc="268437068" symbol="handleSettingsChanged"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="23" lineNum="91" parent="globals/garmin_watchface_ia2View" pc="268437121" symbol="handleSettingsChanged"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="23" lineNum="92" parent="globals/garmin_watchface_ia2View" pc="268437174" symbol="handleSettingsChanged"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="23" lineNum="93" parent="globals/garmin_watchface_ia2View" pc="268437227" symbol="handleSettingsChanged"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="23" lineNum="96" parent="globals/garmin_watchface_ia2View" pc="268437280" symbol="handleSettingsChanged"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="23" lineNum="98" parent="globals/garmin_watchface_ia2View" pc="268437299" symbol="handleSettingsChanged"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="23" lineNum="99" parent="globals/garmin_watchface_ia2View" pc="268437338" symbol="handleSettingsChanged"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="23" lineNum="100" parent="globals/garmin_watchface_ia2View" pc="268437377" symbol="handleSettingsChanged"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="23" lineNum="101" parent="globals/garmin_watchface_ia2View" pc="268437416" symbol="handleSettingsChanged"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="23" lineNum="102" parent="globals/garmin_watchface_ia2View" pc="268437455" symbol="handleSettingsChanged"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="23" lineNum="103" parent="globals/garmin_watchface_ia2View" pc="268437494" symbol="handleSettingsChanged"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="23" lineNum="105" parent="globals/garmin_watchface_ia2View" pc="268437533" symbol="handleSettingsChanged"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="24" lineNum="27" parent="globals/garmin_watchface_ia2View" pc="268437546" symbol="initialize"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="24" lineNum="28" parent="globals/garmin_watchface_ia2View" pc="268437548" symbol="initialize"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="24" lineNum="29" parent="globals/garmin_watchface_ia2View" pc="268437566" symbol="initialize"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="24" lineNum="30" parent="globals/garmin_watchface_ia2View" pc="268437578" symbol="initialize"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="25" lineNum="65" parent="globals/garmin_watchface_ia2View" pc="268437591" symbol="restorePersistedSettings"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="25" lineNum="67" parent="globals/garmin_watchface_ia2View" pc="268437595" symbol="restorePersistedSettings"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="25" lineNum="69" parent="globals/garmin_watchface_ia2View" pc="268437614" symbol="restorePersistedSettings"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="25" lineNum="70" parent="globals/garmin_watchface_ia2View" pc="268437659" symbol="restorePersistedSettings"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="25" lineNum="71" parent="globals/garmin_watchface_ia2View" pc="268437704" symbol="restorePersistedSettings"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="25" lineNum="72" parent="globals/garmin_watchface_ia2View" pc="268437749" symbol="restorePersistedSettings"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="25" lineNum="73" parent="globals/garmin_watchface_ia2View" pc="268437794" symbol="restorePersistedSettings"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="25" lineNum="74" parent="globals/garmin_watchface_ia2View" pc="268437839" symbol="restorePersistedSettings"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="116" parent="globals/garmin_watchface_ia2View" pc="268437885" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="117" parent="globals/garmin_watchface_ia2View" pc="268437889" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="118" parent="globals/garmin_watchface_ia2View" pc="268437909" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="119" parent="globals/garmin_watchface_ia2View" pc="268437937" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="120" parent="globals/garmin_watchface_ia2View" pc="268437949" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="121" parent="globals/garmin_watchface_ia2View" pc="268437966" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="122" parent="globals/garmin_watchface_ia2View" pc="268437976" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="133" parent="globals/garmin_watchface_ia2View" pc="268437986" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="134" parent="globals/garmin_watchface_ia2View" pc="268438009" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="136" parent="globals/garmin_watchface_ia2View" pc="268438019" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="137" parent="globals/garmin_watchface_ia2View" pc="268438042" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="141" parent="globals/garmin_watchface_ia2View" pc="268438052" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="142" parent="globals/garmin_watchface_ia2View" pc="268438080" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="147" parent="globals/garmin_watchface_ia2View" pc="268438136" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="148" parent="globals/garmin_watchface_ia2View" pc="268438161" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="149" parent="globals/garmin_watchface_ia2View" pc="268438179" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="151" parent="globals/garmin_watchface_ia2View" pc="268438252" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="152" parent="globals/garmin_watchface_ia2View" pc="268438277" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="153" parent="globals/garmin_watchface_ia2View" pc="268438295" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="155" parent="globals/garmin_watchface_ia2View" pc="268438368" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="156" parent="globals/garmin_watchface_ia2View" pc="268438391" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="157" parent="globals/garmin_watchface_ia2View" pc="268438401" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="161" parent="globals/garmin_watchface_ia2View" pc="268438411" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="162" parent="globals/garmin_watchface_ia2View" pc="268438428" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="172" parent="globals/garmin_watchface_ia2View" pc="268438452" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="173" parent="globals/garmin_watchface_ia2View" pc="268438476" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="174" parent="globals/garmin_watchface_ia2View" pc="268438505" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="177" parent="globals/garmin_watchface_ia2View" pc="268438518" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="185" parent="globals/garmin_watchface_ia2View" pc="268438574" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="186" parent="globals/garmin_watchface_ia2View" pc="268438599" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="189" parent="globals/garmin_watchface_ia2View" pc="268438672" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="190" parent="globals/garmin_watchface_ia2View" pc="268438697" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="193" parent="globals/garmin_watchface_ia2View" pc="268438770" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="194" parent="globals/garmin_watchface_ia2View" pc="268438800" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="195" parent="globals/garmin_watchface_ia2View" pc="268438805" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="200" parent="globals/garmin_watchface_ia2View" pc="268438947" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="209" parent="globals/garmin_watchface_ia2View" pc="268439067" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="211" parent="globals/garmin_watchface_ia2View" pc="268439091" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="212" parent="globals/garmin_watchface_ia2View" pc="268439096" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="217" parent="globals/garmin_watchface_ia2View" pc="268439235" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="223" parent="globals/garmin_watchface_ia2View" pc="268439352" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="224" parent="globals/garmin_watchface_ia2View" pc="268439357" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="229" parent="globals/garmin_watchface_ia2View" pc="268439496" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="237" parent="globals/garmin_watchface_ia2View" pc="268439610" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="239" parent="globals/garmin_watchface_ia2View" pc="268439635" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="240" parent="globals/garmin_watchface_ia2View" pc="268439660" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="243" parent="globals/garmin_watchface_ia2View" pc="268439753" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="244" parent="globals/garmin_watchface_ia2View" pc="268439783" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="245" parent="globals/garmin_watchface_ia2View" pc="268439808" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="249" parent="globals/garmin_watchface_ia2View" pc="268439917" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="251" parent="globals/garmin_watchface_ia2View" pc="268439977" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="252" parent="globals/garmin_watchface_ia2View" pc="268439995" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2View.mc" id="26" lineNum="253" parent="globals/garmin_watchface_ia2View" pc="268440020" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="27" lineNum="16" parent="globals/garmin_watchface_ia2App" pc="268440114" symbol="onStart"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="28" lineNum="31" parent="globals/garmin_watchface_ia2App" pc="268440117" symbol="onSettingsChanged"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="28" lineNum="32" parent="globals/garmin_watchface_ia2App" pc="268440119" symbol="onSettingsChanged"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="28" lineNum="33" parent="globals/garmin_watchface_ia2App" pc="268440135" symbol="onSettingsChanged"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="28" lineNum="34" parent="globals/garmin_watchface_ia2App" pc="268440148" symbol="onSettingsChanged"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="29" lineNum="24" parent="globals/garmin_watchface_ia2App" pc="268440170" symbol="getInitialView"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="29" lineNum="25" parent="globals/garmin_watchface_ia2App" pc="268440172" symbol="getInitialView"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="29" lineNum="26" parent="globals/garmin_watchface_ia2App" pc="268440206" symbol="getInitialView"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="29" lineNum="27" parent="globals/garmin_watchface_ia2App" pc="268440248" symbol="getInitialView"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="30" lineNum="10" parent="globals/garmin_watchface_ia2App" pc="268440287" symbol="initialize"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="30" lineNum="11" parent="globals/garmin_watchface_ia2App" pc="268440289" symbol="initialize"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\source\\garmin_watchface_ia2App.mc" id="31" lineNum="20" parent="globals/garmin_watchface_ia2App" pc="268440308" symbol="onStop"/>
+        <entry filename="c:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\bin\\gen\\006-B2900-00\\source\\Rez.mcgen" id="32" lineNum="23" parent="globals/Rez/Layouts" pc="268440311" symbol="WatchFace"/>
+        <entry filename="c:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\bin\\gen\\006-B2900-00\\source\\Rez.mcgen" id="32" lineNum="24" parent="globals/Rez/Layouts" pc="268440323" symbol="WatchFace"/>
+        <entry filename="c:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\bin\\gen\\006-B2900-00\\source\\Rez.mcgen" id="32" lineNum="26" parent="globals/Rez/Layouts" pc="268440351" symbol="WatchFace"/>
+        <entry filename="c:\\DEV\\GarminDev\\garmin_watchface_ia\\garmin_watchface_ia2\\bin\\gen\\006-B2900-00\\source\\Rez.mcgen" id="32" lineNum="28" parent="globals/Rez/Layouts" pc="268440486" symbol="WatchFace"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -282,60 +288,60 @@
         <entry field="true" id="36" symbol="bluetooth_off_icon"/>
     </symbolTable>
     <localVars>
-        <entry endPc="268435603" name="date" stackId="1" startPc="268435471"/>
-        <entry endPc="268435603" name="info" stackId="2" startPc="268435471"/>
-        <entry endPc="268435603" name="options" stackId="3" startPc="268435471"/>
-        <entry endPc="268435603" name="start_of_year" stackId="4" startPc="268435471"/>
-        <entry endPc="268435603" name="rez" stackId="5" startPc="268435471"/>
-        <entry endPc="268435603" name="new_rez" stackId="6" startPc="268435471"/>
-        <entry endPc="268435839" name="dy" stackId="1" startPc="268435627"/>
-        <entry endPc="268435839" name="dw" stackId="2" startPc="268435627"/>
-        <entry endPc="268435839" name="rez" stackId="3" startPc="268435627"/>
-        <entry endPc="268436003" name="date" stackId="1" startPc="268435883"/>
-        <entry endPc="268436003" name="info" stackId="2" startPc="268435883"/>
-        <entry endPc="268436003" name="options" stackId="3" startPc="268435883"/>
-        <entry endPc="268436003" name="start_of_year" stackId="4" startPc="268435883"/>
-        <entry endPc="268436003" name="day_of_year" stackId="5" startPc="268435883"/>
-        <entry endPc="268436064" name="dictionary" stackId="1" startPc="268436031"/>
-        <entry arg="true" endPc="268436076" name="dc" stackId="1" startPc="268436066"/>
-        <entry arg="true" endPc="268436131" name="evt" stackId="1" startPc="268436077"/>
-        <entry endPc="268436131" name="c" stackId="2" startPc="268436080"/>
-        <entry arg="true" endPc="268436155" name="v" stackId="1" startPc="268436132"/>
-        <entry arg="true" endPc="268436176" name="powerInfo" stackId="1" startPc="268436156"/>
-        <entry arg="true" endPc="268436364" name="dc" stackId="1" startPc="268436177"/>
-        <entry arg="true" endPc="268436396" name="app" stackId="1" startPc="268436365"/>
-        <entry arg="true" endPc="268436396" name="param_name" stackId="2" startPc="268436365"/>
-        <entry arg="true" endPc="268436396" name="default_value" stackId="3" startPc="268436365"/>
-        <entry endPc="268436395" name="input_value" stackId="4" startPc="268436368"/>
-        <entry endPc="268436529" name="hr_comp" stackId="1" startPc="268436467"/>
-        <entry arg="true" endPc="268436558" name="dc" stackId="1" startPc="268436537"/>
-        <entry arg="true" endPc="268436607" name="id" stackId="1" startPc="268436559"/>
-        <entry endPc="268437075" name="app" stackId="1" startPc="268436611"/>
-        <entry endPc="268437343" name="app" stackId="1" startPc="268437109"/>
-        <entry arg="true" endPc="268438619" name="dc" stackId="1" startPc="268437345"/>
-        <entry endPc="268438618" name="clockTime" stackId="2" startPc="268437348"/>
-        <entry endPc="268438618" name="hour" stackId="3" startPc="268437348"/>
-        <entry endPc="268438618" name="minutes" stackId="4" startPc="268437348"/>
-        <entry endPc="268438618" name="hourText" stackId="5" startPc="268437348"/>
-        <entry endPc="268438618" name="minutesText" stackId="6" startPc="268437348"/>
-        <entry endPc="268438618" name="minutesWidth" stackId="7" startPc="268437348"/>
-        <entry endPc="268438618" name="minutesHeight" stackId="8" startPc="268437348"/>
-        <entry endPc="268438618" name="tinyTextHeight" stackId="9" startPc="268437348"/>
-        <entry endPc="268438618" name="mediumTextHeight" stackId="10" startPc="268437348"/>
-        <entry endPc="268438618" name="dimensions" stackId="11" startPc="268437348"/>
-        <entry endPc="268438618" name="date" stackId="12" startPc="268437348"/>
-        <entry endPc="268438618" name="info" stackId="13" startPc="268437348"/>
-        <entry endPc="268438618" name="info2" stackId="14" startPc="268437348"/>
-        <entry endPc="268438618" name="dayOfWeekText" stackId="15" startPc="268437348"/>
-        <entry endPc="268438618" name="weekOfYear" stackId="16" startPc="268437348"/>
-        <entry endPc="268438618" name="clockString1" stackId="17" startPc="268437348"/>
-        <entry endPc="268438618" name="batteryStat" stackId="18" startPc="268437348"/>
-        <entry endPc="268438618" name="heartRate" stackId="19" startPc="268437348"/>
-        <entry arg="true" endPc="268438918" name="dc" stackId="1" startPc="268438765"/>
-        <entry endPc="268438918" name="rez_cmp_local_custom_drawable_63458994576485057168" stackId="2" startPc="268438776"/>
-        <entry endPc="268438918" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268438776"/>
+        <entry endPc="268435658" name="date" stackId="1" startPc="268435472"/>
+        <entry endPc="268435658" name="info" stackId="2" startPc="268435472"/>
+        <entry endPc="268435658" name="options" stackId="3" startPc="268435472"/>
+        <entry endPc="268435658" name="start_of_year" stackId="4" startPc="268435472"/>
+        <entry endPc="268435658" name="rez" stackId="5" startPc="268435472"/>
+        <entry endPc="268435658" name="new_rez" stackId="6" startPc="268435472"/>
+        <entry endPc="268435994" name="dy" stackId="1" startPc="268435690"/>
+        <entry endPc="268435994" name="dw" stackId="2" startPc="268435690"/>
+        <entry endPc="268435994" name="rez" stackId="3" startPc="268435690"/>
+        <entry endPc="268436215" name="date" stackId="1" startPc="268436050"/>
+        <entry endPc="268436215" name="info" stackId="2" startPc="268436050"/>
+        <entry endPc="268436215" name="options" stackId="3" startPc="268436050"/>
+        <entry endPc="268436215" name="start_of_year" stackId="4" startPc="268436050"/>
+        <entry endPc="268436215" name="day_of_year" stackId="5" startPc="268436050"/>
+        <entry endPc="268436298" name="dictionary" stackId="1" startPc="268436258"/>
+        <entry arg="true" endPc="268436314" name="dc" stackId="1" startPc="268436300"/>
+        <entry arg="true" endPc="268436385" name="evt" stackId="1" startPc="268436315"/>
+        <entry endPc="268436385" name="c" stackId="2" startPc="268436319"/>
+        <entry arg="true" endPc="268436416" name="v" stackId="1" startPc="268436386"/>
+        <entry arg="true" endPc="268436440" name="powerInfo" stackId="1" startPc="268436417"/>
+        <entry arg="true" endPc="268436672" name="dc" stackId="1" startPc="268436441"/>
+        <entry arg="true" endPc="268436707" name="app" stackId="1" startPc="268436673"/>
+        <entry arg="true" endPc="268436707" name="param_name" stackId="2" startPc="268436673"/>
+        <entry arg="true" endPc="268436707" name="default_value" stackId="3" startPc="268436673"/>
+        <entry endPc="268436706" name="input_value" stackId="4" startPc="268436677"/>
+        <entry endPc="268436865" name="hr_comp" stackId="1" startPc="268436785"/>
+        <entry arg="true" endPc="268436898" name="dc" stackId="1" startPc="268436873"/>
+        <entry arg="true" endPc="268436957" name="id" stackId="1" startPc="268436899"/>
+        <entry endPc="268437544" name="app" stackId="1" startPc="268436962"/>
+        <entry endPc="268437883" name="app" stackId="1" startPc="268437595"/>
+        <entry arg="true" endPc="268440113" name="dc" stackId="1" startPc="268437885"/>
+        <entry endPc="268440112" name="clockTime" stackId="2" startPc="268437889"/>
+        <entry endPc="268440112" name="hour" stackId="3" startPc="268437889"/>
+        <entry endPc="268440112" name="minutes" stackId="4" startPc="268437889"/>
+        <entry endPc="268440112" name="hourText" stackId="5" startPc="268437889"/>
+        <entry endPc="268440112" name="minutesText" stackId="6" startPc="268437889"/>
+        <entry endPc="268440112" name="minutesWidth" stackId="7" startPc="268437889"/>
+        <entry endPc="268440112" name="minutesHeight" stackId="8" startPc="268437889"/>
+        <entry endPc="268440112" name="tinyTextHeight" stackId="9" startPc="268437889"/>
+        <entry endPc="268440112" name="mediumTextHeight" stackId="10" startPc="268437889"/>
+        <entry endPc="268440112" name="dimensions" stackId="11" startPc="268437889"/>
+        <entry endPc="268440112" name="date" stackId="12" startPc="268437889"/>
+        <entry endPc="268440112" name="info" stackId="13" startPc="268437889"/>
+        <entry endPc="268440112" name="info2" stackId="14" startPc="268437889"/>
+        <entry endPc="268440112" name="dayOfWeekText" stackId="15" startPc="268437889"/>
+        <entry endPc="268440112" name="weekOfYear" stackId="16" startPc="268437889"/>
+        <entry endPc="268440112" name="clockString1" stackId="17" startPc="268437889"/>
+        <entry endPc="268440112" name="batteryStat" stackId="18" startPc="268437889"/>
+        <entry endPc="268440112" name="heartRate" stackId="19" startPc="268437889"/>
+        <entry arg="true" endPc="268440512" name="dc" stackId="1" startPc="268440311"/>
+        <entry endPc="268440512" name="rez_cmp_local_custom_drawable_66753613617513400145" stackId="2" startPc="268440323"/>
+        <entry endPc="268440512" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268440323"/>
     </localVars>
-    <deviceInfo deviceVersion="4866e5192c0c99025597cd8e6e841f3d774b64f7" partNumber="006-B4375-00"/>
+    <deviceInfo partNumber="006-B2900-00"/>
     <annotations>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorDarkGreen"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
@@ -367,46 +373,46 @@
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="niagara_font"/>
     </annotations>
     <dataEntryOffsetMappings>
-        <dataEntry label="globals" offset="67" parentId="" symbolId="globals" type="module"/>
-        <dataEntry label="globals/Background" offset="170" parentId="globals" symbolId="Background" type="class"/>
-        <dataEntry label="globals/Rez" offset="223" parentId="globals" symbolId="Rez" type="module"/>
-        <dataEntry label="globals/garmin_watchface_ia2ViewDelegate" offset="285" parentId="globals" symbolId="garmin_watchface_ia2ViewDelegate" type="class"/>
-        <dataEntry label="globals/garmin_watchface_ia2View" offset="356" parentId="globals" symbolId="garmin_watchface_ia2View" type="class"/>
-        <dataEntry label="globals/garmin_watchface_ia2App" offset="625" parentId="globals" symbolId="garmin_watchface_ia2App" type="class"/>
-        <dataEntry label="globals/Rez/Drawables" offset="723" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="785" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/Fonts" offset="820" parentId="Rez" symbolId="Fonts" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="882" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals" offset="71" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/Background" offset="174" parentId="globals" symbolId="Background" type="class"/>
+        <dataEntry label="globals/Rez" offset="229" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/garmin_watchface_ia2ViewDelegate" offset="292" parentId="globals" symbolId="garmin_watchface_ia2ViewDelegate" type="class"/>
+        <dataEntry label="globals/garmin_watchface_ia2View" offset="363" parentId="globals" symbolId="garmin_watchface_ia2View" type="class"/>
+        <dataEntry label="globals/garmin_watchface_ia2App" offset="610" parentId="globals" symbolId="garmin_watchface_ia2App" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="705" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="768" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="807" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="870" parentId="Rez" symbolId="Strings" type="module"/>
     </dataEntryOffsetMappings>
     <functions>
-        <functionEntry accessMode="public" endPc="268435603" name="getDayOfWeekForFirstDayOfYear" startPc="268435460">
+        <functionEntry accessMode="public" endPc="268435658" name="getDayOfWeekForFirstDayOfYear" startPc="268435460">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435615" name="&lt;init&gt;" parent="Background" startPc="268435604">
+        <functionEntry accessMode="public" endPc="268435677" name="&lt;init&gt;" parent="Background" startPc="268435659">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435839" name="getWeekOfYear" startPc="268435616">
+        <functionEntry accessMode="public" endPc="268435994" name="getWeekOfYear" startPc="268435678">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435859" name="&lt;init&gt;" parent="Rez" startPc="268435840">
+        <functionEntry accessMode="public" endPc="268436018" name="&lt;init&gt;" parent="Rez" startPc="268435995">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435871" name="&lt;init&gt;" parent="garmin_watchface_ia2ViewDelegate" startPc="268435860">
+        <functionEntry accessMode="public" endPc="268436037" name="&lt;init&gt;" parent="garmin_watchface_ia2ViewDelegate" startPc="268436019">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436003" name="getDayOfYear" startPc="268435872">
+        <functionEntry accessMode="public" endPc="268436215" name="getDayOfYear" startPc="268436038">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436015" name="&lt;init&gt;" parent="garmin_watchface_ia2View" startPc="268436004">
+        <functionEntry accessMode="public" endPc="268436234" name="&lt;init&gt;" parent="garmin_watchface_ia2View" startPc="268436216">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436027" name="&lt;init&gt;" parent="garmin_watchface_ia2App" startPc="268436016">
+        <functionEntry accessMode="public" endPc="268436253" name="&lt;init&gt;" parent="garmin_watchface_ia2App" startPc="268436235">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436065" name="initialize" parent="Background" startPc="268436028">
+        <functionEntry accessMode="public" endPc="268436299" name="initialize" parent="Background" startPc="268436254">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436076" name="draw" parent="Background" startPc="268436066">
+        <functionEntry accessMode="public" endPc="268436314" name="draw" parent="Background" startPc="268436300">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
@@ -422,15 +428,15 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436131" name="onPress" parent="garmin_watchface_ia2ViewDelegate" startPc="268436077">
+        <functionEntry accessMode="public" endPc="268436385" name="onPress" parent="garmin_watchface_ia2ViewDelegate" startPc="268436315">
             <param id="evt"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436155" name="initialize" parent="garmin_watchface_ia2ViewDelegate" startPc="268436132">
+        <functionEntry accessMode="public" endPc="268436416" name="initialize" parent="garmin_watchface_ia2ViewDelegate" startPc="268436386">
             <param id="v"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436176" name="onPowerBudgetExceeded" parent="garmin_watchface_ia2ViewDelegate" startPc="268436156">
+        <functionEntry accessMode="public" endPc="268436440" name="onPowerBudgetExceeded" parent="garmin_watchface_ia2ViewDelegate" startPc="268436417">
             <param id="powerInfo"/>
             <documentation/>
         </functionEntry>
@@ -443,61 +449,61 @@
         <functionEntry accessMode="public" name="onShow" parent="garmin_watchface_ia2View">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436364" name="onLayout" parent="garmin_watchface_ia2View" startPc="268436177">
+        <functionEntry accessMode="public" endPc="268436672" name="onLayout" parent="garmin_watchface_ia2View" startPc="268436441">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436396" name="getValidProperty" parent="garmin_watchface_ia2View" startPc="268436365">
+        <functionEntry accessMode="public" endPc="268436707" name="getValidProperty" parent="garmin_watchface_ia2View" startPc="268436673">
             <param id="app"/>
             <param id="param_name"/>
             <param id="default_value"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436536" name="loadComplications" parent="garmin_watchface_ia2View" startPc="268436397">
+        <functionEntry accessMode="public" endPc="268436872" name="loadComplications" parent="garmin_watchface_ia2View" startPc="268436708">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436558" name="onPartialUpdate" parent="garmin_watchface_ia2View" startPc="268436537">
+        <functionEntry accessMode="public" endPc="268436898" name="onPartialUpdate" parent="garmin_watchface_ia2View" startPc="268436873">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onEnterSleep" parent="garmin_watchface_ia2View">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436607" name="onComplicationChanged" parent="garmin_watchface_ia2View" startPc="268436559">
+        <functionEntry accessMode="public" endPc="268436957" name="onComplicationChanged" parent="garmin_watchface_ia2View" startPc="268436899">
             <param id="id"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437076" name="handleSettingsChanged" parent="garmin_watchface_ia2View" startPc="268436608">
+        <functionEntry accessMode="public" endPc="268437545" name="handleSettingsChanged" parent="garmin_watchface_ia2View" startPc="268436958">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437105" name="initialize" parent="garmin_watchface_ia2View" startPc="268437077">
+        <functionEntry accessMode="public" endPc="268437590" name="initialize" parent="garmin_watchface_ia2View" startPc="268437546">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437344" name="restorePersistedSettings" parent="garmin_watchface_ia2View" startPc="268437106">
+        <functionEntry accessMode="public" endPc="268437884" name="restorePersistedSettings" parent="garmin_watchface_ia2View" startPc="268437591">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438619" name="onUpdate" parent="garmin_watchface_ia2View" startPc="268437345">
+        <functionEntry accessMode="public" endPc="268440113" name="onUpdate" parent="garmin_watchface_ia2View" startPc="268437885">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438622" name="onStart" parent="garmin_watchface_ia2App" startPc="268438620">
+        <functionEntry accessMode="public" endPc="268440116" name="onStart" parent="garmin_watchface_ia2App" startPc="268440114">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438660" name="onSettingsChanged" parent="garmin_watchface_ia2App" startPc="268438623">
+        <functionEntry accessMode="public" endPc="268440169" name="onSettingsChanged" parent="garmin_watchface_ia2App" startPc="268440117">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438746" name="getInitialView" parent="garmin_watchface_ia2App" startPc="268438661">
+        <functionEntry accessMode="public" endPc="268440286" name="getInitialView" parent="garmin_watchface_ia2App" startPc="268440170">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438761" name="initialize" parent="garmin_watchface_ia2App" startPc="268438747">
+        <functionEntry accessMode="public" endPc="268440307" name="initialize" parent="garmin_watchface_ia2App" startPc="268440287">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438764" name="onStop" parent="garmin_watchface_ia2App" startPc="268438762">
+        <functionEntry accessMode="public" endPc="268440310" name="onStop" parent="garmin_watchface_ia2App" startPc="268440308">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438918" name="WatchFace" parent="Layouts" startPc="268438765">
+        <functionEntry accessMode="public" endPc="268440512" name="WatchFace" parent="Layouts" startPc="268440311">
             <param id="dc"/>
             <documentation/>
         </functionEntry>

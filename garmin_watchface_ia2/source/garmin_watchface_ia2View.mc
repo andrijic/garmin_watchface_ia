@@ -66,11 +66,11 @@ class garmin_watchface_ia2View extends Ui.WatchFace {
     	//persist change properties
 		var app = Application.getApp();
 		
-		LEFT_BACK_COLOR = getValidProperty(app, "BackgroundLeftColor", "FFFFFF").toNumberWithBase(16);
-		RIGHT_BACK_COLOR = getValidProperty(app, "BackgroundRightColor", "000000").toNumberWithBase(16);
-		LEFT_FONT_COLOR = getValidProperty(app, "FontLeftColor", "FF0000").toNumberWithBase(16);
-		RIGHT_FONT_COLOR = getValidProperty(app, "FontRightColor", "00FF00").toNumberWithBase(16);
-		LEFT_SMALLFONT_COLOR = getValidProperty(app, "FontSmallLeftColor", "000000").toNumberWithBase(16);
+		LEFT_BACK_COLOR = getValidProperty(app, "BackgroundLeftColor", "0077777").toNumberWithBase(16);
+		RIGHT_BACK_COLOR = getValidProperty(app, "BackgroundRightColor", "333300").toNumberWithBase(16);
+		LEFT_FONT_COLOR = getValidProperty(app, "FontLeftColor", "ffff00").toNumberWithBase(16);
+		RIGHT_FONT_COLOR = getValidProperty(app, "FontRightColor", "00ffff").toNumberWithBase(16);
+		LEFT_SMALLFONT_COLOR = getValidProperty(app, "FontSmallLeftColor", "888888").toNumberWithBase(16);
 		RIGHT_SMALLFONT_COLOR = getValidProperty(app, "FontSmallRightColor", "FFFFFF").toNumberWithBase(16);
     }
     
@@ -190,26 +190,46 @@ class garmin_watchface_ia2View extends Ui.WatchFace {
      	dc.drawText(dc.getWidth()/2 , (dc.getHeight() - minutesHeight)/2 - 10, Gfx.FONT_MEDIUM, " W" + weekOfYear, Gfx.TEXT_JUSTIFY_LEFT);
      	
      	/*alarm status*/
-     	if(Sys.getDeviceSettings().alarmCount > 0){     
-       		 dc.drawBitmap2(dc.getWidth()/2 - alarm2_icon.getWidth() - 10 ,
-			  dc.getHeight() - minutesHeight/2 + tinyTextHeight + 20 + (tinyTextHeight-alarm2_icon.getHeight())/2,
-			   alarm2_icon,
-			    {:tintColor=>LEFT_SMALLFONT_COLOR});
+     	if(Sys.getDeviceSettings().alarmCount > 0){  
+			if(Toybox.Graphics.Dc has :drawBitmap2){   
+				dc.drawBitmap2(dc.getWidth()/2 - alarm2_icon.getWidth() - 10 ,
+				dc.getHeight() - minutesHeight/2 + tinyTextHeight + 20 + (tinyTextHeight-alarm2_icon.getHeight())/2,
+				alarm2_icon,
+					{:tintColor=>LEFT_SMALLFONT_COLOR});
+			}else{
+				dc.drawBitmap(dc.getWidth()/2 - alarm2_icon.getWidth() - 10 ,
+				dc.getHeight() - minutesHeight/2 + tinyTextHeight + 20 + (tinyTextHeight-alarm2_icon.getHeight())/2,
+				alarm2_icon);
+			}
        }             
      	       
        /*android device connection status*/
        //dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_TRANSPARENT);
        
-       if(Sys.getDeviceSettings().phoneConnected){       		 		
-       		 dc.drawBitmap2(dc.getWidth()/2 - bluetooth_icon_on.getWidth() - 10 , 
+       if(Sys.getDeviceSettings().phoneConnected){     
+
+			if(Toybox.Graphics.Dc has :drawBitmap2){
+				 dc.drawBitmap2(dc.getWidth()/2 - bluetooth_icon_on.getWidth() - 10 , 
 			 	 dc.getHeight() - minutesHeight/2 + 20 + (tinyTextHeight-bluetooth_icon_on.getHeight())/2, 
 				 bluetooth_icon_on,
 				  {:tintColor=>LEFT_SMALLFONT_COLOR});
+			}else{
+				dc.drawBitmap(dc.getWidth()/2 - bluetooth_icon_on.getWidth() - 10 , 
+				 	 dc.getHeight() - minutesHeight/2 + 20 + (tinyTextHeight-bluetooth_icon_on.getHeight())/2, 
+					 bluetooth_icon_on);
+			}
+       		
        }else{
-       		dc.drawBitmap2(dc.getWidth()/2 - bluetooth_icon_on.getWidth() - 10 , 
-			 	 dc.getHeight() - minutesHeight/2 + 20 + (tinyTextHeight-bluetooth_icon_on.getHeight())/2, 
-				 bluetooth_icon_off,
-				  {:tintColor=>LEFT_SMALLFONT_COLOR});
+			if(Toybox.Graphics.Dc has :drawBitmap2){
+				dc.drawBitmap2(dc.getWidth()/2 - bluetooth_icon_on.getWidth() - 10 , 
+					dc.getHeight() - minutesHeight/2 + 20 + (tinyTextHeight-bluetooth_icon_on.getHeight())/2, 
+					bluetooth_icon_off,
+					{:tintColor=>LEFT_SMALLFONT_COLOR});
+			}else{
+				dc.drawBitmap(dc.getWidth()/2 - bluetooth_icon_on.getWidth() - 10 , 
+					dc.getHeight() - minutesHeight/2 + 20 + (tinyTextHeight-bluetooth_icon_on.getHeight())/2, 
+					bluetooth_icon_off);
+			}
        }
             
        
