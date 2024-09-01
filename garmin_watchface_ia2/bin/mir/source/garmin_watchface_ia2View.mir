@@ -443,7 +443,7 @@ C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface
     }
     [ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc"; @line = 116; ]
     function onUpdate(dc) {
-C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_249_4_start:
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_235_4_start:
 [ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 117 8 ]
         %tmp.2 = getv ? :View;
         %tmp.3 = getv function %tmp.2 :onUpdate;
@@ -460,44 +460,44 @@ C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface
         %tmp.13 = getv function %tmp.12 :clear;
         invoke %tmp.12 %tmp.13();
 [ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 120 7 ]
-        [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_249_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_249_4_stop" ]
+        [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_235_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_235_4_stop" ]
         %clockTime.1 = local;
         %tmp.14 = getm $.Toybox.System;
         %tmp.15 = getv function %tmp.14 :getClockTime;
         %tmp.16 = invoke %tmp.14 %tmp.15();
         lputv %clockTime.1 %tmp.16;
 [ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 121 7 ]
-        [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_249_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_249_4_stop" ]
+        [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_235_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_235_4_stop" ]
         %hour.2 = local;
         %tmp.17 = lgetv %clockTime.1;
         %tmp.18 = getv %tmp.17 :hour;
         lputv %hour.2 %tmp.18;
 [ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 122 7 ]
-        [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_249_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_249_4_stop" ]
+        [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_235_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_235_4_stop" ]
         %minutes.3 = local;
         %tmp.19 = lgetv %clockTime.1;
         %tmp.20 = getv %tmp.19 :min;
         lputv %minutes.3 %tmp.20;
 [ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 124 4 ]
-        [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_249_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_249_4_stop" ]
+        [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_235_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_235_4_stop" ]
         %hourText.4 = local;
 [ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 125 4 ]
-        [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_249_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_249_4_stop" ]
+        [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_235_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_235_4_stop" ]
         %minutesText.5 = local;
 [ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 127 4 ]
-        [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_249_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_249_4_stop" ]
+        [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_235_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_235_4_stop" ]
         %minutesWidth.6 = local;
 [ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 128 4 ]
-        [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_249_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_249_4_stop" ]
+        [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_235_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_235_4_stop" ]
         %minutesHeight.7 = local;
 [ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 130 4 ]
-        [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_249_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_249_4_stop" ]
+        [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_235_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_235_4_stop" ]
         %tinyTextHeight.8 = local;
 [ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 131 4 ]
-        [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_249_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_249_4_stop" ]
+        [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_235_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_235_4_stop" ]
         %mediumTextHeight.9 = local;
 [ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 133 4 ]
-        [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_249_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_249_4_stop" ]
+        [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_235_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_235_4_stop" ]
         %dimensions.10 = local;
         %tmp.21 = lgetv %dc;
         %tmp.22 = getv function %tmp.21 :getTextDimensions;
@@ -634,14 +634,14 @@ C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface
         %tmp.139 = agetv %tmp.137 %tmp.138;
         lputv %minutesHeight.7 %tmp.139;
 [ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 161 6 ]
-        [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_249_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_249_4_stop" ]
+        [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_235_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_235_4_stop" ]
         %date.11 = local;
         %tmp.140 = getm $.Toybox.Time;
         %tmp.141 = getv function %tmp.140 :now;
         %tmp.142 = invoke %tmp.140 %tmp.141();
         lputv %date.11 %tmp.142;
 [ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 162 6 ]
-        [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_249_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_249_4_stop" ]
+        [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_235_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_235_4_stop" ]
         %info.12 = local;
         %tmp.143 = getm $.Toybox.Time.Gregorian;
         %tmp.144 = getv function %tmp.143 :info;
@@ -651,7 +651,7 @@ C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface
         %tmp.149 = invoke %tmp.143 %tmp.144(%tmp.146, %tmp.148);
         lputv %info.12 %tmp.149;
 [ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 172 2 ]
-        [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_249_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_249_4_stop" ]
+        [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_235_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_235_4_stop" ]
         %info2.13 = local;
         %tmp.150 = getm $.Toybox.Time.Gregorian;
         %tmp.151 = getv function %tmp.150 :info;
@@ -661,7 +661,7 @@ C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface
         %tmp.156 = invoke %tmp.150 %tmp.151(%tmp.153, %tmp.155);
         lputv %info2.13 %tmp.156;
 [ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 173 2 ]
-        [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_249_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_249_4_stop" ]
+        [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_235_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_235_4_stop" ]
         %dayOfWeekText.14 = local;
         %tmp.157 = lgetv %info2.13;
         %tmp.158 = getv %tmp.157 :day_of_week;
@@ -671,14 +671,14 @@ C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface
         %tmp.162 = invoke %tmp.158 %tmp.159(%tmp.160, %tmp.161);
         lputv %dayOfWeekText.14 %tmp.162;
 [ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 174 2 ]
-        [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_249_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_249_4_stop" ]
+        [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_235_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_235_4_stop" ]
         %weekOfYear.15 = local;
         %tmp.163 = self;
         %tmp.164 = getv function %tmp.163 :getWeekOfYear;
         %tmp.165 = invoke %tmp.163 %tmp.164();
         lputv %weekOfYear.15 %tmp.165;
 [ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 177 2 ]
-        [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_249_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_249_4_stop" ]
+        [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_235_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_235_4_stop" ]
         %clockString1.16 = local;
         %tmp.167 = getv ? :Lang;
         %tmp.168 = getv function %tmp.167 :format;
@@ -758,336 +758,355 @@ C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface
         %tmp.241 = getv %tmp.240 :TEXT_JUSTIFY_LEFT;
         invoke %tmp.217 %tmp.218(%tmp.223, %tmp.233, %tmp.235, %tmp.239, %tmp.241);
 [ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 193 6 ]
-C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_193_6_203_7_if_stmt:
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_193_6_198_7_if_stmt:
         %tmp.242 = getm $.Toybox.System;
         %tmp.243 = getv function %tmp.242 :getDeviceSettings;
         %tmp.244 = invoke %tmp.242 %tmp.243();
         %tmp.245 = getv %tmp.244 :alarmCount;
         %tmp.246 = 0;
         %tmp.247 = gt %tmp.245 %tmp.246;
-        bf %tmp.247 @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_193_6_203_7_if_end;
-C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_193_6_203_7_if_true:
-C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_193_48_203_7_start:
-[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 194 3 ]
+        bf %tmp.247 @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_193_6_198_7_if_end;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_193_6_198_7_if_true:
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_193_48_198_7_start:
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 194 10 ]
         %tmp.248 = lgetv %dc;
-        %tmp.249 = getv function %tmp.248 :setColor;
-        %tmp.251 = getv ? :LEFT_SMALLFONT_COLOR;
-        %tmp.252 = getm $.Toybox.Graphics;
-        %tmp.253 = getv %tmp.252 :COLOR_TRANSPARENT;
-        invoke %tmp.248 %tmp.249(%tmp.251, %tmp.253);
-[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 195 3 ]
-        %tmp.254 = lgetv %dc;
-        %tmp.255 = getv function %tmp.254 :drawBitmap;
-        %tmp.256 = lgetv %dc;
+        %tmp.249 = getv function %tmp.248 :drawBitmap2;
+        %tmp.250 = lgetv %dc;
+        %tmp.251 = getv function %tmp.250 :getWidth;
+        %tmp.252 = invoke %tmp.250 %tmp.251();
+        %tmp.253 = 2;
+        %tmp.254 = div %tmp.252 %tmp.253;
+        %tmp.256 = getv ? :alarm2_icon;
         %tmp.257 = getv function %tmp.256 :getWidth;
         %tmp.258 = invoke %tmp.256 %tmp.257();
-        %tmp.259 = 2;
-        %tmp.260 = div %tmp.258 %tmp.259;
-        %tmp.262 = getv ? :alarm2_icon;
-        %tmp.263 = getv function %tmp.262 :getWidth;
+        %tmp.259 = sub %tmp.254 %tmp.258;
+        %tmp.260 = 10;
+        %tmp.261 = sub %tmp.259 %tmp.260;
+        %tmp.262 = lgetv %dc;
+        %tmp.263 = getv function %tmp.262 :getHeight;
         %tmp.264 = invoke %tmp.262 %tmp.263();
-        %tmp.265 = sub %tmp.260 %tmp.264;
-        %tmp.266 = 10;
-        %tmp.267 = sub %tmp.265 %tmp.266;
-        %tmp.268 = lgetv %dc;
-        %tmp.269 = getv function %tmp.268 :getHeight;
-        %tmp.270 = invoke %tmp.268 %tmp.269();
-        %tmp.272 = lgetv %minutesHeight.7;
-        %tmp.273 = 2;
-        %tmp.274 = div %tmp.272 %tmp.273;
-        %tmp.275 = sub %tmp.270 %tmp.274;
-        %tmp.277 = lgetv %tinyTextHeight.8;
-        %tmp.278 = add %tmp.275 %tmp.277;
-        %tmp.279 = 20;
-        %tmp.280 = add %tmp.278 %tmp.279;
-        %tmp.282 = lgetv %tinyTextHeight.8;
-        %tmp.284 = getv ? :alarm2_icon;
-        %tmp.285 = getv function %tmp.284 :getHeight;
-        %tmp.286 = invoke %tmp.284 %tmp.285();
-        %tmp.287 = sub %tmp.282 %tmp.286;
-        %tmp.288 = 2;
-        %tmp.289 = div %tmp.287 %tmp.288;
-        %tmp.290 = add %tmp.280 %tmp.289;
-        %tmp.292 = getv ? :alarm2_icon;
-        invoke %tmp.254 %tmp.255(%tmp.267, %tmp.290, %tmp.292);
-C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_193_48_203_7_stop:
-        goto @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_193_6_203_7_if_end;
-C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_193_6_203_7_if_end:
-[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 208 7 ]
-C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_208_7_226_7_if_stmt:
-        %tmp.293 = getm $.Toybox.System;
-        %tmp.294 = getv function %tmp.293 :getDeviceSettings;
-        %tmp.295 = invoke %tmp.293 %tmp.294();
-        %tmp.296 = getv %tmp.295 :phoneConnected;
-        bf %tmp.296 @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_208_7_226_7_if_false;
-C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_208_7_226_7_if_true:
-C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_208_49_217_7_start:
-[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 209 3 ]
-        %tmp.297 = lgetv %dc;
-        %tmp.298 = getv function %tmp.297 :setColor;
-        %tmp.300 = getv ? :LEFT_SMALLFONT_COLOR;
-        %tmp.301 = getm $.Toybox.Graphics;
-        %tmp.302 = getv %tmp.301 :COLOR_TRANSPARENT;
-        invoke %tmp.297 %tmp.298(%tmp.300, %tmp.302);
-[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 210 3 ]
-        %tmp.303 = lgetv %dc;
-        %tmp.304 = getv function %tmp.303 :drawBitmap;
-        %tmp.305 = lgetv %dc;
-        %tmp.306 = getv function %tmp.305 :getWidth;
-        %tmp.307 = invoke %tmp.305 %tmp.306();
-        %tmp.308 = 2;
-        %tmp.309 = div %tmp.307 %tmp.308;
-        %tmp.311 = getv ? :bluetooth_icon_on;
-        %tmp.312 = getv function %tmp.311 :getWidth;
-        %tmp.313 = invoke %tmp.311 %tmp.312();
-        %tmp.314 = sub %tmp.309 %tmp.313;
-        %tmp.315 = 10;
-        %tmp.316 = sub %tmp.314 %tmp.315;
-        %tmp.317 = lgetv %dc;
-        %tmp.318 = getv function %tmp.317 :getHeight;
-        %tmp.319 = invoke %tmp.317 %tmp.318();
-        %tmp.321 = lgetv %minutesHeight.7;
-        %tmp.322 = 2;
-        %tmp.323 = div %tmp.321 %tmp.322;
-        %tmp.324 = sub %tmp.319 %tmp.323;
-        %tmp.325 = 20;
-        %tmp.326 = add %tmp.324 %tmp.325;
-        %tmp.328 = lgetv %tinyTextHeight.8;
-        %tmp.330 = getv ? :bluetooth_icon_on;
-        %tmp.331 = getv function %tmp.330 :getHeight;
-        %tmp.332 = invoke %tmp.330 %tmp.331();
-        %tmp.333 = sub %tmp.328 %tmp.332;
-        %tmp.334 = 2;
-        %tmp.335 = div %tmp.333 %tmp.334;
-        %tmp.336 = add %tmp.326 %tmp.335;
-        %tmp.338 = getv ? :bluetooth_icon_on;
-        invoke %tmp.303 %tmp.304(%tmp.316, %tmp.336, %tmp.338);
-C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_208_49_217_7_stop:
-        goto @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_208_7_226_7_if_end;
-C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_208_7_226_7_if_false:
-C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_217_12_226_7_start:
-[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 218 3 ]
-        %tmp.339 = lgetv %dc;
-        %tmp.340 = getv function %tmp.339 :setColor;
-        %tmp.342 = getv ? :LEFT_SMALLFONT_COLOR;
-        %tmp.343 = getm $.Toybox.Graphics;
-        %tmp.344 = getv %tmp.343 :COLOR_TRANSPARENT;
-        invoke %tmp.339 %tmp.340(%tmp.342, %tmp.344);
-[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 219 3 ]
-        %tmp.345 = lgetv %dc;
-        %tmp.346 = getv function %tmp.345 :drawBitmap;
-        %tmp.347 = lgetv %dc;
-        %tmp.348 = getv function %tmp.347 :getWidth;
-        %tmp.349 = invoke %tmp.347 %tmp.348();
-        %tmp.350 = 2;
-        %tmp.351 = div %tmp.349 %tmp.350;
-        %tmp.353 = getv ? :bluetooth_icon_on;
-        %tmp.354 = getv function %tmp.353 :getWidth;
-        %tmp.355 = invoke %tmp.353 %tmp.354();
-        %tmp.356 = sub %tmp.351 %tmp.355;
-        %tmp.357 = 10;
-        %tmp.358 = sub %tmp.356 %tmp.357;
-        %tmp.359 = lgetv %dc;
-        %tmp.360 = getv function %tmp.359 :getHeight;
-        %tmp.361 = invoke %tmp.359 %tmp.360();
-        %tmp.363 = lgetv %minutesHeight.7;
-        %tmp.364 = 2;
-        %tmp.365 = div %tmp.363 %tmp.364;
-        %tmp.366 = sub %tmp.361 %tmp.365;
-        %tmp.367 = 20;
-        %tmp.368 = add %tmp.366 %tmp.367;
-        %tmp.370 = lgetv %tinyTextHeight.8;
-        %tmp.372 = getv ? :bluetooth_icon_on;
-        %tmp.373 = getv function %tmp.372 :getHeight;
-        %tmp.374 = invoke %tmp.372 %tmp.373();
-        %tmp.375 = sub %tmp.370 %tmp.374;
-        %tmp.376 = 2;
-        %tmp.377 = div %tmp.375 %tmp.376;
-        %tmp.378 = add %tmp.368 %tmp.377;
-        %tmp.380 = getv ? :bluetooth_icon_off;
-        invoke %tmp.345 %tmp.346(%tmp.358, %tmp.378, %tmp.380);
-C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_217_12_226_7_stop:
-C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_208_7_226_7_if_end:
-[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 230 7 ]
-        [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_249_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_249_4_stop" ]
+        %tmp.266 = lgetv %minutesHeight.7;
+        %tmp.267 = 2;
+        %tmp.268 = div %tmp.266 %tmp.267;
+        %tmp.269 = sub %tmp.264 %tmp.268;
+        %tmp.271 = lgetv %tinyTextHeight.8;
+        %tmp.272 = add %tmp.269 %tmp.271;
+        %tmp.273 = 20;
+        %tmp.274 = add %tmp.272 %tmp.273;
+        %tmp.276 = lgetv %tinyTextHeight.8;
+        %tmp.278 = getv ? :alarm2_icon;
+        %tmp.279 = getv function %tmp.278 :getHeight;
+        %tmp.280 = invoke %tmp.278 %tmp.279();
+        %tmp.281 = sub %tmp.276 %tmp.280;
+        %tmp.282 = 2;
+        %tmp.283 = div %tmp.281 %tmp.282;
+        %tmp.284 = add %tmp.274 %tmp.283;
+        %tmp.286 = getv ? :alarm2_icon;
+        %tmp.287 = newd 1;
+        %tmp.289 = const :tintColor;
+        %tmp.291 = getv ? :LEFT_SMALLFONT_COLOR;
+        %tmp.292 = dup %tmp.287;
+        %tmp.293 = aputv %tmp.292 %tmp.289 %tmp.291;
+        invoke %tmp.248 %tmp.249(%tmp.261, %tmp.284, %tmp.286, %tmp.293);
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_193_48_198_7_stop:
+        goto @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_193_6_198_7_if_end;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_193_6_198_7_if_end:
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 203 7 ]
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_203_7_213_7_if_stmt:
+        %tmp.294 = getm $.Toybox.System;
+        %tmp.295 = getv function %tmp.294 :getDeviceSettings;
+        %tmp.296 = invoke %tmp.294 %tmp.295();
+        %tmp.297 = getv %tmp.296 :phoneConnected;
+        bf %tmp.297 @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_203_7_213_7_if_false;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_203_7_213_7_if_true:
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_203_49_208_7_start:
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 204 10 ]
+        %tmp.298 = lgetv %dc;
+        %tmp.299 = getv function %tmp.298 :drawBitmap2;
+        %tmp.300 = lgetv %dc;
+        %tmp.301 = getv function %tmp.300 :getWidth;
+        %tmp.302 = invoke %tmp.300 %tmp.301();
+        %tmp.303 = 2;
+        %tmp.304 = div %tmp.302 %tmp.303;
+        %tmp.306 = getv ? :bluetooth_icon_on;
+        %tmp.307 = getv function %tmp.306 :getWidth;
+        %tmp.308 = invoke %tmp.306 %tmp.307();
+        %tmp.309 = sub %tmp.304 %tmp.308;
+        %tmp.310 = 10;
+        %tmp.311 = sub %tmp.309 %tmp.310;
+        %tmp.312 = lgetv %dc;
+        %tmp.313 = getv function %tmp.312 :getHeight;
+        %tmp.314 = invoke %tmp.312 %tmp.313();
+        %tmp.316 = lgetv %minutesHeight.7;
+        %tmp.317 = 2;
+        %tmp.318 = div %tmp.316 %tmp.317;
+        %tmp.319 = sub %tmp.314 %tmp.318;
+        %tmp.320 = 20;
+        %tmp.321 = add %tmp.319 %tmp.320;
+        %tmp.323 = lgetv %tinyTextHeight.8;
+        %tmp.325 = getv ? :bluetooth_icon_on;
+        %tmp.326 = getv function %tmp.325 :getHeight;
+        %tmp.327 = invoke %tmp.325 %tmp.326();
+        %tmp.328 = sub %tmp.323 %tmp.327;
+        %tmp.329 = 2;
+        %tmp.330 = div %tmp.328 %tmp.329;
+        %tmp.331 = add %tmp.321 %tmp.330;
+        %tmp.333 = getv ? :bluetooth_icon_on;
+        %tmp.334 = newd 1;
+        %tmp.336 = const :tintColor;
+        %tmp.338 = getv ? :LEFT_SMALLFONT_COLOR;
+        %tmp.339 = dup %tmp.334;
+        %tmp.340 = aputv %tmp.339 %tmp.336 %tmp.338;
+        invoke %tmp.298 %tmp.299(%tmp.311, %tmp.331, %tmp.333, %tmp.340);
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_203_49_208_7_stop:
+        goto @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_203_7_213_7_if_end;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_203_7_213_7_if_false:
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_208_12_213_7_start:
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 209 9 ]
+        %tmp.341 = lgetv %dc;
+        %tmp.342 = getv function %tmp.341 :drawBitmap2;
+        %tmp.343 = lgetv %dc;
+        %tmp.344 = getv function %tmp.343 :getWidth;
+        %tmp.345 = invoke %tmp.343 %tmp.344();
+        %tmp.346 = 2;
+        %tmp.347 = div %tmp.345 %tmp.346;
+        %tmp.349 = getv ? :bluetooth_icon_on;
+        %tmp.350 = getv function %tmp.349 :getWidth;
+        %tmp.351 = invoke %tmp.349 %tmp.350();
+        %tmp.352 = sub %tmp.347 %tmp.351;
+        %tmp.353 = 10;
+        %tmp.354 = sub %tmp.352 %tmp.353;
+        %tmp.355 = lgetv %dc;
+        %tmp.356 = getv function %tmp.355 :getHeight;
+        %tmp.357 = invoke %tmp.355 %tmp.356();
+        %tmp.359 = lgetv %minutesHeight.7;
+        %tmp.360 = 2;
+        %tmp.361 = div %tmp.359 %tmp.360;
+        %tmp.362 = sub %tmp.357 %tmp.361;
+        %tmp.363 = 20;
+        %tmp.364 = add %tmp.362 %tmp.363;
+        %tmp.366 = lgetv %tinyTextHeight.8;
+        %tmp.368 = getv ? :bluetooth_icon_on;
+        %tmp.369 = getv function %tmp.368 :getHeight;
+        %tmp.370 = invoke %tmp.368 %tmp.369();
+        %tmp.371 = sub %tmp.366 %tmp.370;
+        %tmp.372 = 2;
+        %tmp.373 = div %tmp.371 %tmp.372;
+        %tmp.374 = add %tmp.364 %tmp.373;
+        %tmp.376 = getv ? :bluetooth_icon_off;
+        %tmp.377 = newd 1;
+        %tmp.379 = const :tintColor;
+        %tmp.381 = getv ? :LEFT_SMALLFONT_COLOR;
+        %tmp.382 = dup %tmp.377;
+        %tmp.383 = aputv %tmp.382 %tmp.379 %tmp.381;
+        invoke %tmp.341 %tmp.342(%tmp.354, %tmp.374, %tmp.376, %tmp.383);
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_208_12_213_7_stop:
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_203_7_213_7_if_end:
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 217 7 ]
+        [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_235_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_235_4_stop" ]
         %batteryStat.17 = local;
-        %tmp.382 = getv ? :System;
-        %tmp.383 = getv function %tmp.382 :getSystemStats;
-        %tmp.384 = invoke %tmp.382 %tmp.383();
-        %tmp.385 = getv %tmp.384 :battery;
-        lputv %batteryStat.17 %tmp.385;
-[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 232 7 ]
-        %tmp.386 = lgetv %dc;
-        %tmp.387 = getv function %tmp.386 :setColor;
-        %tmp.389 = getv ? :RIGHT_SMALLFONT_COLOR;
-        %tmp.390 = getm $.Toybox.Graphics;
-        %tmp.391 = getv %tmp.390 :COLOR_TRANSPARENT;
-        invoke %tmp.386 %tmp.387(%tmp.389, %tmp.391);
-[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 233 7 ]
-        %tmp.392 = lgetv %dc;
-        %tmp.393 = getv function %tmp.392 :drawText;
-        %tmp.394 = lgetv %dc;
-        %tmp.395 = getv function %tmp.394 :getWidth;
-        %tmp.396 = invoke %tmp.394 %tmp.395();
-        %tmp.397 = 2;
-        %tmp.398 = div %tmp.396 %tmp.397;
-        %tmp.399 = lgetv %dc;
-        %tmp.400 = getv function %tmp.399 :getHeight;
-        %tmp.401 = invoke %tmp.399 %tmp.400();
-        %tmp.403 = lgetv %minutesHeight.7;
-        %tmp.404 = 2;
-        %tmp.405 = div %tmp.403 %tmp.404;
-        %tmp.406 = sub %tmp.401 %tmp.405;
-        %tmp.407 = 20;
-        %tmp.408 = add %tmp.406 %tmp.407;
-        %tmp.409 = getm $.Toybox.Graphics;
-        %tmp.410 = getv %tmp.409 :FONT_TINY;
-        %tmp.411 = " ";
-        %tmp.412 = lgetv %batteryStat.17;
-        %tmp.413 = getv function %tmp.412 :format;
-        %tmp.414 = "%3d";
-        %tmp.415 = invoke %tmp.412 %tmp.413(%tmp.414);
-        %tmp.416 = add %tmp.411 %tmp.415;
-        %tmp.417 = "%";
-        %tmp.418 = add %tmp.416 %tmp.417;
-        %tmp.419 = getm $.Toybox.Graphics;
-        %tmp.420 = getv %tmp.419 :TEXT_JUSTIFY_LEFT;
-        invoke %tmp.392 %tmp.393(%tmp.398, %tmp.408, %tmp.410, %tmp.418, %tmp.420);
-[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 236 2 ]
-C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_236_2_239_2_if_stmt:
-        %tmp.421 = getm $.Toybox.System;
-        %tmp.422 = getv function %tmp.421 :getDeviceSettings;
-        %tmp.423 = invoke %tmp.421 %tmp.422();
-        %tmp.424 = getv %tmp.423 :notificationCount;
-        %tmp.425 = 0;
-        %tmp.426 = gt %tmp.424 %tmp.425;
-        bf %tmp.426 @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_236_2_239_2_if_end;
-C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_236_2_239_2_if_true:
-C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_236_51_239_2_start:
-[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 237 3 ]
-        %tmp.427 = lgetv %dc;
-        %tmp.428 = getv function %tmp.427 :setColor;
-        %tmp.430 = getv ? :RIGHT_SMALLFONT_COLOR;
-        %tmp.431 = getm $.Toybox.Graphics;
-        %tmp.432 = getv %tmp.431 :COLOR_TRANSPARENT;
-        invoke %tmp.427 %tmp.428(%tmp.430, %tmp.432);
-[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 238 9 ]
-        %tmp.433 = lgetv %dc;
-        %tmp.434 = getv function %tmp.433 :drawText;
-        %tmp.435 = lgetv %dc;
-        %tmp.436 = getv function %tmp.435 :getWidth;
-        %tmp.437 = invoke %tmp.435 %tmp.436();
-        %tmp.438 = 2;
-        %tmp.439 = div %tmp.437 %tmp.438;
-        %tmp.440 = lgetv %dc;
-        %tmp.441 = getv function %tmp.440 :getHeight;
-        %tmp.442 = invoke %tmp.440 %tmp.441();
-        %tmp.444 = lgetv %minutesHeight.7;
-        %tmp.445 = 2;
-        %tmp.446 = div %tmp.444 %tmp.445;
-        %tmp.447 = sub %tmp.442 %tmp.446;
-        %tmp.448 = 20;
-        %tmp.449 = add %tmp.447 %tmp.448;
-        %tmp.450 = getm $.Toybox.Graphics;
-        %tmp.451 = getv %tmp.450 :FONT_TINY;
-        %tmp.452 = "           #";
-        %tmp.453 = getm $.Toybox.System;
-        %tmp.454 = getv function %tmp.453 :getDeviceSettings;
-        %tmp.455 = invoke %tmp.453 %tmp.454();
-        %tmp.456 = getv %tmp.455 :notificationCount;
-        %tmp.457 = getv function %tmp.456 :format;
-        %tmp.458 = "%1d";
-        %tmp.459 = invoke %tmp.456 %tmp.457(%tmp.458);
-        %tmp.460 = add %tmp.452 %tmp.459;
-        %tmp.461 = getm $.Toybox.Graphics;
-        %tmp.462 = getv %tmp.461 :TEXT_JUSTIFY_LEFT;
-        invoke %tmp.433 %tmp.434(%tmp.439, %tmp.449, %tmp.451, %tmp.460, %tmp.462);
-C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_236_51_239_2_stop:
-        goto @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_236_2_239_2_if_end;
-C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_236_2_239_2_if_end:
-[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 242 4 ]
-        [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_249_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_249_4_stop" ]
-        %hearRate.18 = local;
-C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_242_19_242_95_begin:
-C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_242_20_242_51_begin:
-        %tmp.464 = getv ? :hasComplications;
-        bf %tmp.464 @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_242_19_242_95_false;
-C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_242_41_242_51_true:
-        %tmp.466 = getv ? :cur_hr;
-        %tmp.467 = null;
-        %tmp.468 = ne %tmp.466 %tmp.467;
-        push %tmp.468;
-C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_242_41_242_51_end:
-        %tmp.469 = phi [%tmp.464 @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_242_20_242_51_begin] [%tmp.468 @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_242_41_242_51_true] [%tmp.469 @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_242_41_242_51_end];
-        bf %tmp.469 @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_242_19_242_95_false;
-C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_242_19_242_95_true:
-        %tmp.471 = getv ? :cur_hr;
-        %tmp.472 = as %tmp.471 { (!Null) };
-        push %tmp.472;
-        goto @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_242_19_242_95_end;
-C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_242_19_242_95_false:
-        %tmp.474 = getv ? :Activity;
-        %tmp.475 = getv function %tmp.474 :getActivityInfo;
-        %tmp.476 = invoke %tmp.474 %tmp.475();
-        %tmp.477 = getv %tmp.476 :currentHeartRate;
-        push %tmp.477;
-C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_242_19_242_95_end:
-        %tmp.478 = phi [%tmp.469 @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_242_19_242_95_begin] [%tmp.472 @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_242_19_242_95_true] [%tmp.477 @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_242_19_242_95_false] [%tmp.478 @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_242_19_242_95_end];
-        lputv %hearRate.18 %tmp.478;
-[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 244 7 ]
-        %tmp.479 = lgetv %dc;
-        %tmp.480 = getv function %tmp.479 :setColor;
-        %tmp.482 = getv ? :RIGHT_SMALLFONT_COLOR;
-        %tmp.483 = getm $.Toybox.Graphics;
-        %tmp.484 = getv %tmp.483 :COLOR_TRANSPARENT;
-        invoke %tmp.479 %tmp.480(%tmp.482, %tmp.484);
-[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 247 7 ]
-        %tmp.485 = lgetv %dc;
-        %tmp.486 = getv function %tmp.485 :drawText;
-        %tmp.487 = lgetv %dc;
-        %tmp.488 = getv function %tmp.487 :getWidth;
-        %tmp.489 = invoke %tmp.487 %tmp.488();
-        %tmp.490 = 2;
-        %tmp.491 = div %tmp.489 %tmp.490;
+        %tmp.385 = getv ? :System;
+        %tmp.386 = getv function %tmp.385 :getSystemStats;
+        %tmp.387 = invoke %tmp.385 %tmp.386();
+        %tmp.388 = getv %tmp.387 :battery;
+        lputv %batteryStat.17 %tmp.388;
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 219 7 ]
+        %tmp.389 = lgetv %dc;
+        %tmp.390 = getv function %tmp.389 :setColor;
+        %tmp.392 = getv ? :RIGHT_SMALLFONT_COLOR;
+        %tmp.393 = getm $.Toybox.Graphics;
+        %tmp.394 = getv %tmp.393 :COLOR_TRANSPARENT;
+        invoke %tmp.389 %tmp.390(%tmp.392, %tmp.394);
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 220 7 ]
+        %tmp.395 = lgetv %dc;
+        %tmp.396 = getv function %tmp.395 :drawText;
+        %tmp.397 = lgetv %dc;
+        %tmp.398 = getv function %tmp.397 :getWidth;
+        %tmp.399 = invoke %tmp.397 %tmp.398();
+        %tmp.400 = 2;
+        %tmp.401 = div %tmp.399 %tmp.400;
+        %tmp.402 = lgetv %dc;
+        %tmp.403 = getv function %tmp.402 :getHeight;
+        %tmp.404 = invoke %tmp.402 %tmp.403();
+        %tmp.406 = lgetv %minutesHeight.7;
+        %tmp.407 = 2;
+        %tmp.408 = div %tmp.406 %tmp.407;
+        %tmp.409 = sub %tmp.404 %tmp.408;
+        %tmp.410 = 20;
+        %tmp.411 = add %tmp.409 %tmp.410;
+        %tmp.412 = getm $.Toybox.Graphics;
+        %tmp.413 = getv %tmp.412 :FONT_TINY;
+        %tmp.414 = " ";
+        %tmp.415 = lgetv %batteryStat.17;
+        %tmp.416 = getv function %tmp.415 :format;
+        %tmp.417 = "%3d";
+        %tmp.418 = invoke %tmp.415 %tmp.416(%tmp.417);
+        %tmp.419 = add %tmp.414 %tmp.418;
+        %tmp.420 = "%";
+        %tmp.421 = add %tmp.419 %tmp.420;
+        %tmp.422 = getm $.Toybox.Graphics;
+        %tmp.423 = getv %tmp.422 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.395 %tmp.396(%tmp.401, %tmp.411, %tmp.413, %tmp.421, %tmp.423);
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 223 2 ]
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_223_2_226_2_if_stmt:
+        %tmp.424 = getm $.Toybox.System;
+        %tmp.425 = getv function %tmp.424 :getDeviceSettings;
+        %tmp.426 = invoke %tmp.424 %tmp.425();
+        %tmp.427 = getv %tmp.426 :notificationCount;
+        %tmp.428 = 0;
+        %tmp.429 = gt %tmp.427 %tmp.428;
+        bf %tmp.429 @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_223_2_226_2_if_end;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_223_2_226_2_if_true:
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_223_51_226_2_start:
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 224 3 ]
+        %tmp.430 = lgetv %dc;
+        %tmp.431 = getv function %tmp.430 :setColor;
+        %tmp.433 = getv ? :RIGHT_SMALLFONT_COLOR;
+        %tmp.434 = getm $.Toybox.Graphics;
+        %tmp.435 = getv %tmp.434 :COLOR_TRANSPARENT;
+        invoke %tmp.430 %tmp.431(%tmp.433, %tmp.435);
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 225 9 ]
+        %tmp.436 = lgetv %dc;
+        %tmp.437 = getv function %tmp.436 :drawText;
+        %tmp.438 = lgetv %dc;
+        %tmp.439 = getv function %tmp.438 :getWidth;
+        %tmp.440 = invoke %tmp.438 %tmp.439();
+        %tmp.441 = 2;
+        %tmp.442 = div %tmp.440 %tmp.441;
+        %tmp.443 = lgetv %dc;
+        %tmp.444 = getv function %tmp.443 :getHeight;
+        %tmp.445 = invoke %tmp.443 %tmp.444();
+        %tmp.447 = lgetv %minutesHeight.7;
+        %tmp.448 = 2;
+        %tmp.449 = div %tmp.447 %tmp.448;
+        %tmp.450 = sub %tmp.445 %tmp.449;
+        %tmp.451 = 20;
+        %tmp.452 = add %tmp.450 %tmp.451;
+        %tmp.453 = getm $.Toybox.Graphics;
+        %tmp.454 = getv %tmp.453 :FONT_TINY;
+        %tmp.455 = "           #";
+        %tmp.456 = getm $.Toybox.System;
+        %tmp.457 = getv function %tmp.456 :getDeviceSettings;
+        %tmp.458 = invoke %tmp.456 %tmp.457();
+        %tmp.459 = getv %tmp.458 :notificationCount;
+        %tmp.460 = getv function %tmp.459 :format;
+        %tmp.461 = "%1d";
+        %tmp.462 = invoke %tmp.459 %tmp.460(%tmp.461);
+        %tmp.463 = add %tmp.455 %tmp.462;
+        %tmp.464 = getm $.Toybox.Graphics;
+        %tmp.465 = getv %tmp.464 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.436 %tmp.437(%tmp.442, %tmp.452, %tmp.454, %tmp.463, %tmp.465);
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_223_51_226_2_stop:
+        goto @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_223_2_226_2_if_end;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_223_2_226_2_if_end:
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 229 4 ]
+        [ "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_235_4_start" "C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_235_4_stop" ]
+        %heartRate.18 = local;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_229_20_229_96_begin:
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_229_21_229_52_begin:
+        %tmp.467 = getv ? :hasComplications;
+        bf %tmp.467 @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_229_20_229_96_false;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_229_42_229_52_true:
+        %tmp.469 = getv ? :cur_hr;
+        %tmp.470 = null;
+        %tmp.471 = ne %tmp.469 %tmp.470;
+        push %tmp.471;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_229_42_229_52_end:
+        %tmp.472 = phi [%tmp.467 @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_229_21_229_52_begin] [%tmp.471 @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_229_42_229_52_true] [%tmp.472 @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_229_42_229_52_end];
+        bf %tmp.472 @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_229_20_229_96_false;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_229_20_229_96_true:
+        %tmp.474 = getv ? :cur_hr;
+        %tmp.475 = as %tmp.474 { (!Null) };
+        push %tmp.475;
+        goto @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_229_20_229_96_end;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_229_20_229_96_false:
+        %tmp.477 = getv ? :Activity;
+        %tmp.478 = getv function %tmp.477 :getActivityInfo;
+        %tmp.479 = invoke %tmp.477 %tmp.478();
+        %tmp.480 = getv %tmp.479 :currentHeartRate;
+        push %tmp.480;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_229_20_229_96_end:
+        %tmp.481 = phi [%tmp.472 @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_229_20_229_96_begin] [%tmp.475 @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_229_20_229_96_true] [%tmp.480 @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_229_20_229_96_false] [%tmp.481 @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_229_20_229_96_end];
+        lputv %heartRate.18 %tmp.481;
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 231 4 ]
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_231_4_234_4_if_stmt:
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_231_7_231_41_begin:
+        %tmp.482 = null;
+        %tmp.484 = lgetv %heartRate.18;
+        %tmp.485 = ne %tmp.482 %tmp.484;
+        bf %tmp.485 @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_231_4_234_4_if_end;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_231_28_231_41_true:
+        %tmp.487 = lgetv %heartRate.18;
+        %tmp.488 = as %tmp.487 { (!Null) };
+        %tmp.489 = 0;
+        %tmp.490 = ne %tmp.488 %tmp.489;
+        push %tmp.490;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_231_28_231_41_end:
+        %tmp.491 = phi [%tmp.485 @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_231_7_231_41_begin] [%tmp.490 @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_231_28_231_41_true] [%tmp.491 @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_231_28_231_41_end];
+        bf %tmp.491 @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_231_4_234_4_if_end;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_231_4_234_4_if_true:
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_231_43_234_4_start:
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 232 3 ]
         %tmp.492 = lgetv %dc;
-        %tmp.493 = getv function %tmp.492 :getHeight;
-        %tmp.494 = invoke %tmp.492 %tmp.493();
-        %tmp.496 = lgetv %minutesHeight.7;
-        %tmp.497 = 2;
-        %tmp.498 = div %tmp.496 %tmp.497;
-        %tmp.499 = sub %tmp.494 %tmp.498;
-        %tmp.501 = lgetv %tinyTextHeight.8;
-        %tmp.502 = add %tmp.499 %tmp.501;
-        %tmp.503 = 20;
-        %tmp.504 = add %tmp.502 %tmp.503;
-        %tmp.505 = getm $.Toybox.Graphics;
-        %tmp.506 = getv %tmp.505 :FONT_TINY;
-        %tmp.507 = " ";
-        %tmp.509 = lgetv %hearRate.18;
-        %tmp.510 = add %tmp.507 %tmp.509;
-        %tmp.511 = getm $.Toybox.Graphics;
-        %tmp.512 = getv %tmp.511 :TEXT_JUSTIFY_LEFT;
-        invoke %tmp.485 %tmp.486(%tmp.491, %tmp.504, %tmp.506, %tmp.510, %tmp.512);
-C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_249_4_stop:
+        %tmp.493 = getv function %tmp.492 :setColor;
+        %tmp.495 = getv ? :RIGHT_SMALLFONT_COLOR;
+        %tmp.496 = getm $.Toybox.Graphics;
+        %tmp.497 = getv %tmp.496 :COLOR_TRANSPARENT;
+        invoke %tmp.492 %tmp.493(%tmp.495, %tmp.497);
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 233 9 ]
+        %tmp.498 = lgetv %dc;
+        %tmp.499 = getv function %tmp.498 :drawText;
+        %tmp.500 = lgetv %dc;
+        %tmp.501 = getv function %tmp.500 :getWidth;
+        %tmp.502 = invoke %tmp.500 %tmp.501();
+        %tmp.503 = 2;
+        %tmp.504 = div %tmp.502 %tmp.503;
+        %tmp.505 = lgetv %dc;
+        %tmp.506 = getv function %tmp.505 :getHeight;
+        %tmp.507 = invoke %tmp.505 %tmp.506();
+        %tmp.509 = lgetv %minutesHeight.7;
+        %tmp.510 = 2;
+        %tmp.511 = div %tmp.509 %tmp.510;
+        %tmp.512 = sub %tmp.507 %tmp.511;
+        %tmp.514 = lgetv %tinyTextHeight.8;
+        %tmp.515 = add %tmp.512 %tmp.514;
+        %tmp.516 = 20;
+        %tmp.517 = add %tmp.515 %tmp.516;
+        %tmp.518 = getm $.Toybox.Graphics;
+        %tmp.519 = getv %tmp.518 :FONT_TINY;
+        %tmp.520 = " ";
+        %tmp.521 = lgetv %heartRate.18;
+        %tmp.522 = as %tmp.521 { (!Null) };
+        %tmp.523 = getv function %tmp.522 :format;
+        %tmp.524 = "%3d";
+        %tmp.525 = invoke %tmp.522 %tmp.523(%tmp.524);
+        %tmp.526 = add %tmp.520 %tmp.525;
+        %tmp.527 = getm $.Toybox.Graphics;
+        %tmp.528 = getv %tmp.527 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.498 %tmp.499(%tmp.504, %tmp.517, %tmp.519, %tmp.526, %tmp.528);
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_231_43_234_4_stop:
+        goto @C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_231_4_234_4_if_end;
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_231_4_234_4_if_end:
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_116_26_235_4_stop:
     }
-    [ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc"; @line = 254; ]
+    [ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc"; @line = 240; ]
     function onHide() {
     }
-    [ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc"; @line = 258; ]
+    [ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc"; @line = 244; ]
     function onExitSleep() {
     }
-    [ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc"; @line = 262; ]
+    [ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc"; @line = 248; ]
     function onEnterSleep() {
     }
-    [ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc"; @line = 266; ]
+    [ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc"; @line = 252; ]
     function onPartialUpdate(dc) as Void {
-C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_266_40_268_1_start:
-[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 267 2 ]
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_252_40_254_1_start:
+[ "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc" 253 2 ]
         %tmp.2 = getv ? :System;
         %tmp.3 = getv function %tmp.2 :println;
         %tmp.4 = "onPartialUpdate called !!!";
         invoke %tmp.2 %tmp.3(%tmp.4);
-C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_266_40_268_1_stop:
+C_DEV_GarminDev_garmin_watchface_ia_garmin_watchface_ia2_source_garmin_watchface_ia2View_mc_252_40_254_1_stop:
     }
 }
 [ @file = "C:\DEV\GarminDev\garmin_watchface_ia\garmin_watchface_ia2\source\garmin_watchface_ia2View.mc"; @line = 1; ]

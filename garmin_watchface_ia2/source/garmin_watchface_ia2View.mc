@@ -226,13 +226,12 @@ class garmin_watchface_ia2View extends Ui.WatchFace {
 		}
 
 		/*heart rate*/       
-	   var hearRate = (hasComplications and cur_hr != null) ? cur_hr : Activity.getActivityInfo().currentHeartRate;
+	   var heartRate = (hasComplications and cur_hr != null) ? cur_hr : Activity.getActivityInfo().currentHeartRate;
              
-       dc.setColor(RIGHT_SMALLFONT_COLOR, Gfx.COLOR_TRANSPARENT);
-	   
-	   
-       dc.drawText(dc.getWidth()/2 , dc.getHeight() - minutesHeight/2 + tinyTextHeight + 20 , Gfx.FONT_TINY, " " + hearRate.format("%3d"), Gfx.TEXT_JUSTIFY_LEFT);
-
+	   if(null != heartRate && heartRate != 0){
+			dc.setColor(RIGHT_SMALLFONT_COLOR, Gfx.COLOR_TRANSPARENT);
+       		dc.drawText(dc.getWidth()/2 , dc.getHeight() - minutesHeight/2 + tinyTextHeight + 20 , Gfx.FONT_TINY, " " + heartRate.format("%3d"), Gfx.TEXT_JUSTIFY_LEFT);
+	   }
     }
 
     // Called when this View is removed from the screen. Save the
